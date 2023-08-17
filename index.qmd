@@ -47,7 +47,7 @@ course-logo: /files/img/gov2002-icon-512.png
 
 :::
 
-#### Teaching Fellows
+#### Teaching Fellow
 
 ::: {.grid}
 
@@ -63,8 +63,7 @@ course-logo: /files/img/gov2002-icon-512.png
 
 
 - {{< fa user >}} &nbsp; [Mitsuru Mukaigawara](https://www.mitsurumukaigawara.com)
-- {{< fa envelope >}} &nbsp; <a href="mailto:mailto:mitsuru_mukaigawara@g.harvard.edu">mailto:mitsuru_mukaigawara@g.harvard.edu</a>
-- {{< fa brands twitter >}} &nbsp; [ruofan_ma](https://twitter.com/ruofan_ma)
+- {{< fa envelope >}} &nbsp; <a href="mailto:mailto:mitsuru_mukaigawara@g.harvard.edu">mitsuru_mukaigawara@g.harvard.edu</a>
 
 
 ::: 
