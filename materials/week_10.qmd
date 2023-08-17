@@ -1,0 +1,18 @@
+---
+title: "Week 10: Linear Regressoipmn"
+date: 2023-04-03
+---
+
+
+## Readings 
+
+- [UG Ch 5](https://mattblackwell.github.io/gov2002-book/06_linear_model.html)
+
+## Assignments
+
+- Problem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12. 
+
+
+## Slides
+
+- Linear regression: [Slides](/files/slides/11_linear_model.pdf) | [Handout](/files/slides/11_linear_model_handout.pdf)

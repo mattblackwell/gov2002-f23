@@ -1,0 +1,18 @@
+---
+title: "Week 13: Panel and Clustered Data"
+date: 2023-04-24
+---
+
+
+## Readings 
+
+- None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference. 
+
+## Assignments
+
+- None 
+
+
+## Slides
+
+- Panel and clustered data: [Slides](/files/slides/14_clustering_panel.pdf) | [Handout](/files/slides/14_clustering_panel_handout.pdf)

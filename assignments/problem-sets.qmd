@@ -1,0 +1,25 @@
+---
+title: "Problem set instructions"
+date: 2023-01-06
+summary: >-
+  A guide for setting up, completing, and submitting assignments in Gov 2002. 
+---
+
+## Submitting problem sets
+
+We will be submitting the problem sets through [Gradescope]({{< var course.gradescope >}}). When you go to the link, you should log in using your "School Credentials":
+
+<div class="bordered-image"><img src="/files/img/gradescope-login.png" alt="Logging into Gradescope" width=800></img></div>
+
+From there, you should see a list of assignments. Choose the one you want to submit and follow the instructions for submission. More help on how to submit an assignment can be found on the [Gradescope help site](https://help.gradescope.com/article/ccbpppziu9-student-submit-work). It is easiest if you submit your solutions as one PDF, but if you are submitting handwritten work, you may also submit a series of images.  **You arestrongly ecnouraged to submit typeset materials to maximize legibility for grading.** 
+
+
+If you do submit as a PDF, please use the interface to indicate where your answers to each question are (being sure to mark two different pages if an answer continues on two pages). You can find a video describing the process here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u-pK4GzpId0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Problem set tips
+
+When completing a problem set, avoid writing a series of mathematical statements without prose. You should explain each step in any derivation so that both you and the grader can understand what you are doing. This is useful since (a) it helps reinforce the concept for your own understanding, (b) conveys to the grader (and eventually the world) that you understand the concepts that you are using, and (c) helps the grader debug any potential problems with the derivation to provide the highest quality feedback. 
+
+When working with mathematical probability and statistics, success usually comes from **pattern matching**: this problem is isomorphic to some other problem that we've done before. Doing that pattern matching takes some experience, but it's often help to try and strip a problem of its extraneous detail and focus on what the core elements are. Then, if you can't see the path forward, try to find a problem that we (or the textbooks) have solved that has the same core elements. 

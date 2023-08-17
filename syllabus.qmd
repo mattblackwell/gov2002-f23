@@ -1,0 +1,200 @@
+---
+title: "Syllabus"
+slug: syllabus
+summary: "Information about the content and policies for Gov 2002"
+citeproc: true
+output:
+  blogdown::html_page:
+      toc: TRUE
+---
+
+
+
+
+::: {.grid .course-details .course-details-smaller}
+
+::: {.g-col-6}
+### Instructor
+
+- {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
+- {{< fa university >}} &nbsp; {{< var instructor.office >}}
+- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
+- {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+- {{< fa calendar-check >}} &nbsp; [Schedule an appointment]({{< var instructor.appointment_url >}})
+
+### Teaching fellow
+
+- {{< fa user >}} Mitsuru Mukaigawara
+
+
+
+:::
+
+::: {.g-col-6}
+### Course details
+
+- {{< fa calendar >}} &nbsp; {{< var course.days >}}
+- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
+- {{< fa clock >}} &nbsp; {{< var course.time >}}
+- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+- {{< fa brands slack >}} &nbsp; [Slack]({{< var course.slack >}})
+
+:::
+
+:::
+
+
+## Description
+
+Quantitative methods in the social sciences are *exploding*. Each year researchers are deploying new and exciting methods to answer important substantive questions. But to use (and not misuse) these novel methods, it is crucial to have a firm understanding of the basic building blocks of quantitative methods in the social sciences: probability, statistical inference, and (more often than not) the linear model. This course, the first in the four-course quantitative methods sequence for PhD students in the Government department, provides this rigorous foundation necessary for the rest of the sequence and the rest of your careers. After reviewing the basic probability and statistical inference, we offer a systematic introduction to the linear model and its variants -- the workhorse models for social scientists. We will cover the material with enough mathematical rigor to understand the intuition and concepts, but also cover how to use statistical computing to apply the methods.
+
+## Expectations
+
+In this course, you will be expected to
+
+- complete 10 weekly problem sets, 
+- take one midterm exam, 
+- take one final exam,
+- and participate in the course via lectures and discussion forums. 
+
+## Course objectives
+
+After taking this course we hope you will:
+
+- Understand the key concepts of probability for quantitative social science at the level of Stat 110. 
+- Have a solid understanding of the core foundations of frequentist statistical inference at the level of Stat 111. 
+- Be able to implement, interpret, and critically evaluate the use of the linear regression model. 
+- Have a deeper knowledge and familiarity with professional tools for data analysis such as R, git, Rmarkdown, and LaTeX. 
+
+
+## Prerequisites
+
+We will also assume some familiarity with calculus, linear algebra, and statistical computing at the level of the [Gov Math Prefresher](https://projects.iq.harvard.edu/prefresher/home). If you would like a review of statistical topics at a lower mathematical level, please see the materials from [Gov 50](https://gov50.mattblackwell.org)
+
+No matter your background, you should be prepared to engage the class material on a regular, almost daily basis even beyond the time dedicated to assignments and exam review. This material can be challenging for many students (it was for me!). 
+
+## Credit
+
+This course satisfies the Methods requirement for the PhD program in the Government department and also can count toward the [methods course out for general exams](https://projects.iq.harvard.edu/government-methods/general-exams).
+
+
+## Grading 
+
+
+
+| Category         | Percent of Final Grade |
+|:-----------------|:-----------------------|
+| Participation    | 10%                    |
+| Ten Problem Sets | 55%                    |
+| Midterm Exam     | 15%                    |
+| Final Exam       | 20%                    |
+
+
+We will use [Gradescope]({{< var course.gradescope >}}) for submission of the various assignments throughout the semester. Once enrollment is finished, Gradescope will automatically connect through Canvas. 
+
+
+## Lectures
+
+Lectures will be Tuesdays and Thursdays 1:30pm until 2:45pm ET. 
+
+## Sections
+
+We will have weekly section meetings where the Teaching Fellow will guide you through worked problems that are similar to the problem sets. These sections are vital to learning the material and you are strongly encouraged to attend. 
+
+## Problem Sets
+
+Methods are tools and it isn't very instructive to read a lot about hammers or watch someone else wield a hammer. You need to get your hands on a hammer or two. Thus, in this course, you will have problem sets on a (roughly) weekly basis. They will be a mix of analytic problems, computer simulations, and data analysis. 
+
+ 
+Given the (waves hands generically at the world) situation, we understand that circumstances might make 
+things difficult this semester. Accordingly, we will be dropping your lowest **two** problem set scores. 
+
+
+Problem sets will be made available on Thursdays and be due the following Wednesdays. To see the full set of due dates, see the [Schedule](schedule.qmd).
+
+### Late policy
+
+The late policy for problem sets will be a 10% percentage point penalty per 24 hour period late up to 48 hours. After that point, we will need to release solutions for the problem sets and will not be able to accept any more late work. No late work will be accepted for exams. 
+
+
+## Midterm Exam
+
+The midterm exam will be an open-book and open-internet checkout exam that is designed to be completed in 75 minutes. Given the stress and potential for technological problems, however, you will have 3 hours to complete it. Since there a wide distribution of availability and time zones in the class, we will make the exam available to checkout over a 36-hour window on Canvas. Once you check out the exam, you will have 3 hours to complete it. There is no discussion or collaboration with other students or humans permitted on the midterm exam. The exam is **tentatively scheduled** for the sixth week of term (probably October 12-13). 
+
+## Final Exam
+
+The final exam will be an open-book, open-internet checkout exam similar to the midterm, but designed to take 3 hours to complete and you will be given 6 hours to complete it. As with the midterm, there is no discussion or collaboration with other students or humans permitted on the final exam. The final exam is **tentatively scheduled** for May 8th. 
+
+
+## Discussion
+
+We will be using [Ed](https://us.edstem.org/) and [Slack](https://slack.com) for discussions for this course. You can sign up for the Gov 2002 Ed page by clicking the Ed Discussion link on the sidebar of the [Canvas page]({{< var course.canvas}}) and you can join the Gov 2002 Slack [here]({{< var course.slack >}}). To become more familiar with the platforms, please see the [Ed users guide](https://us.edstem.org/quickstart/ed-discussion.pdf) and the [Slack quick start](https://slack.com/resources/using-slack/your-quick-start-guide-to-slack). 
+
+With two platforms, you might ask: where do I post what? In Gov 2002, Ed will be for help with and discussion of the content and materials of the course, whereas Slack will be for organization and community. Thus, questions and discussions about problem sets, reading, lectures, section, and so on would go on Ed. Slack would be better suited for meeting people, organizing study groups, seeing announcements about class, and various other logistical/social conversations. 
+
+When discussing problem sets on Ed, please refrain from posting large portions of your solutions to a question. If, for some reason, you feel you need to post such a excerpt from your solutions to ask your question, you may make the question private (which means only the course staff can view it). Please use this sparingly, since more questions (and answers!) helps the whole group. In addition, please search before posting a question to see if someone else has already posted. Use the categories to help organize the discussions for others to read. 
+
+## Regrading Policy
+
+If you feel there has been an error in the grading of one your assignment, you may request a regrade of the assignment on Gradescope. A member of the teaching staff will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment. 
+
+
+## Office Hours and Availability
+My office hours are TBD, but if there is a conflict with that time, let me know and I can probably set up another time. If you have questions about the course material, computational issues, or other course-related issues please do not hesitate to set up an appointment with either any of us. 
+
+If you have a general question, you can also post it on Ed. This is almost always the fastest way to get an answer. However, you can also email me directly at [mblackwell@gov.harvard.edu](mailto:mblackwell@gov.harvard.edu). If the question is of general interest, I will forward the question and my answer to the class. Make sure to tell me explicitly in your email if you would like to stay anonymous.
+
+## Books
+
+Unfortunately, there are no perfect references that cover everything we do in Gov 2002. The Blitzstein and Hwang book is a great introduction to probability and we will try to use my course notes (writing still in progress!) for the material beyond probability. 
+
+- Blitzstein, Joe  and Jessica Hwang. [*Introduction to Probability, Second Edition*](https://projects.iq.harvard.edu/stat110/home). Freely available to read online or for purchase on [Amazon](https://amzn.to/2Ubh7D8) if desired. 
+- Blackwell, Matthew. [*A User's Guide to Statistical Inference and Regression*](https://mattblackwell.github.io/gov2002-book/)
+
+
+There are several other books for purchase that may be useful to you. The first two Hansen books most closely follow my own notes and are good references, but students have found them to be dense. 
+
+- Hansen, Bruce. [*Introduction to Econometrics*](https://www.amazon.com/Probability-Statistics-Economists-Bruce-Hansen/dp/0691235945/). Covers probability and inference. 
+- Hansen, Bruce. [*Econometrics*](https://www.amazon.com/Econometrics-Bruce-Hansen/dp/0691235899/). Covers regression and beyond. 
+
+- Freedman, David. *Statistical Models*. Cambridge University Press. 
+- Wasserman, Larry. [*All of Statistics: A Concise Course in Statistical Inference*](https://link.springer.com/book/10.1007/978-0-387-21736-9). Springer. Available to download via the Springer website (may need to log in through Harvard).
+- Hayashi, Fumio. *Econometrics*. Princeton University Press. 
+- Angrist, Joshua and Jorn-Steffen Pischke. [*Mostly Harmless Econometrics*]. Princeton University Press.
+- Aronow, Peter and Benjamin Miller. *Foundations of Agnostic Statistics*. Cambridge University Press. Covers much of the same basic material that we cover in the class. 
+
+Sometimes it is helpful to digest certain concepts when they are presented with less mathematical notation. The following books can be extremely useful in this regard:
+
+- Imai, Kosuke *Quantitative Social Science: An Introduction*. Princeton University Press.
+- Diez, David M., Christopher D. Barr, and Mine Cetinkaya-Rundel. 2015. *OpenIntro Statistics*. 3rd edition. [https://www.openintro.org/]()
+- Freedman, David, Pisani, Robert, and Purves, Roger. 2007. *Statistics*. W.W. Norton & Company. 4th edition.
+- Gonick, Larry, and Woollcott Smith. 1993. *The Cartoon Guide to Statistics*. HarperPerinnial. 
+
+
+## Computing
+
+We'll use R in this class for computing and data analysis. R is free, open source, and available on all
+major platforms (including Solaris, so no excuses). [RStudio](http://www.rstudio.com) (also free) is a graphical interface to R that is widely used to work with the R language. You can find a virtually endless set of resources for R and RStudio on the internet. For beginners, there are several web-based tutorials. In these, you will be able to learn the basic syntax of R. We'll post more R resources on the course website. 
+
+We will also use git and Github to manage our projects, and a combination of LaTeX and Rmarkdown to typeset the problem sets.
+
+
+## Mental Health
+
+Grad school is a stressful time in one's life and mixing it with a global pandemic, remote learning, and dislocation makes this one of the most fraught years any of us have probably faced. We acknowledge that nothing is quite normal and that there may be times when you feel overwhelmed by this course or by life more generally. Please feel free to reach out to any of the course staff if you want to talk about any issues you are having with the course or anything else. We will always try to help and we are committed to being extra accommodating this semester on course policy issues. Please just get in touch. 
+
+Of course, there are other resources at Harvard if you need them. A few are listed below:
+
+* [Counseling and Mental Health Services](https://camhs.huhs.harvard.edu/)
+
+
+
+## Academic Honesty
+
+The work that you do in both the problem sets should be your own work. You may seek help from others so long as this does not result in someone else completing your work for you. When asking for help, you may show others your code to help diagnose a bug or highlight a potential issue, but you should not view their (working) code. You should cite any discussions you have with other students in your problem set and note if they helped you with your code. You should never copy and paste code from another student or elsewhere (e.g., websites, former students, AI tools). 
+
+I also strongly suggest that you make a solo effort at all the problems before consulting others. The exams will be very difficult if you have no experience working on your own. **There is no collaboration allowed on the exams.**
+
+### AI policy 
+
+Please do not use ChatGPT, GitHub Co-Pilot, or similar AI tools to help answer questions on problem sets or exams. Using these will be considered violating the academic honesty policy.

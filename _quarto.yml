@@ -1,0 +1,62 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.Rmd"
+    - "*.md"
+    - "!files/"
+
+website:
+  title: "Gov 2002"
+  favicon: "files/img/gov2002-shield.png"
+  navbar:
+    pinned: true
+    background: "#3498db"
+    right:
+      - syllabus.qmd
+      - schedule.qmd
+      - text: "Materials"
+        file: materials/index.qmd
+      - text: "Assignments"
+        file: assignments/index.qmd
+      - text: "Ed"
+        href: https://edstem.org/us/courses/31660/
+      - text: "Gradescope"
+        href: https://www.gradescope.com/courses/415456
+
+  sidebar:
+    - title: "Materials"
+      style: "docked"
+      search: false
+      background: dark
+      contents:
+        - section: "Overview"
+          contents:
+            - materials/index.qmd
+        - section: "Course Materials"
+          contents:
+            - text: "Week 1: Introduction & Probability"
+              file: materials/week_01.qmd
+              
+    - title: "Assignments"
+      style: "docked"
+      search: false
+      background: dark
+      contents:
+        - section: "Resources"
+          contents:
+            - assignments/index.qmd
+            - assignments/problem-sets.qmd
+
+format:
+  html:
+    theme:
+      - litera
+      - html/custom.scss
+    toc: true
+
+execute:
+  freeze: auto
+
+
+

@@ -1,0 +1,19 @@
+---
+title: "Week 5: Multivariate distributions"
+date: 2023-02-20
+---
+
+
+## Readings 
+
+- BH Ch 7 (you can skim 7.4)
+
+## Assignments
+
+- Problem Set 4 will be due February 22nd, 11:59pm.
+- We will release some practice exam questions on Thursday February 23rd.   
+
+
+## Slides
+
+- Multivariate Distributions: [Slides](/files/slides/06_multivariate.pdf) | [Handout](/files/slides/06_multivariate_handout.pdf)

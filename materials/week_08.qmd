@@ -1,0 +1,18 @@
+---
+title: "Week 8: Asymptotics"
+date: 2023-03-20
+---
+
+
+## Readings 
+
+- [UG Ch 3](https://mattblackwell.github.io/gov2002-book/03_asymptotics.html)
+
+## Assignments
+
+- Problem set 6 will go out on Thursday, 3/23 and be due on Wednesday, 3/29. 
+
+
+## Slides
+
+- Asymptotics: [Slides](/files/slides/09_asymptotics.pdf) | [Handout](/files/slides/09_asymptotics_handout.pdf)

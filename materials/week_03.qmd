@@ -1,0 +1,20 @@
+---
+title: "Week 3: Expectation"
+date: 2023-02-06
+---
+
+
+## Readings 
+
+- BH Ch 4 (you can skim 4.3)
+
+## Assignments
+
+- Problem Set 2 will be due February 8th, 11:59pm.
+- Problem Set 3 will be released February 9th, 12:00pm and be due February 15th, 11:59pm.  
+
+
+## Slides
+
+- Random Variables: [Slides](/files/slides/03_variables.pdf) | [Handout](/files/slides/03_variables_handout.pdf)
+- Expectation: [Slides](/files/slides/04_expectation.pdf) | [Handout](/files/slides/04_expectation_handout.pdf)

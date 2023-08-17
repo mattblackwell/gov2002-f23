@@ -1,0 +1,21 @@
+---
+title: "Week 1: Introduction to Gov 2002 & Probability"
+date: 2023-09-05
+---
+
+
+## Readings 
+
+- The [syllabus](/syllabus.qmd) and [schedule](/schedule.qmd) pages. 
+- BH Ch 2 
+
+## Assignments
+
+- Problem Set 1 will be due September 13th, 11:59pm. 
+
+
+## Slides
+
+- Introduction: [Slides](/files/slides/00_intro.pdf) | [Handout](/files/slides/00_intro_handout.pdf)
+- Probability: [Slides](/files/slides/01_probability.pdf) | [Handout](/files/slides/01_probability_handout.pdf)
+<!-- - Conditional Probability: [Slides](/files/slides/02_conditional_probability.pdf) | [Handout](/files/slides/02_conditional_probability_handout.pdf) -->

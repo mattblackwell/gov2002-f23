@@ -1,0 +1,18 @@
+---
+title: "Week 9: Hypothesis testing"
+date: 2023-03-28
+---
+
+
+## Readings 
+
+- [UG Ch 4](https://mattblackwell.github.io/gov2002-book/04_hypothesis_tests.html)
+
+## Assignments
+
+- Problem set 7 will go out on Thursday, 3/30 and be due on Wednesday, 4/5. 
+
+
+## Slides
+
+- Hypothesis testing: [Slides](/files/slides/10_hypothesis_tests.pdf) | [Handout](/files/slides/10_hypothesis_tests_handout.pdf)

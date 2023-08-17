@@ -1,0 +1,19 @@
+---
+title: "Week 6: Conditional expectation"
+date: 2023-02-27
+---
+
+
+## Readings 
+
+- BH Ch 9
+
+## Assignments
+
+- Midterm exam will be available starting Thursday, 2/2 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 3/4 at 7am ET.     
+
+
+## Slides
+
+- Multivariate Distributions: [Slides](/files/slides/06_multivariate.pdf) | [Handout](/files/slides/06_multivariate_handout.pdf)
+- Conditional Expectation: [Slides](/files/slides/07_cond_exp.pdf) | [Handout](/files/slides/07_cond_exp_handout.pdf)

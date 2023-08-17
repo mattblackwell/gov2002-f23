@@ -1,0 +1,16 @@
+---
+title: "Assignments overview"
+date: 2023-08-16
+---
+
+
+Here you will find a links to assignments and resources for those assignments. 
+
+
+## Resources
+
+- [Problem set instructions](problem-sets.qmd)
+
+
+## Problem sets
+
