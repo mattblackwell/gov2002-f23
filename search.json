@@ -1,0 +1,569 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Prof. Matt Blackwell\n   CGIS Knafel 305\n   mblackwell@gov.harvard.edu\n   matt_blackwell\n   Schedule an appointment\n\n\n\n\n\n Mitsuru Mukaigawara\n\n\n\n\n\n\n   Tue/Thu\n   September 5th-December 5th, 2023\n   1:30–2:45 PM\n   Science Center 110\n   Slack"
+  },
+  {
+    "objectID": "syllabus.html#description",
+    "href": "syllabus.html#description",
+    "title": "Syllabus",
+    "section": "Description",
+    "text": "Description\nQuantitative methods in the social sciences are exploding. Each year researchers are deploying new and exciting methods to answer important substantive questions. But to use (and not misuse) these novel methods, it is crucial to have a firm understanding of the basic building blocks of quantitative methods in the social sciences: probability, statistical inference, and (more often than not) the linear model. This course, the first in the four-course quantitative methods sequence for PhD students in the Government department, provides this rigorous foundation necessary for the rest of the sequence and the rest of your careers. After reviewing the basic probability and statistical inference, we offer a systematic introduction to the linear model and its variants – the workhorse models for social scientists. We will cover the material with enough mathematical rigor to understand the intuition and concepts, but also cover how to use statistical computing to apply the methods."
+  },
+  {
+    "objectID": "syllabus.html#expectations",
+    "href": "syllabus.html#expectations",
+    "title": "Syllabus",
+    "section": "Expectations",
+    "text": "Expectations\nIn this course, you will be expected to\n\ncomplete 10 weekly problem sets,\ntake one midterm exam,\ntake one final exam,\nand participate in the course via lectures and discussion forums."
+  },
+  {
+    "objectID": "syllabus.html#course-objectives",
+    "href": "syllabus.html#course-objectives",
+    "title": "Syllabus",
+    "section": "Course objectives",
+    "text": "Course objectives\nAfter taking this course we hope you will:\n\nUnderstand the key concepts of probability for quantitative social science at the level of Stat 110.\nHave a solid understanding of the core foundations of frequentist statistical inference at the level of Stat 111.\nBe able to implement, interpret, and critically evaluate the use of the linear regression model.\nHave a deeper knowledge and familiarity with professional tools for data analysis such as R, git, Rmarkdown, and LaTeX."
+  },
+  {
+    "objectID": "syllabus.html#prerequisites",
+    "href": "syllabus.html#prerequisites",
+    "title": "Syllabus",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nWe will also assume some familiarity with calculus, linear algebra, and statistical computing at the level of the Gov Math Prefresher. If you would like a review of statistical topics at a lower mathematical level, please see the materials from Gov 50\nNo matter your background, you should be prepared to engage the class material on a regular, almost daily basis even beyond the time dedicated to assignments and exam review. This material can be challenging for many students (it was for me!)."
+  },
+  {
+    "objectID": "syllabus.html#credit",
+    "href": "syllabus.html#credit",
+    "title": "Syllabus",
+    "section": "Credit",
+    "text": "Credit\nThis course satisfies the Methods requirement for the PhD program in the Government department and also can count toward the methods course out for general exams."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\n\n\n\nCategory\nPercent of Final Grade\n\n\n\n\nParticipation\n10%\n\n\nTen Problem Sets\n55%\n\n\nMidterm Exam\n15%\n\n\nFinal Exam\n20%\n\n\n\nWe will use Gradescope for submission of the various assignments throughout the semester. Once enrollment is finished, Gradescope will automatically connect through Canvas."
+  },
+  {
+    "objectID": "syllabus.html#lectures",
+    "href": "syllabus.html#lectures",
+    "title": "Syllabus",
+    "section": "Lectures",
+    "text": "Lectures\nLectures will be Tuesdays and Thursdays 1:30pm until 2:45pm ET."
+  },
+  {
+    "objectID": "syllabus.html#sections",
+    "href": "syllabus.html#sections",
+    "title": "Syllabus",
+    "section": "Sections",
+    "text": "Sections\nWe will have weekly section meetings where the Teaching Fellow will guide you through worked problems that are similar to the problem sets. These sections are vital to learning the material and you are strongly encouraged to attend."
+  },
+  {
+    "objectID": "syllabus.html#problem-sets",
+    "href": "syllabus.html#problem-sets",
+    "title": "Syllabus",
+    "section": "Problem Sets",
+    "text": "Problem Sets\nMethods are tools and it isn’t very instructive to read a lot about hammers or watch someone else wield a hammer. You need to get your hands on a hammer or two. Thus, in this course, you will have problem sets on a (roughly) weekly basis. They will be a mix of analytic problems, computer simulations, and data analysis.\nGiven the (waves hands generically at the world) situation, we understand that circumstances might make things difficult this semester. Accordingly, we will be dropping your lowest two problem set scores.\nProblem sets will be made available on Thursdays and be due the following Wednesdays. To see the full set of due dates, see the Schedule.\n\nLate policy\nThe late policy for problem sets will be a 10% percentage point penalty per 24 hour period late up to 48 hours. After that point, we will need to release solutions for the problem sets and will not be able to accept any more late work. No late work will be accepted for exams."
+  },
+  {
+    "objectID": "syllabus.html#midterm-exam",
+    "href": "syllabus.html#midterm-exam",
+    "title": "Syllabus",
+    "section": "Midterm Exam",
+    "text": "Midterm Exam\nThe midterm exam will be an open-book and open-internet checkout exam that is designed to be completed in 75 minutes. Given the stress and potential for technological problems, however, you will have 3 hours to complete it. Since there a wide distribution of availability and time zones in the class, we will make the exam available to checkout over a 36-hour window on Canvas. Once you check out the exam, you will have 3 hours to complete it. There is no discussion or collaboration with other students or humans permitted on the midterm exam. The exam is tentatively scheduled for the sixth week of term (probably October 12-13)."
+  },
+  {
+    "objectID": "syllabus.html#final-exam",
+    "href": "syllabus.html#final-exam",
+    "title": "Syllabus",
+    "section": "Final Exam",
+    "text": "Final Exam\nThe final exam will be an open-book, open-internet checkout exam similar to the midterm, but designed to take 3 hours to complete and you will be given 6 hours to complete it. As with the midterm, there is no discussion or collaboration with other students or humans permitted on the final exam. The final exam is tentatively scheduled for May 8th."
+  },
+  {
+    "objectID": "syllabus.html#discussion",
+    "href": "syllabus.html#discussion",
+    "title": "Syllabus",
+    "section": "Discussion",
+    "text": "Discussion\nWe will be using Ed and Slack for discussions for this course. You can sign up for the Gov 2002 Ed page by clicking the Ed Discussion link on the sidebar of the Canvas page and you can join the Gov 2002 Slack here. To become more familiar with the platforms, please see the Ed users guide and the Slack quick start.\nWith two platforms, you might ask: where do I post what? In Gov 2002, Ed will be for help with and discussion of the content and materials of the course, whereas Slack will be for organization and community. Thus, questions and discussions about problem sets, reading, lectures, section, and so on would go on Ed. Slack would be better suited for meeting people, organizing study groups, seeing announcements about class, and various other logistical/social conversations.\nWhen discussing problem sets on Ed, please refrain from posting large portions of your solutions to a question. If, for some reason, you feel you need to post such a excerpt from your solutions to ask your question, you may make the question private (which means only the course staff can view it). Please use this sparingly, since more questions (and answers!) helps the whole group. In addition, please search before posting a question to see if someone else has already posted. Use the categories to help organize the discussions for others to read."
+  },
+  {
+    "objectID": "syllabus.html#regrading-policy",
+    "href": "syllabus.html#regrading-policy",
+    "title": "Syllabus",
+    "section": "Regrading Policy",
+    "text": "Regrading Policy\nIf you feel there has been an error in the grading of one your assignment, you may request a regrade of the assignment on Gradescope. A member of the teaching staff will regrade the entire assignment, not just the part you are disputing. Therefore, your regrade might increase or decrease the overall grade on the assignment."
+  },
+  {
+    "objectID": "syllabus.html#office-hours-and-availability",
+    "href": "syllabus.html#office-hours-and-availability",
+    "title": "Syllabus",
+    "section": "Office Hours and Availability",
+    "text": "Office Hours and Availability\nMy office hours are TBD, but if there is a conflict with that time, let me know and I can probably set up another time. If you have questions about the course material, computational issues, or other course-related issues please do not hesitate to set up an appointment with either any of us.\nIf you have a general question, you can also post it on Ed. This is almost always the fastest way to get an answer. However, you can also email me directly at mblackwell@gov.harvard.edu. If the question is of general interest, I will forward the question and my answer to the class. Make sure to tell me explicitly in your email if you would like to stay anonymous."
+  },
+  {
+    "objectID": "syllabus.html#books",
+    "href": "syllabus.html#books",
+    "title": "Syllabus",
+    "section": "Books",
+    "text": "Books\nUnfortunately, there are no perfect references that cover everything we do in Gov 2002. The Blitzstein and Hwang book is a great introduction to probability and we will try to use my course notes (writing still in progress!) for the material beyond probability.\n\nBlitzstein, Joe and Jessica Hwang. Introduction to Probability, Second Edition. Freely available to read online or for purchase on Amazon if desired.\nBlackwell, Matthew. A User’s Guide to Statistical Inference and Regression\n\nThere are several other books for purchase that may be useful to you. The first two Hansen books most closely follow my own notes and are good references, but students have found them to be dense.\n\nHansen, Bruce. Introduction to Econometrics. Covers probability and inference.\nHansen, Bruce. Econometrics. Covers regression and beyond.\nFreedman, David. Statistical Models. Cambridge University Press.\nWasserman, Larry. All of Statistics: A Concise Course in Statistical Inference. Springer. Available to download via the Springer website (may need to log in through Harvard).\nHayashi, Fumio. Econometrics. Princeton University Press.\nAngrist, Joshua and Jorn-Steffen Pischke. [Mostly Harmless Econometrics]. Princeton University Press.\nAronow, Peter and Benjamin Miller. Foundations of Agnostic Statistics. Cambridge University Press. Covers much of the same basic material that we cover in the class.\n\nSometimes it is helpful to digest certain concepts when they are presented with less mathematical notation. The following books can be extremely useful in this regard:\n\nImai, Kosuke Quantitative Social Science: An Introduction. Princeton University Press.\nDiez, David M., Christopher D. Barr, and Mine Cetinkaya-Rundel. 2015. OpenIntro Statistics. 3rd edition. https://www.openintro.org/\nFreedman, David, Pisani, Robert, and Purves, Roger. 2007. Statistics. W.W. Norton & Company. 4th edition.\nGonick, Larry, and Woollcott Smith. 1993. The Cartoon Guide to Statistics. HarperPerinnial."
+  },
+  {
+    "objectID": "syllabus.html#computing",
+    "href": "syllabus.html#computing",
+    "title": "Syllabus",
+    "section": "Computing",
+    "text": "Computing\nWe’ll use R in this class for computing and data analysis. R is free, open source, and available on all major platforms (including Solaris, so no excuses). RStudio (also free) is a graphical interface to R that is widely used to work with the R language. You can find a virtually endless set of resources for R and RStudio on the internet. For beginners, there are several web-based tutorials. In these, you will be able to learn the basic syntax of R. We’ll post more R resources on the course website.\nWe will also use git and Github to manage our projects, and a combination of LaTeX and Rmarkdown to typeset the problem sets."
+  },
+  {
+    "objectID": "syllabus.html#mental-health",
+    "href": "syllabus.html#mental-health",
+    "title": "Syllabus",
+    "section": "Mental Health",
+    "text": "Mental Health\nGrad school is a stressful time in one’s life and mixing it with a global pandemic, remote learning, and dislocation makes this one of the most fraught years any of us have probably faced. We acknowledge that nothing is quite normal and that there may be times when you feel overwhelmed by this course or by life more generally. Please feel free to reach out to any of the course staff if you want to talk about any issues you are having with the course or anything else. We will always try to help and we are committed to being extra accommodating this semester on course policy issues. Please just get in touch.\nOf course, there are other resources at Harvard if you need them. A few are listed below:\n\nCounseling and Mental Health Services"
+  },
+  {
+    "objectID": "syllabus.html#academic-honesty",
+    "href": "syllabus.html#academic-honesty",
+    "title": "Syllabus",
+    "section": "Academic Honesty",
+    "text": "Academic Honesty\nThe work that you do in both the problem sets should be your own work. You may seek help from others so long as this does not result in someone else completing your work for you. When asking for help, you may show others your code to help diagnose a bug or highlight a potential issue, but you should not view their (working) code. You should cite any discussions you have with other students in your problem set and note if they helped you with your code. You should never copy and paste code from another student or elsewhere (e.g., websites, former students, AI tools).\nI also strongly suggest that you make a solo effort at all the problems before consulting others. The exams will be very difficult if you have no experience working on your own. There is no collaboration allowed on the exams.\n\nAI policy\nPlease do not use ChatGPT, GitHub Co-Pilot, or similar AI tools to help answer questions on problem sets or exams. Using these will be considered violating the academic honesty policy."
+  },
+  {
+    "objectID": "materials/week_13.html",
+    "href": "materials/week_13.html",
+    "title": "Week 13: Panel and Clustered Data",
+    "section": "",
+    "text": "None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference."
+  },
+  {
+    "objectID": "materials/week_13.html#readings",
+    "href": "materials/week_13.html#readings",
+    "title": "Week 13: Panel and Clustered Data",
+    "section": "",
+    "text": "None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference."
+  },
+  {
+    "objectID": "materials/week_13.html#assignments",
+    "href": "materials/week_13.html#assignments",
+    "title": "Week 13: Panel and Clustered Data",
+    "section": "Assignments",
+    "text": "Assignments\n\nNone"
+  },
+  {
+    "objectID": "materials/week_13.html#slides",
+    "href": "materials/week_13.html#slides",
+    "title": "Week 13: Panel and Clustered Data",
+    "section": "Slides",
+    "text": "Slides\n\nPanel and clustered data: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_11.html",
+    "href": "materials/week_11.html",
+    "title": "Week 11: Least Squares",
+    "section": "",
+    "text": "UG Ch 6"
+  },
+  {
+    "objectID": "materials/week_11.html#readings",
+    "href": "materials/week_11.html#readings",
+    "title": "Week 11: Least Squares",
+    "section": "",
+    "text": "UG Ch 6"
+  },
+  {
+    "objectID": "materials/week_11.html#assignments",
+    "href": "materials/week_11.html#assignments",
+    "title": "Week 11: Least Squares",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 9 will go out on Thursday, 4/13 and be due on Wednesday, 4/19."
+  },
+  {
+    "objectID": "materials/week_11.html#slides",
+    "href": "materials/week_11.html#slides",
+    "title": "Week 11: Least Squares",
+    "section": "Slides",
+    "text": "Slides\n\nLinear regression: Slides | Handout\nThe algebra of least squares: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_09.html",
+    "href": "materials/week_09.html",
+    "title": "Week 9: Hypothesis testing",
+    "section": "",
+    "text": "UG Ch 4"
+  },
+  {
+    "objectID": "materials/week_09.html#readings",
+    "href": "materials/week_09.html#readings",
+    "title": "Week 9: Hypothesis testing",
+    "section": "",
+    "text": "UG Ch 4"
+  },
+  {
+    "objectID": "materials/week_09.html#assignments",
+    "href": "materials/week_09.html#assignments",
+    "title": "Week 9: Hypothesis testing",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 7 will go out on Thursday, 3/30 and be due on Wednesday, 4/5."
+  },
+  {
+    "objectID": "materials/week_09.html#slides",
+    "href": "materials/week_09.html#slides",
+    "title": "Week 9: Hypothesis testing",
+    "section": "Slides",
+    "text": "Slides\n\nHypothesis testing: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_07.html",
+    "href": "materials/week_07.html",
+    "title": "Week 7: Estimation",
+    "section": "",
+    "text": "Tuesday: UG Ch 2\nThursday: UG Ch 3.1-3.6"
+  },
+  {
+    "objectID": "materials/week_07.html#readings",
+    "href": "materials/week_07.html#readings",
+    "title": "Week 7: Estimation",
+    "section": "",
+    "text": "Tuesday: UG Ch 2\nThursday: UG Ch 3.1-3.6"
+  },
+  {
+    "objectID": "materials/week_07.html#assignments",
+    "href": "materials/week_07.html#assignments",
+    "title": "Week 7: Estimation",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 5 will go out on Thursday, 3/9 and be due on Wednesday, 3/22."
+  },
+  {
+    "objectID": "materials/week_07.html#slides",
+    "href": "materials/week_07.html#slides",
+    "title": "Week 7: Estimation",
+    "section": "Slides",
+    "text": "Slides\n\nSampling and Estimation: Slides | Handout\nAsymptotics: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_05.html",
+    "href": "materials/week_05.html",
+    "title": "Week 5: Multivariate distributions",
+    "section": "",
+    "text": "BH Ch 7 (you can skim 7.4)"
+  },
+  {
+    "objectID": "materials/week_05.html#readings",
+    "href": "materials/week_05.html#readings",
+    "title": "Week 5: Multivariate distributions",
+    "section": "",
+    "text": "BH Ch 7 (you can skim 7.4)"
+  },
+  {
+    "objectID": "materials/week_05.html#assignments",
+    "href": "materials/week_05.html#assignments",
+    "title": "Week 5: Multivariate distributions",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 4 will be due February 22nd, 11:59pm.\nWe will release some practice exam questions on Thursday February 23rd."
+  },
+  {
+    "objectID": "materials/week_05.html#slides",
+    "href": "materials/week_05.html#slides",
+    "title": "Week 5: Multivariate distributions",
+    "section": "Slides",
+    "text": "Slides\n\nMultivariate Distributions: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_03.html",
+    "href": "materials/week_03.html",
+    "title": "Week 3: Expectation",
+    "section": "",
+    "text": "BH Ch 4 (you can skim 4.3)"
+  },
+  {
+    "objectID": "materials/week_03.html#readings",
+    "href": "materials/week_03.html#readings",
+    "title": "Week 3: Expectation",
+    "section": "",
+    "text": "BH Ch 4 (you can skim 4.3)"
+  },
+  {
+    "objectID": "materials/week_03.html#assignments",
+    "href": "materials/week_03.html#assignments",
+    "title": "Week 3: Expectation",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 2 will be due February 8th, 11:59pm.\nProblem Set 3 will be released February 9th, 12:00pm and be due February 15th, 11:59pm."
+  },
+  {
+    "objectID": "materials/week_03.html#slides",
+    "href": "materials/week_03.html#slides",
+    "title": "Week 3: Expectation",
+    "section": "Slides",
+    "text": "Slides\n\nRandom Variables: Slides | Handout\nExpectation: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_01.html",
+    "href": "materials/week_01.html",
+    "title": "Week 1: Introduction to Gov 2002 & Probability",
+    "section": "",
+    "text": "The syllabus and schedule pages.\nBH Ch 2"
+  },
+  {
+    "objectID": "materials/week_01.html#readings",
+    "href": "materials/week_01.html#readings",
+    "title": "Week 1: Introduction to Gov 2002 & Probability",
+    "section": "",
+    "text": "The syllabus and schedule pages.\nBH Ch 2"
+  },
+  {
+    "objectID": "materials/week_01.html#assignments",
+    "href": "materials/week_01.html#assignments",
+    "title": "Week 1: Introduction to Gov 2002 & Probability",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 1 will be due September 13th, 11:59pm."
+  },
+  {
+    "objectID": "materials/week_01.html#slides",
+    "href": "materials/week_01.html#slides",
+    "title": "Week 1: Introduction to Gov 2002 & Probability",
+    "section": "Slides",
+    "text": "Slides\n\nIntroduction: Slides | Handout\nProbability: Slides | Handout"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n            Quantitative Social Science Methods I\n        ",
+    "section": "",
+    "text": "Quantitative Social Science Methods I\n        \n        \n            Probability, Inference, and Regression\n        \n        \n            Gov 2002 • Fall 2023Harvard University\n        \n    \n    \n      \n        \n        \n        \n      \n    \n\n\n\n\nTeaching Team\n\nHead Instructor\n\n\n\n\n\n\n   Prof. Matt Blackwell\n   CGIS Knafel 305\n   mblackwell@gov.harvard.edu\n   matt_blackwell\n   Schedule an appointment\n\n\n\n\n\nTeaching Fellows\n\n\n\n\n\n\n   Mitsuru Mukaigawara\n   mailto:mitsuru_mukaigawara@g.harvard.edu\n   ruofan_ma\n\n\n\n\n\n\n\nCourse details\n\n   Tue/Thu\n   September 5th-December 5th, 2023\n   1:30–2:45 PM\n   Science Center 110\n   Slack\n\n\n\nContacting us\nGeneral questions about the course should be posted to either the course Ed Discussion board or the course Slack. Someone on the teaching staff will attempt to respond to these messages within 25 hours, but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry! For other issues (absences, etc), feel free to email me or send me a direct message on Slack."
+  },
+  {
+    "objectID": "assignments/index.html",
+    "href": "assignments/index.html",
+    "title": "Assignments overview",
+    "section": "",
+    "text": "Here you will find a links to assignments and resources for those assignments."
+  },
+  {
+    "objectID": "assignments/index.html#resources",
+    "href": "assignments/index.html#resources",
+    "title": "Assignments overview",
+    "section": "Resources",
+    "text": "Resources\n\nProblem set instructions"
+  },
+  {
+    "objectID": "assignments/index.html#problem-sets",
+    "href": "assignments/index.html#problem-sets",
+    "title": "Assignments overview",
+    "section": "Problem sets",
+    "text": "Problem sets"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "assignments/problem-sets.html",
+    "href": "assignments/problem-sets.html",
+    "title": "Problem set instructions",
+    "section": "",
+    "text": "We will be submitting the problem sets through Gradescope. When you go to the link, you should log in using your “School Credentials”:\n\n\n\nFrom there, you should see a list of assignments. Choose the one you want to submit and follow the instructions for submission. More help on how to submit an assignment can be found on the Gradescope help site. It is easiest if you submit your solutions as one PDF, but if you are submitting handwritten work, you may also submit a series of images. You arestrongly ecnouraged to submit typeset materials to maximize legibility for grading.\nIf you do submit as a PDF, please use the interface to indicate where your answers to each question are (being sure to mark two different pages if an answer continues on two pages). You can find a video describing the process here:"
+  },
+  {
+    "objectID": "assignments/problem-sets.html#submitting-problem-sets",
+    "href": "assignments/problem-sets.html#submitting-problem-sets",
+    "title": "Problem set instructions",
+    "section": "",
+    "text": "We will be submitting the problem sets through Gradescope. When you go to the link, you should log in using your “School Credentials”:\n\n\n\nFrom there, you should see a list of assignments. Choose the one you want to submit and follow the instructions for submission. More help on how to submit an assignment can be found on the Gradescope help site. It is easiest if you submit your solutions as one PDF, but if you are submitting handwritten work, you may also submit a series of images. You arestrongly ecnouraged to submit typeset materials to maximize legibility for grading.\nIf you do submit as a PDF, please use the interface to indicate where your answers to each question are (being sure to mark two different pages if an answer continues on two pages). You can find a video describing the process here:"
+  },
+  {
+    "objectID": "assignments/problem-sets.html#problem-set-tips",
+    "href": "assignments/problem-sets.html#problem-set-tips",
+    "title": "Problem set instructions",
+    "section": "Problem set tips",
+    "text": "Problem set tips\nWhen completing a problem set, avoid writing a series of mathematical statements without prose. You should explain each step in any derivation so that both you and the grader can understand what you are doing. This is useful since (a) it helps reinforce the concept for your own understanding, (b) conveys to the grader (and eventually the world) that you understand the concepts that you are using, and (c) helps the grader debug any potential problems with the derivation to provide the highest quality feedback.\nWhen working with mathematical probability and statistics, success usually comes from pattern matching: this problem is isomorphic to some other problem that we’ve done before. Doing that pattern matching takes some experience, but it’s often help to try and strip a problem of its extraneous detail and focus on what the core elements are. Then, if you can’t see the path forward, try to find a problem that we (or the textbooks) have solved that has the same core elements."
+  },
+  {
+    "objectID": "materials/index.html",
+    "href": "materials/index.html",
+    "title": "Readings, lectures, and videos",
+    "section": "",
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability"
+  },
+  {
+    "objectID": "materials/week_02.html",
+    "href": "materials/week_02.html",
+    "title": "Week 2: Conditional Probability and Random Variables",
+    "section": "",
+    "text": "BH Ch 3 (you can skim 3.4 and 3.9)"
+  },
+  {
+    "objectID": "materials/week_02.html#readings",
+    "href": "materials/week_02.html#readings",
+    "title": "Week 2: Conditional Probability and Random Variables",
+    "section": "",
+    "text": "BH Ch 3 (you can skim 3.4 and 3.9)"
+  },
+  {
+    "objectID": "materials/week_02.html#assignments",
+    "href": "materials/week_02.html#assignments",
+    "title": "Week 2: Conditional Probability and Random Variables",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 1 will be due February 1st, 11:59pm.\nProblem Set 2 will be released February 2nd, 12:00pm and be due February 8th, 11:59pm."
+  },
+  {
+    "objectID": "materials/week_02.html#slides",
+    "href": "materials/week_02.html#slides",
+    "title": "Week 2: Conditional Probability and Random Variables",
+    "section": "Slides",
+    "text": "Slides\n\nConditional Probability: Slides | Handout\nRandom Variables: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_04.html",
+    "href": "materials/week_04.html",
+    "title": "Week 3: Continuous random variables",
+    "section": "",
+    "text": "BH Ch 5 (you can skip 5.5 and 5.6, skim 5.7)"
+  },
+  {
+    "objectID": "materials/week_04.html#readings",
+    "href": "materials/week_04.html#readings",
+    "title": "Week 3: Continuous random variables",
+    "section": "",
+    "text": "BH Ch 5 (you can skip 5.5 and 5.6, skim 5.7)"
+  },
+  {
+    "objectID": "materials/week_04.html#assignments",
+    "href": "materials/week_04.html#assignments",
+    "title": "Week 3: Continuous random variables",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem Set 3 will be due February 15th, 11:59pm.\nProblem Set 4 will be released February 16th, 12:00pm and be due February 22nd, 11:59pm."
+  },
+  {
+    "objectID": "materials/week_04.html#slides",
+    "href": "materials/week_04.html#slides",
+    "title": "Week 3: Continuous random variables",
+    "section": "Slides",
+    "text": "Slides\n\nContinuous Random Variables: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_06.html",
+    "href": "materials/week_06.html",
+    "title": "Week 6: Conditional expectation",
+    "section": "",
+    "text": "BH Ch 9"
+  },
+  {
+    "objectID": "materials/week_06.html#readings",
+    "href": "materials/week_06.html#readings",
+    "title": "Week 6: Conditional expectation",
+    "section": "",
+    "text": "BH Ch 9"
+  },
+  {
+    "objectID": "materials/week_06.html#assignments",
+    "href": "materials/week_06.html#assignments",
+    "title": "Week 6: Conditional expectation",
+    "section": "Assignments",
+    "text": "Assignments\n\nMidterm exam will be available starting Thursday, 2/2 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 3/4 at 7am ET."
+  },
+  {
+    "objectID": "materials/week_06.html#slides",
+    "href": "materials/week_06.html#slides",
+    "title": "Week 6: Conditional expectation",
+    "section": "Slides",
+    "text": "Slides\n\nMultivariate Distributions: Slides | Handout\nConditional Expectation: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_08.html",
+    "href": "materials/week_08.html",
+    "title": "Week 8: Asymptotics",
+    "section": "",
+    "text": "UG Ch 3"
+  },
+  {
+    "objectID": "materials/week_08.html#readings",
+    "href": "materials/week_08.html#readings",
+    "title": "Week 8: Asymptotics",
+    "section": "",
+    "text": "UG Ch 3"
+  },
+  {
+    "objectID": "materials/week_08.html#assignments",
+    "href": "materials/week_08.html#assignments",
+    "title": "Week 8: Asymptotics",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 6 will go out on Thursday, 3/23 and be due on Wednesday, 3/29."
+  },
+  {
+    "objectID": "materials/week_08.html#slides",
+    "href": "materials/week_08.html#slides",
+    "title": "Week 8: Asymptotics",
+    "section": "Slides",
+    "text": "Slides\n\nAsymptotics: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_10.html",
+    "href": "materials/week_10.html",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "",
+    "text": "UG Ch 5"
+  },
+  {
+    "objectID": "materials/week_10.html#readings",
+    "href": "materials/week_10.html#readings",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "",
+    "text": "UG Ch 5"
+  },
+  {
+    "objectID": "materials/week_10.html#assignments",
+    "href": "materials/week_10.html#assignments",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12."
+  },
+  {
+    "objectID": "materials/week_10.html#slides",
+    "href": "materials/week_10.html#slides",
+    "title": "Week 10: Linear Regressoipmn",
+    "section": "Slides",
+    "text": "Slides\n\nLinear regression: Slides | Handout"
+  },
+  {
+    "objectID": "materials/week_12.html",
+    "href": "materials/week_12.html",
+    "title": "Week 12: Statistics of Least Squares",
+    "section": "",
+    "text": "UG Ch 7"
+  },
+  {
+    "objectID": "materials/week_12.html#readings",
+    "href": "materials/week_12.html#readings",
+    "title": "Week 12: Statistics of Least Squares",
+    "section": "",
+    "text": "UG Ch 7"
+  },
+  {
+    "objectID": "materials/week_12.html#assignments",
+    "href": "materials/week_12.html#assignments",
+    "title": "Week 12: Statistics of Least Squares",
+    "section": "Assignments",
+    "text": "Assignments\n\nProblem set 10 will go out on Thursday, 4/20 and be due on Wednesday, 4/26."
+  },
+  {
+    "objectID": "materials/week_12.html#slides",
+    "href": "materials/week_12.html#slides",
+    "title": "Week 12: Statistics of Least Squares",
+    "section": "Slides",
+    "text": "Slides\n\nThe statistics of least squares: Slides | Handout"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally complete the reading before attending lecture. Here’s a guide to the schedule:\n\nMaterials (): This page contains the readings, slides, and recorded lectures (if any) for the topic. Read/watch these first.\nAssignment (): This page contains the instructions for each assignment. Assignments are due by 11:59 PM on the day they’re listed.\n\nThe readings refer to following texts:\n\nBH: Blitzstein and Hwang, Introduction to Probability, Second Edition.\nUG: Blackwell, A User’s Guide to Statistical Inference and Regression\nHE: Hansen, Econometrics.\n\nThe BH and UG readings are the ones that we will focus on, but I have also included references for Hansen in case you have that book and want to see a different or more technical discussion of the material.\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nSeptember 5\n\n\nIntroduction to the course/probability\n\n\nBH Ch 1\n\n\n\n\n\n\n\n\n\n\nSeptember 7\n\n\nProbability/conditional probability\n\n\nBH Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nSeptember 12\n\n\nConditional probability and random variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nSeptember 13\n\n\nProblem Set 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 14\n\n\nRandom variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nSeptember 19\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nSeptember 20\n\n\nProblem Set 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 21\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nSeptember 26\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nSeptember 27\n\n\nProblem Set 3  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 28\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nOctober 3\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nOctober 4\n\n\nProblem Set 4  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 5\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nOctober 10\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12–October 13\n\n\nMidterm Exam  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nOctober 17\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nOctober 19\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nOctober 24\n\n\nAsymptotics\n\n\nBH Ch 10.1-10.2, UG Ch 3.1-3.6\n\n\n\n\n\n\n\n\n\n\nOctober 25\n\n\nProblem Set 5  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 26\n\n\nAsymptotics\n\n\nBH Ch 10.3, UG Ch 3.7-3.8\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nOctober 31\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nNovember 1\n\n\nProblem Set 6  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 2\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nNovember 7\n\n\nRegression\n\n\nUG Ch 5, HE Ch 2.14-2.30\n\n\n\n\n\n\n\n\n\n\nNovember 8\n\n\nProblem Set 7  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 9\n\n\nRegression\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nNovember 14\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nNovember 15\n\n\nProblem Set 8  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 16\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nNovember 21\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 4.1-4.20\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nNovember 28\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 7\n\n\n\n\n\n\n\n\n\n\nNovember 29\n\n\nProblem Set 9  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 30\n\n\nPanel and clustered data\n\n\nHE 4.21-4.22, 17.1-17.26\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nDecember 5\n\n\nResampling methods\n\n\nHE Ch 10\n\n\n\n\n\n\n\n\n\n\nDecember 6\n\n\nProblem Set 10  (submit by 23:59:00)"
+  }
+]
