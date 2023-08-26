@@ -20,9 +20,9 @@ website:
       - text: "Assignments"
         file: assignments/index.qmd
       - text: "Ed"
-        href: https://edstem.org/us/courses/31660/
+        href: https://edstem.org/us/courses/45093/discussion/
       - text: "Gradescope"
-        href: https://www.gradescope.com/courses/415456
+        href: https://www.gradescope.com/courses/589033
 
   sidebar:
     - title: "Materials"

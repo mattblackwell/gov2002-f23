@@ -19,12 +19,12 @@ course:
   time: "1:30–2:45 PM"
   location: "Science Center 110"
   dates: "September 5th-December 5th, 2023"
-  github: ""
-  url: "https://gov2002.mattblackwell.org"
+  github: "https://github.com/mattblackwell/gov2002-f23"
+  url: "https://mattblackwell.github.io/gov2002-f23/"
   copyright_year: "2023"
-  slack: ""
-  gradescope: ""
-  canvas: ""
+  slack: "https://gov-2002-f23-93a.slack.com/ssb/redirect"
+  gradescope: "https://www.gradescope.com/courses/589033"
+  canvas: "https://canvas.harvard.edu/courses/121824"
 
 university:
   name: "Harvard University"
