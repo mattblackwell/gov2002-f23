@@ -47,6 +47,10 @@ website:
           contents:
             - assignments/index.qmd
             - assignments/problem-sets.qmd
+        - section: "Assignments"
+          contents:
+            - text: "Problem Set 1"
+              file: assignments/01_problem_set.qmd
 
 format:
   html:
