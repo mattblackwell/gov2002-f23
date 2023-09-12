@@ -1,6 +1,6 @@
 ---
 title: "Week 2: Conditional Probability and Random Variables"
-date: 2023-01-20
+date: 2023-09-11
 ---
 
 
@@ -10,8 +10,8 @@ date: 2023-01-20
 
 ## Assignments
 
-- Problem Set 1 will be due February 1st, 11:59pm.
-- Problem Set 2 will be released February 2nd, 12:00pm and be due February 8th, 11:59pm.  
+- Problem Set 1 will be due September 13th, 11:59pm.
+- Problem Set 2 will be released September 14th, 12:00pm and be due September 20th, 11:59pm.  
 
 
 ## Slides
