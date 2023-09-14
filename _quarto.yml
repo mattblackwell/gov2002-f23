@@ -75,6 +75,8 @@ website:
           contents:
             - text: "Problem Set 1"
               file: assignments/01_problem_set.qmd
+            - text: "Problem Set 2"
+              file: assignments/02_problem_set.qmd
 
 format:
   html:
