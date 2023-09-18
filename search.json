@@ -291,14 +291,14 @@
     "href": "materials/week_03.html#assignments",
     "title": "Week 3: Expectation",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem Set 2 will be due February 8th, 11:59pm.\nProblem Set 3 will be released February 9th, 12:00pm and be due February 15th, 11:59pm."
+    "text": "Assignments\n\nProblem Set 2 will be due September 20th, 11:59pm.\nProblem Set 3 will be released September 21st, 12:00pm and be due September 27th, 11:59pm."
   },
   {
     "objectID": "materials/week_03.html#slides",
     "href": "materials/week_03.html#slides",
     "title": "Week 3: Expectation",
     "section": "Slides",
-    "text": "Slides\n\nRandom Variables: Slides | Handout\nExpectation: Slides | Handout"
+    "text": "Slides\n\nExpectation: Slides | Handout"
   },
   {
     "objectID": "materials/week_01.html",
@@ -494,7 +494,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation"
   },
   {
     "objectID": "materials/week_02.html",
