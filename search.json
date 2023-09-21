@@ -354,7 +354,63 @@
     "href": "assignments/index.html#problem-sets",
     "title": "Assignments overview",
     "section": "Problem sets",
-    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2"
+    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2\nProblem Set 3"
+  },
+  {
+    "objectID": "assignments/02_problem_set.html",
+    "href": "assignments/02_problem_set.html",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#problem-set-instructions",
+    "href": "assignments/02_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on September 20, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#question-1-12-points",
+    "href": "assignments/02_problem_set.html#question-1-12-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 1 (12 points)",
+    "text": "Question 1 (12 points)\n\nYou are trying to schedule qualitative interviews with government officials in some country. You don’t have a list with a fixed length of officials ahead of time (i.e. you’re just finding emails in real-time). The officials can take one of three actions: respond and agree to meet with you with probability 1/3, respond and reject your request with probability 1/3, or ignore your email with probability 1/3. The officials make their decisions independent of each other. Suppose you keep sending out emails until you get one official to agree to meet with you. Find the PMF of the number of emails you send out.\nNow suppose you care about whether an official has responded or not, regardless of the response. What is the PMF of the number of emails you have to send out until there’s at least one official who responds to you and one official who doesn’t? For example, the first five officials might accept, reject, reject, reject, and ghost you, after which you would stop since you have at least one response and non-response. You might also see the sequence ghost, ghost, ghost, ghost, then reject, after which you stop."
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#question-2-18-points",
+    "href": "assignments/02_problem_set.html#question-2-18-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 2 (18 points)",
+    "text": "Question 2 (18 points)\nSuppose you are a junior infectious disease physician working in a hospital. The annual flu season has started, and you know that approximately 40% of your patients have seasonal flu. You have a rapid diagnostic test kit with the following diagnostic properties:\n\nAmong patients with seasonal flu, 95% get tested positive with this test kit.\nAmong patients without seasonal flu, 45% get tested negative with this test kit.\n\nUsing these properties, answer the following questions.\n\nA patient of yours tested positive with this rapid test kit. What is the probability that the patient actually has the seasonal flu?\nAfter seeing several patients, you realize that you can do a better job roughly estimating the probability of your patient having seasonal flu before testing. Suppose that, after listening to a patient’s history, you find that one of your patients is extremely unlikely to have the flu: Your rough estimate (the “pre-test probability”) is that the probability of this patient having seasonal flu is 0.1. What is the probability of this patient having seasonal flu if they test positive (the “post-test probability”)?\nPlot the post-test probability as a function of the pre-test probability, assuming that all of your patients receive a positive test result.\nUpon seeing your plot from question (c), your attending physician told you that you don’t have to, and perhaps shouldn’t, perform rapid tests in some cases. Is this true? If so, when should you not perform rapid tests?"
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#question-3-20-points",
+    "href": "assignments/02_problem_set.html#question-3-20-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 3 (20 points)",
+    "text": "Question 3 (20 points)\nIn the United States, roughly \\(29\\%\\) of white drivers get stopped by police compared to roughly \\(42\\%\\) of non-white drivers. Of white drivers who are stopped by police, \\(25\\%\\) have illegal contraband, while \\(28\\%\\) of stopped non-white drivers have illegal contraband.\nLet \\(C\\) be the event of a driver possessing contraband, \\(W\\) be the event of the driver being white, and \\(S\\) being the event of the driver getting stopped by the police. Suppose that the probability of contraband found among non-stopped drivers is equal across both racial groups.\n\nWhat values of the probability of contraband among non-stopped drivers would imply the probability of contraband among whites is higher than contraband among non-whites in general?\nSuppose you are asked to find whether there is (and if there is, how much) racial bias in who is stopped by the police. You use the following measure to quantify racial discrimination: \\(P(S|C,W^c) - P(S|C,W)\\). The reasoning for this measure is as follows: if there is no racial bias in police stops, we might expect that \\(S \\perp W \\ | \\ C\\). This would mean given that if the driver is actually carrying contraband, their race should not update the probability of a police choosing to stop them. To show that this false – that race update the probability of a stop – we need to simply show that this measure is equal to zero. In English, it can be interpreted as, ``the increase in probability of getting stopped if a contraband carrier is not white’’.\n\nAssuming that the rates of contraband in the population are independent of race, plot and interpret possible bounds for this measure using the information provided in this problem. Hint: use Bayes’ Rule and compute the bounds using R. Hint part 2: let \\(x = P(C|W^c,S^c) = P(C|W, S^c)\\)."
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#question-4",
+    "href": "assignments/02_problem_set.html#question-4",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 4",
+    "text": "Question 4\n\nSuppose that, in advance of the 2024 presidential election, you know that Pennsylvania and Georgia are pure toss-ups between the Democratic and Republican candidates and are independent of each other. Let \\(X\\) be the number of states the Republican candidate wins of the two. What are the PMF anf CDF of \\(X\\)?\nNow suppose that you are interested in local elections. Two counties are looking to elect a sheriff, but these elections are not toss-ups - in one, the Republican candidate has a 65% chance of winning, while in the other, the Republican candidate has a 40% chance of winning. Again, the two sheriff’s races are independent from each other. Let \\(Y\\) by the number of elections the Republican candidate wins of the two. What are the PMF and CDF of \\(Y\\)?\nFinally suppose that you know the joint PMF of \\(X\\) and \\(Y\\), \\(P(X = x, Y = y)\\), to be as follows:\n\nAre \\(X\\) and \\(Y\\) independent?"
+  },
+  {
+    "objectID": "assignments/02_problem_set.html#question-5-26-points",
+    "href": "assignments/02_problem_set.html#question-5-26-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 5 (26 points)",
+    "text": "Question 5 (26 points)\n\nYou are a player on a basketball team in your town. Your team has 10 players in total. In the coming season, there will be \\(n\\) games in total, and each game is considered as independent. The probability of winning one game is 0.6. If you win a game, your team gains 5,000 dollars as a team. The team distributes the money evenly among 10 players. What is the PMF of the amount of money each can gain in the coming season?\nWhereas the coming season has \\(n\\) games, the subsequent season will have \\(m\\) games. Again, each game is played independently, and the probability of winning one game is 0.6. What is the PMF of the number of games that the team wins in the coming two seasons combined?\nLet \\(W_1 \\sim Bin(n, 0.6)\\) and \\(W_2 \\sim Bin(m, 0.6)\\), where \\(W_1\\) is the number of games that your team wins in the first season, and \\(W_2\\) is the number of games that your team wins in the second season. You can think of \\(W_1\\) and \\(W_2\\) as independent of each other. You wonder if the numbers of games your team wins in the two seasons are different and take the difference between the two: \\(W_1 - W_2\\). A friend of yours who is interested in statistics tells you that \\(W_1 - W_2\\) is a Binomial random variable since it is the difference between two Binomial random variables. Is it true? Explain."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "assignments/01_problem_set.html",
@@ -413,60 +469,53 @@
     "text": "Question 6 (30 points)\nWe’ll now continue with the panel survey example, but now suppose that respondents do not always respond when selected for the sample. If selected in the first wave, panelists will respond 75% of the time. If a panelist is selected and does respond in the first wave, it sours their experience and they only respond with probability 0.25 if they are selected in the second wave. If they didn’t respond in the first wave (either because they weren’t selected or because they were selected and didn’t respond), their probability of responding in the second wave if selected remains at 0.75.\n\nWhat’s the probability that a single potential panelist is randomly selected in the first wave and actually responds? Remember that in the first wave we are selecting \\(n\\) panelists from the pool of \\(N\\) with equal probability.\nWhat is the probability of panelist responding if they are selected in the second wave? Remember that in the second wave we are selecting \\(m\\) panelists from the pool of \\(N\\) with equal probability and this is unaffected by the sampling or (non)responses in the first wave. (HINT: use the law of total probability and look for useful partitions!)"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "assignments/02_problem_set.html",
-    "href": "assignments/02_problem_set.html",
-    "title": "Gov 2002: Problem Set 2",
+    "objectID": "assignments/03_problem_set.html",
+    "href": "assignments/03_problem_set.html",
+    "title": "Gov 2002: Problem Set 3",
     "section": "",
     "text": "Submission instructions | PDF  | Rmd  |"
   },
   {
-    "objectID": "assignments/02_problem_set.html#problem-set-instructions",
-    "href": "assignments/02_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 2",
+    "objectID": "assignments/03_problem_set.html#problem-set-instructions",
+    "href": "assignments/03_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 3",
     "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on September 20, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+    "text": "Problem Set Instructions\nThis problem set is due on September 27, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-1-12-points",
-    "href": "assignments/02_problem_set.html#question-1-12-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 1 (12 points)",
-    "text": "Question 1 (12 points)\n\nYou are trying to schedule qualitative interviews with government officials in some country. You don’t have a list with a fixed length of officials ahead of time (i.e. you’re just finding emails in real-time). The officials can take one of three actions: respond and agree to meet with you with probability 1/3, respond and reject your request with probability 1/3, or ignore your email with probability 1/3. The officials make their decisions independent of each other. Suppose you keep sending out emails until you get one official to agree to meet with you. Find the PMF of the number of emails you send out.\nNow suppose you care about whether an official has responded or not, regardless of the response. What is the PMF of the number of emails you have to send out until there’s at least one official who responds to you and one official who doesn’t? For example, the first five officials might accept, reject, reject, reject, and ghost you, after which you would stop since you have at least one response and non-response. You might also see the sequence ghost, ghost, ghost, ghost, then reject, after which you stop."
+    "objectID": "assignments/03_problem_set.html#question-1-15-points",
+    "href": "assignments/03_problem_set.html#question-1-15-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 1 (15 points)",
+    "text": "Question 1 (15 points)\nA common approximation for a Binomial random variable \\(X \\sim \\text{Bin}(n,p)\\) is a Poisson random variable \\(Y \\sim \\text{Pois}(\\lambda)\\) where \\(\\lambda = n \\cdot p\\). One of the reasons for this approximation is that the expectations of Binomial and Poisson random variables match (both \\(np\\), in our case). We will explore this a bit further.\n\nHolding \\(n\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(p=\\frac{1}{10}\\) or if \\(p = \\frac{1}{2}\\)? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances.\nHolding \\(p\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(n=\\) 1,000 or if \\(n=\\) 100,000? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances."
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-2-18-points",
-    "href": "assignments/02_problem_set.html#question-2-18-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 2 (18 points)",
-    "text": "Question 2 (18 points)\nSuppose you are a junior infectious disease physician working in a hospital. The annual flu season has started, and you know that approximately 40% of your patients have seasonal flu. You have a rapid diagnostic test kit with the following diagnostic properties:\n\nAmong patients with seasonal flu, 95% get tested positive with this test kit.\nAmong patients without seasonal flu, 45% get tested negative with this test kit.\n\nUsing these properties, answer the following questions.\n\nA patient of yours tested positive with this rapid test kit. What is the probability that the patient actually has the seasonal flu?\nAfter seeing several patients, you realize that you can do a better job roughly estimating the probability of your patient having seasonal flu before testing. Suppose that, after listening to a patient’s history, you find that one of your patients is extremely unlikely to have the flu: Your rough estimate (the “pre-test probability”) is that the probability of this patient having seasonal flu is 0.1. What is the probability of this patient having seasonal flu if they test positive (the “post-test probability”)?\nPlot the post-test probability as a function of the pre-test probability, assuming that all of your patients receive a positive test result.\nUpon seeing your plot from question (c), your attending physician told you that you don’t have to, and perhaps shouldn’t, perform rapid tests in some cases. Is this true? If so, when should you not perform rapid tests?"
+    "objectID": "assignments/03_problem_set.html#question-2-15-points",
+    "href": "assignments/03_problem_set.html#question-2-15-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 2 (15 points)",
+    "text": "Question 2 (15 points)\nLet \\(n\\) be the number of students in a certain graduate program, and c be the number of courses that the department will offer next semester. Suppose that each student chooses their course schedule by randomly choosing 4 courses to take in the department (with all sets of 4 courses equally likely), independent of other students’ choices.\n\nAssume for this part that simultaneous enrollment is allowed (i.e., a student can enroll in two or more courses that have overlapping meeting times) and there are no enrollment caps (so students can enroll in whatever courses they want). Find the expected number of pairs of students such that the two students in the pair will take exactly the same set of courses next semester. (HINT: use the fundamental bridge and consider one pair of students to start.)\nNow suppose instead that simultaneous enrollment is not allowed (which explains the low workshop enrollment in said graduate program). Fortunately, there are still no enrollment caps. There are 8 different time slots in which a course can be offered (the time slots are non-overlapping). Suppose that \\(c = 8k\\) for some positive integer \\(k\\), and that there are exactly k courses in each of the 8 time slots next semester. As before, each student chooses their courses randomly, but now their chosen schedule will not be allowed if there are time conflicts between the courses. Find the expected number of students who will be able to take their initially chosen set of courses next semester."
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-3-20-points",
-    "href": "assignments/02_problem_set.html#question-3-20-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 3 (20 points)",
-    "text": "Question 3 (20 points)\nIn the United States, roughly \\(29\\%\\) of white drivers get stopped by police compared to roughly \\(42\\%\\) of non-white drivers. Of white drivers who are stopped by police, \\(25\\%\\) have illegal contraband, while \\(28\\%\\) of stopped non-white drivers have illegal contraband.\nLet \\(C\\) be the event of a driver possessing contraband, \\(W\\) be the event of the driver being white, and \\(S\\) being the event of the driver getting stopped by the police. Suppose that the probability of contraband found among non-stopped drivers is equal across both racial groups.\n\nWhat values of the probability of contraband among non-stopped drivers would imply the probability of contraband among whites is higher than contraband among non-whites in general?\nSuppose you are asked to find whether there is (and if there is, how much) racial bias in who is stopped by the police. You use the following measure to quantify racial discrimination: \\(P(S|C,W^c) - P(S|C,W)\\). The reasoning for this measure is as follows: if there is no racial bias in police stops, we might expect that \\(S \\perp W \\ | \\ C\\). This would mean given that if the driver is actually carrying contraband, their race should not update the probability of a police choosing to stop them. To show that this false – that race update the probability of a stop – we need to simply show that this measure is equal to zero. In English, it can be interpreted as, ``the increase in probability of getting stopped if a contraband carrier is not white’’.\n\nAssuming that the rates of contraband in the population are independent of race, plot and interpret possible bounds for this measure using the information provided in this problem. Hint: use Bayes’ Rule and compute the bounds using R. Hint part 2: let \\(x = P(C|W^c,S^c) = P(C|W, S^c)\\)."
+    "objectID": "assignments/03_problem_set.html#question-3-30-points",
+    "href": "assignments/03_problem_set.html#question-3-30-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 3 (30 points)",
+    "text": "Question 3 (30 points)\nLet \\(X\\) and \\(Y\\) be Pois(\\(\\lambda\\)) r.v.s, and \\(T = X + Y\\).\n\nUsing LOTUS, find \\(\\mathbb{E}[2^X]\\) and \\(\\mathbb{E}[e^Y]\\) (Hint: Recall that the Taylor series for \\(e^x\\) is \\(e^{x}= \\sum_{k=0}^{\\infty} x^k/k!=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+\\frac{x^{4}}{4 !}+\\frac{x^{5}}{5 !}+\\ldots\\))\nProve that if \\(X\\) and \\(Y\\) are independent, then \\(T \\sim \\text{Pois}(2\\lambda)\\) (Hint: derive the PMF of \\(T\\) from the PMFs of \\(X\\) and \\(Y\\) and compare this to the PMF of \\(\\text{Pois}(2\\lambda)\\).)\nFormally or informally, show that if \\(X\\) = \\(Y\\), then \\(T\\) cannot follow a \\(\\text{Pois}(2\\lambda)\\) distribution."
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-4",
-    "href": "assignments/02_problem_set.html#question-4",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 4",
-    "text": "Question 4\n\nSuppose that, in advance of the 2024 presidential election, you know that Pennsylvania and Georgia are pure toss-ups between the Democratic and Republican candidates and are independent of each other. Let \\(X\\) be the number of states the Republican candidate wins of the two. What are the PMF anf CDF of \\(X\\)?\nNow suppose that you are interested in local elections. Two counties are looking to elect a sheriff, but these elections are not toss-ups - in one, the Republican candidate has a 65% chance of winning, while in the other, the Republican candidate has a 40% chance of winning. Again, the two sheriff’s races are independent from each other. Let \\(Y\\) by the number of elections the Republican candidate wins of the two. What are the PMF and CDF of \\(Y\\)?\nFinally suppose that you know the joint PMF of \\(X\\) and \\(Y\\), \\(P(X = x, Y = y)\\), to be as follows:\n\nAre \\(X\\) and \\(Y\\) independent?"
+    "objectID": "assignments/03_problem_set.html#question-4-20-points",
+    "href": "assignments/03_problem_set.html#question-4-20-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 4 (20 points)",
+    "text": "Question 4 (20 points)\nIn many problems about modeling count data, it is found that values of zero in the data are far more common than can be explained well using a Poisson model (e.g., the onset of major conflicts between great powers). The Zero-Inflated Poisson distribution is a modification of the Poisson to address this issue, making it easier to handle frequent zero values gracefully. A Zero-Inflated Poisson r.v. \\(X\\) with parameters \\(p\\) and \\(\\lambda\\) can be generated as follows:\n\nFirst, flip a coin with probability of \\(p\\) of Heads. Given that the coin lands Heads, \\(X\\) = 0. Given that the coin lands Tails, \\(X\\) is distributed Pois(\\(\\lambda\\)). Note that if \\(X\\) = 0 occurs, there are two possible explanations: the coin could have landed Heads (in which case the zero is called a structural zero), or the coin could have landed Tails but the Poisson r.v. turned out to be zero anyway. For example, if \\(X\\) is the number of atom bomb a random country detonated in another country within a year, then \\(X\\) = 0 for all non-nuclear powers (this is a structural zero), but a nuclear power could still have \\(X\\) = 0 occur.\n\n\nFind the PMF of a Zero-Inflated Poisson r.v. \\(X\\).\nExplain why \\(X\\) has the same distribution as \\((1-I)Y\\) , where \\(I \\sim \\text{Bern}(p)\\), \\(Y \\sim Pois(\\lambda)\\), and \\(I \\perp \\!\\!\\! \\perp Y\\).\nFind \\(\\mathbb{E}[X]\\) (Hint: You can either derive this using the definition of expectation, or the result from part (b))\nFind \\(\\mathbb{V}[X]\\) (Hint: You can either derive this using the definition of variation, or the result from part (b))"
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-5-26-points",
-    "href": "assignments/02_problem_set.html#question-5-26-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 5 (26 points)",
-    "text": "Question 5 (26 points)\n\nYou are a player on a basketball team in your town. Your team has 10 players in total. In the coming season, there will be \\(n\\) games in total, and each game is considered as independent. The probability of winning one game is 0.6. If you win a game, your team gains 5,000 dollars as a team. The team distributes the money evenly among 10 players. What is the PMF of the amount of money each can gain in the coming season?\nWhereas the coming season has \\(n\\) games, the subsequent season will have \\(m\\) games. Again, each game is played independently, and the probability of winning one game is 0.6. What is the PMF of the number of games that the team wins in the coming two seasons combined?\nLet \\(W_1 \\sim Bin(n, 0.6)\\) and \\(W_2 \\sim Bin(m, 0.6)\\), where \\(W_1\\) is the number of games that your team wins in the first season, and \\(W_2\\) is the number of games that your team wins in the second season. You can think of \\(W_1\\) and \\(W_2\\) as independent of each other. You wonder if the numbers of games your team wins in the two seasons are different and take the difference between the two: \\(W_1 - W_2\\). A friend of yours who is interested in statistics tells you that \\(W_1 - W_2\\) is a Binomial random variable since it is the difference between two Binomial random variables. Is it true? Explain."
+    "objectID": "assignments/03_problem_set.html#question-5-20-points",
+    "href": "assignments/03_problem_set.html#question-5-20-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 5 (20 points)",
+    "text": "Question 5 (20 points)\nYou are a manager of a football team in your town. Each season has 10 games, and assume that each season and each game is played independently. The probability of winning one game is \\(p \\in (0, 1)\\).\n\nWhat is the probability that your team wins 8 out of 10 games in one season?\nWhat is the probability that your team wins at least 8 out of 10 games in one season?\nThere are \\(n = 20\\) upcoming seasons. What is the expected number of of your team winning at least 8 games?\nFinally, let’s practice coding given the result in (c). Assume that \\(p = 0.8\\) and calculate the expectation in (c) numerically, using the function.\n\nHint for (d): The function gives you the PMF of Binomial. For example, if you want to calculate \\(P(X = 30)\\), where \\(X \\sim Bin(n = 100, p = 0.3)\\), then you can code it by typing: ."
   },
   {
     "objectID": "assignments/problem-sets.html",
