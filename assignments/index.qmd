@@ -15,4 +15,5 @@ Here you will find a links to assignments and resources for those assignments.
 
 - [Problem Set 1](01_problem_set.qmd)
 - [Problem Set 2](02_problem_set.qmd)
+- [Problem Set 3](03_problem_set.qmd)
 
