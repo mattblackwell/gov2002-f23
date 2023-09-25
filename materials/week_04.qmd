@@ -6,12 +6,12 @@ date: 2023-02-06
 
 ## Readings 
 
-- BH Ch 5 (you can skip 5.5 and 5.6, skim 5.7)
+- BH Ch 5  (you can skip 5.5 and 5.6, skim 5.7)
 
 ## Assignments
 
-- Problem Set 3 will be due February 15th, 11:59pm.
-- Problem Set 4 will be released February 16th, 12:00pm and be due February 22nd, 11:59pm.  
+- Problem Set 3 will be due September 27th, 11:59pm.
+- Problem Set 4 will be released September 28th, 12:00pm and be due October 4th, 11:59pm.  
 
 
 ## Slides
