@@ -70,7 +70,7 @@ First, flip a coin with probability of $p$ of Heads. Given that the coin lands H
 (a) Find the PMF of a Zero-Inflated Poisson r.v. $X$. 
 (b) Explain why $X$ has the same distribution as $(1-I)Y$ , where $I \sim \text{Bern}(p)$, $Y \sim Pois(\lambda)$, and $I \perp \!\!\! \perp Y$. 
 (c) Find $\mathbb{E}[X]$ (Hint: You can either derive this using the definition of expectation, or the result from part (b))
-(d) Find $\mathbb{V}[X]$ (Hint: You can either derive this using the definition of variation, or the result from part (b))
+(d) Find $\mathbb{V}[X]$ (Hint: You can either derive this using the definition of variation, or the result from part (b). Also, you can assume that if random variables $A$ and $B$ are independent, then $A^2$ and $B^2$ are also independent.)
 
 
 
