@@ -1,0 +1,149 @@
+---
+title: 'Gov 2002: Problem Set 4'
+date: "09/28/2023"
+---
+
+[Submission instructions](problem-sets.qmd) | [PDF {{< fa regular file-pdf >}}](/files/assignments/pset_4.pdf) | [Rmd {{< fa regular file-code >}}](/files/assignments/pset_4.Rmd) | 
+
+## Problem Set Instructions 
+
+This problem set is due on **October 4, 11:59 pm** Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set. 
+
+## Question 1 (20 points)
+
+Suppose you're interested in studying the distribution of political ideology in the US, a random variable that we'll call $X$. Individuals are placed on a continuous one-dimensional ideology scale that varies from -1 to 1, where lower score are more liberal. Instead of having to do sampling to estimate the distribution, Keith Poole\footnote{One of the creators of NOMINATE, a method for estimating Congressional ideology.} comes to you in a dream and tells you the unnormalized distribution of this random variable, which is as follows:
+
+$$
+\begin{aligned}
+f(x) = \begin{cases} 
+c(\frac{1}{2}x + 1) & -1 \le x \le 1, \\
+0 & \text{else}
+\end{cases}
+\end{aligned}
+$$
+
+where $c$ is a normalizing constant\footnote{Note that this distribution is completely made up and is not based on actual data.}.
+
+(a) Find the value of $c$ that would make $f(x)$ a valid probability distribution function, $f_X(x)$.
+
+(b) Calculate $E[X]$.
+
+
+
+
+
+
+
+
+
+
+
+
+## Question 2 (20 points)
+
+A friend of yours, who is interested in applied statistics and medicine, approaches you to share her fascination with a class she is taking. She is particularly intrigued by the idea that survival analysis, one of the most widely-used analytic methods for testing the long-term efficacy of treatments, employs the Weibull distribution, a type of continuous distribution. The CDF of the Weibull distribution is given as follows:
+$$
+F(y) = 1-\frac{1}{\exp\Big\{ (\frac{y}{\lambda})^k  \Big\}}
+$$
+where $\lambda \in (0, \infty)$ and $k \in (0, \infty)$. (They are called scale and shape parameters, respectively. Also, the aforementioned CDF is technically for $y \geq 0$ only, but you can ignore the case where $y < 0$.)
+
+(a) Your friend is eager to use this distribution, but she doesn't know how to do so. Specifically, she wants to generate several Weibull random variables. Another friend of yours, who is well-versed in statistics, tells you that you can generate these using uniform random variables. Using the universality of the uniform, explain to her how to generate Weibull random variables from uniform random variables. Give you answer as a mathematical function of a uniform random variable. 
+
+(b) Now, let's practice some coding here. Assume $\lambda = 1$ and $k = 0.5$ and generate 100 Weibull random variables using your derivation from part (a). Before coding, type \texttt{set.seed(02138)} to ensure reproducibility. After generating 100 Weibull r.v.s, draw a histogram of them.
+
+Hint for (b): If you want to generate $n = 100$ standard uniform random variables, type \texttt{runif(n = 100, min = 0, max = 1)}. To draw a histogram, use \texttt{hist()}.
+
+
+
+
+
+
+
+
+
+
+
+## Question 3 (20 points)
+
+Suppose $X \sim \text{Pois}(\lambda)$, where $\lambda$ is fixed but unknown. 
+
+An estimator is a function of the data and the **bias** of an estimator, $f(X)$, is defined as $E[f(X)] - \theta$, where $\theta$ is the **estimand** (an unknown quantity we would like to estimate from the observable data). 
+
+For instance our estimand could be $\lambda$, and we know by the properties of a Poisson random variable that the bias of the estimator, $f(X) = X$, is $E[X] - \lambda = \lambda - \lambda = 0$. We call an estimator with $0$ bias an **unbiased** estimator. 
+
+For this question, suppose that our estimand is $\lambda^3$ rather than $\lambda$. 
+
+(a) Show that $X^3$ is _not_ an unbiased estimator of $\lambda^3$ and specify the bias as a function of $\lambda$.
+
+Hints: 
+
+1. You may use the following result: if $X \sim \text{Pois}(\lambda)$, then $E[X\cdot g(X)] = \lambda E[g(X + 1)]$ for any function $g(\cdot)$.
+
+2. You may use the result for $E[X^2]$ derived in lecture and section, (i.e., no need to derive it again). 
+
+(b) Suppose $\lambda = 5$. Use $150,000$ simulations to validate your result to part (a). That is, calculate the bias of you estimator from both the simulations and the analytical results. Print your results in the format below: 
+
+```{r, eval = FALSE}
+set.seed(02138)
+
+# Simulation result 
+
+# Analytical result 
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question 4: Fisher's method in forecasting (30 points)
+
+In this problem, we're going to explore a real-world example of Fisher's "lady tasting tea" experiment from lecture: election forecasters -- who have, for better or worse, become a big part of politics in the United States and elsewhere. Be sure to set your seed: `set.seed(02138)`.
+
+(a) Suppose that Bob has correctly predicted six of the last eight election outcomes. What is the probability that someone randomly flipping a coin each of the same elections would have experienced the same success as Bob? Use `R` to compute your answer analytically (i.e. not by simulation).
+
+Forecasting has become so popular that riffraff are flooding the market. These "uniform amateurs" predict the vote share for each state in the U.S. presidential election by drawing a uniform random variable between 0 and 1, independently across states. You are deciding whether or not to hire a forecaster, Nate, to to forecast each of the 50 state election winners in the 2024 presidential general election based on the performance of his 2020 election forecast, but you are worried that Nate might be one of these amateurs. When you ask him to justify his 2020 forecasts, he says "my highest predicted [Democratic] vote share was 0.8 which is very unlikely if I were a uniform amateur." Let's evaluate his claim.
+
+(b) Suppose Nate is a uniform amateur and let $X$ be the maximum of the 51 uniform vote share draws (include D.C.). Derive the CDF and PDF of $X$. Use these to calculate the probability of Nate's highest Democratic vote share being 0.8 or less if he were a uniform amateur. 
+
+(c) To be on the lookout for more uniform amateurs, it's helpful to know what highest vote share we should expect. To that end, calculate $E[X]$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Question 5 (10 points)
+
+Let $Z \sim \mathcal{N}(0, 1)$. 
+
+(a) Express the random variable $Y \sim \mathcal{N}(1, 9)$ as a simple function in terms of $Z$. Make sure to check that your $Y$ has the correct mean and variance.
+
+(b) Express the probability of $|Y| \leq 1$ as a function of $\Phi$, the CDF of the standard Normal distribution.
+
+
+
+
+
+
+
