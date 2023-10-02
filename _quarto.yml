@@ -43,8 +43,8 @@ website:
               file: materials/week_03.qmd
             - text: "Week 4: Continuous Random Variables"
               file: materials/week_04.qmd
-            # - text: "Week 5: Multivariate Distributions"
-            #   file: materials/week_05.qmd
+            - text: "Week 5: Multivariate Distributions"
+              file: materials/week_05.qmd
             # - text: "Week 6: Conditional Expectation"
             #   file: materials/week_06.qmd
             # - text: "Week 7: Sampling and Estimation"

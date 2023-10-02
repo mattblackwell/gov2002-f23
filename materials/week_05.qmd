@@ -1,6 +1,6 @@
 ---
 title: "Week 5: Multivariate distributions"
-date: 2023-02-20
+date: 2023-10-02
 ---
 
 
@@ -10,8 +10,8 @@ date: 2023-02-20
 
 ## Assignments
 
-- Problem Set 4 will be due February 22nd, 11:59pm.
-- We will release some practice exam questions on Thursday February 23rd.   
+- Problem Set 4 will be due October 4th, 11:59pm.
+- We will release some practice exam questions this week.   
 
 
 ## Slides
