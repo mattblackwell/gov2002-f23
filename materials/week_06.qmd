@@ -1,6 +1,6 @@
 ---
 title: "Week 6: Conditional expectation"
-date: 2023-02-27
+date: 2023-10-09
 ---
 
 
@@ -10,7 +10,7 @@ date: 2023-02-27
 
 ## Assignments
 
-- Midterm exam will be available starting Thursday, 2/2 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 3/4 at 7am ET.     
+- Midterm exam will be available starting Thursday, 10/12 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 10/14 at 7am ET. 
 
 
 ## Slides
