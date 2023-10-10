@@ -592,7 +592,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation"
   },
   {
     "objectID": "materials/week_02.html",
@@ -669,7 +669,7 @@
     "href": "materials/week_06.html#assignments",
     "title": "Week 6: Conditional expectation",
     "section": "Assignments",
-    "text": "Assignments\n\nMidterm exam will be available starting Thursday, 2/2 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 3/4 at 7am ET."
+    "text": "Assignments\n\nMidterm exam will be available starting Thursday, 10/12 at 5pm ET. Once you check out the exam from Canvas, you will have 3 hours to complete the exam. The no exams will be accepted after Saturday, 10/14 at 7am ET."
   },
   {
     "objectID": "materials/week_06.html#slides",
