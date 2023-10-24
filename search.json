@@ -634,7 +634,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics"
   },
   {
     "objectID": "materials/week_02.html",
@@ -739,7 +739,7 @@
     "href": "materials/week_08.html#assignments",
     "title": "Week 8: Asymptotics",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem set 6 will go out on Thursday, 3/23 and be due on Wednesday, 3/29."
+    "text": "Assignments\n\nProblem set 6 will go out on Thursday, 10/26 and be due on Wednesday, 11/1."
   },
   {
     "objectID": "materials/week_08.html#slides",
