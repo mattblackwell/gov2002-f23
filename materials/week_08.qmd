@@ -1,6 +1,6 @@
 ---
 title: "Week 8: Asymptotics"
-date: 2023-03-20
+date: 2023-10-23
 ---
 
 
@@ -10,7 +10,7 @@ date: 2023-03-20
 
 ## Assignments
 
-- Problem set 6 will go out on Thursday, 3/23 and be due on Wednesday, 3/29. 
+- Problem set 6 will go out on Thursday, 10/26 and be due on Wednesday, 11/1. 
 
 
 ## Slides

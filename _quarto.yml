@@ -49,8 +49,8 @@ website:
               file: materials/week_06.qmd
             - text: "Week 7: Sampling and Estimation"
               file: materials/week_07.qmd
-            # - text: "Week 8: Asymptotics"
-            #   file: materials/week_08.qmd
+            - text: "Week 8: Asymptotics"
+              file: materials/week_08.qmd
             # - text: "Week 9: Hypothesis Tests"
             #   file: materials/week_09.qmd
             # - text: "Week 10: Linear Regression"

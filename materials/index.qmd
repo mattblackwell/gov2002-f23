@@ -18,7 +18,7 @@ Here is a list of all the lecture slides the course:
 6. [Multivariate Distributions](/files/slides/06_multivariate_handout.pdf)
 7. [Conditional Expectation](/files/slides/07_cond_exp_handout.pdf)
 8. [Sampling and Estimation](/files/slides/08_sampling_handout.pdf)
-<!-- 9. [Asymptotics](/files/slides/09_asymptotics_handout.pdf) -->
+9. [Asymptotics](/files/slides/09_asymptotics_handout.pdf)
 <!-- 10. [Hypothesis Tests](/files/slides/10_hypothesis_tests_handout.pdf) -->
 <!-- 11. [Linear Regression](/files/slides/11_linear_model_handout.pdf) -->
 <!-- 12. [Algebra of Least Squares](/files/slides/12_least_squares_handout.pdf) -->
