@@ -83,6 +83,8 @@ website:
               file: assignments/04_problem_set.qmd
             - text: "Problem Set 5"
               file: assignments/05_problem_set.qmd
+            - text: "Problem Set 6"
+              file: assignments/06_problem_set.qmd
 
 format:
   html:
