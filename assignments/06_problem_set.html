@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-08-16">
+<meta name="dcterms.date" content="2023-10-26">
 
-<title>Gov 2002 - Assignments overview</title>
+<title>Gov 2002 - Gov 2002: Problem Set 5</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -40,6 +74,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,6 +97,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -116,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/index.html">Resources</a></li><li class="breadcrumb-item"><a href="../assignments/index.html">Assignments overview</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../assignments/01_problem_set.html">Assignments</a></li><li class="breadcrumb-item"><a href="../assignments/06_problem_set.html">Problem Set 6</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -139,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../assignments/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Assignments overview</span></a>
   </div>
 </li>
@@ -192,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../assignments/06_problem_set.html" class="sidebar-item-text sidebar-link">
+  <a href="../assignments/06_problem_set.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Problem Set 6</span></a>
   </div>
 </li>
@@ -208,8 +246,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources">Resources</a></li>
-  <li><a href="#problem-sets" id="toc-problem-sets" class="nav-link" data-scroll-target="#problem-sets">Problem sets</a></li>
+  <li><a href="#problem-set-instructions" id="toc-problem-set-instructions" class="nav-link active" data-scroll-target="#problem-set-instructions">Problem Set Instructions</a></li>
+  <li><a href="#question-1-30pt" id="toc-question-1-30pt" class="nav-link" data-scroll-target="#question-1-30pt">Question 1 (30pt)</a></li>
+  <li><a href="#question-2-30pt" id="toc-question-2-30pt" class="nav-link" data-scroll-target="#question-2-30pt">Question 2 (30pt)</a></li>
+  <li><a href="#question-3-20pt" id="toc-question-3-20pt" class="nav-link" data-scroll-target="#question-3-20pt">Question 3 (20pt)</a></li>
+  <li><a href="#question-4-20pt" id="toc-question-4-20pt" class="nav-link" data-scroll-target="#question-4-20pt">Question 4 (20pt)</a></li>
   </ul>
 </nav>
     </div>
@@ -218,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Assignments overview</h1>
+<h1 class="title">Gov 2002: Problem Set 5</h1>
 </div>
 
 
@@ -229,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 16, 2023</p>
+      <p class="date">October 26, 2023</p>
     </div>
   </div>
   
@@ -239,23 +280,95 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Here you will find a links to assignments and resources for those assignments.</p>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="../assignments/problem-sets.html">Problem set instructions</a></li>
-</ul>
+<p><a href="../assignments/problem-sets.html">Submission instructions</a> | <a href="../files/assignments/pset_6.pdf">PDF <i class="fa-regular fa-file-pdf" aria-label="file-pdf"></i></a> | <a href="../files/assignments/pset_6.Rmd">Rmd <i class="fa-regular fa-file-code" aria-label="file-code"></i></a> |</p>
+<section id="problem-set-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="problem-set-instructions">Problem Set Instructions</h2>
+<p>This problem set is due on <strong>November 1, 11:59 pm</strong> Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set.</p>
 </section>
-<section id="problem-sets" class="level2">
-<h2 class="anchored" data-anchor-id="problem-sets">Problem sets</h2>
+<section id="question-1-30pt" class="level2">
+<h2 class="anchored" data-anchor-id="question-1-30pt">Question 1 (30pt)</h2>
+<p>This problem will use the <code>subprime</code> data to walk you through a very common inference problem - testing whether the difference between two population values is non-zero. To begin this problem first <a href="http://gov2002.mattblackwell.org/data/subprime.csv">download <code>subprime.csv</code></a> and load it into R.</p>
+
+<p>We are going to be interested primarily in the <code>loan.amount</code> variable - the amount that each loan recipient received. Suppose a lawsuit has been filed in U.S. District Court by a group of Fort Myers women who claim that women in the area were loaned less money than men. The defendants – a group of local mortgage lenders – are vigorously denying these claims, and the case is now advancing to trial. Having heard about your expertise in this area, the federal judge hearing the case has brought you in to provide expert testimony. Your task in this problem is to assist the judge in her determination.</p>
+<ol type="a">
+<li>Suppose you were only able to interview <span class="math inline">\(100\)</span> male and <span class="math inline">\(100\)</span> female loan recipients at random, making them iid. To simulate this in R, set the seed to 02138 and draw <span class="math inline">\(100\)</span> observations randomly from the male subset of the <code>subprime</code> data and <span class="math inline">\(100\)</span> observations randomly from the female subset of the data. These <span class="math inline">\(200\)</span> observations constitute your sample. Calculate (1) the average loan amount (<code>loan.amount</code>) for women in your sample, (2) the average loan amount for men, and (3) and (4), the sample standard deviation for each.</li>
+</ol>
+<p></p>
+<ol start="2" type="a">
+<li><p>Let <span class="math inline">\(\mu_{m}\)</span> and <span class="math inline">\(\mu_{w}\)</span> be the population average loan amount for men and women respectively. Let <span class="math inline">\(\sigma^2_{m}\)</span> and <span class="math inline">\(\sigma^2_{w}\)</span> be the population variances in loan amount for men and women respectively. Denote the sample average loan amounts for men by <span class="math inline">\(\bar{X}_{m}\)</span> and for women by <span class="math inline">\(\bar{X}_{w}\)</span>. What is the expected value of the sampling distribution of <span class="math inline">\(\bar{X}_{m} - \bar{X}_{w}\)</span>? What is the variance of the sampling distribution of <span class="math inline">\(\bar{X}_{m} - \bar{X}_{w}\)</span>?</p></li>
+<li><p>Compute and report your sample difference in average loan amount for men and women. Recall that for large samples, the sampling distribution of a mean or difference-in-means is approximately normal. Suppose that we know that the true population <span class="math inline">\(\sigma^2_{m} = 32381.57\)</span> and <span class="math inline">\(\sigma^2_{w} = 19097.95\)</span>. Using the normal approximation, what is the probability that we would observe a difference-in-means at least as extreme as the one in our sample if the true population difference-in-means <span class="math inline">\(\mu_{m} - \mu_{w}\)</span> equals 0? Note that by “at least as extreme,” we mean a value that is further away from <span class="math inline">\(0\)</span> than the value we observe - that is, <span class="math inline">\(P(|\bar{X}_{m} - \bar{X}_{w}| \ge \alpha)\)</span> where <span class="math inline">\(\alpha\)</span> is our observed value and <span class="math inline">\(||\)</span> is the absolute value operator.</p></li>
+</ol>
+
+
+<ol start="4" type="a">
+<li>Comment on your result in (c). Given what we observe in our sample, is it likely that there is no difference in loan amounts for men and women? A common threshold for “rejecting” our assumed hypothesis that <span class="math inline">\(\mu_{m} - \mu_{w} = 0\)</span> is observing a sample that would occur with probability <span class="math inline">\(.05\)</span> or less if that hypothesis were true (that is, a very unlikely sample). Would we reject the hypothesis that there is no difference in average loan amounts between men and women?</li>
+</ol>
+</section>
+<section id="question-2-30pt" class="level2">
+<h2 class="anchored" data-anchor-id="question-2-30pt">Question 2 (30pt)</h2>
+<p>In this problem, we will explore the implications of the Central Limit Theorem for uncertainty estimation and hypothesis testing. Start by creating two variables, <code>X1</code> and <code>X2</code>, using the following code:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">02139</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>X1 <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100000</span>, <span class="dv">5</span>, <span class="dv">2</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>X2 <span class="ot">&lt;-</span> <span class="fu">rexp</span>(<span class="dv">100000</span>, <span class="fl">0.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>For the purposes of this problem, we will treat these variables (each with 100,000 elements) as the full population. We will take samples from these two datasets to evaluate the coverage probability of 95% confidence intervals for the population mean using different types of data and different sample sizes.</p>
+<ol type="a">
+<li>Plot and describe the full distributions of <code>X1</code> and <code>X2</code>. What is the population mean and population standard deviation of each random variable (this is just the <code>mean()</code> and <code>sd()</code> of both of these variables)?</li>
+</ol>
 <ul>
-<li><a href="../assignments/01_problem_set.html">Problem Set 1</a></li>
-<li><a href="../assignments/02_problem_set.html">Problem Set 2</a></li>
-<li><a href="../assignments/03_problem_set.html">Problem Set 3</a></li>
-<li><a href="../assignments/04_problem_set.html">Problem Set 4</a></li>
-<li><a href="../assignments/05_problem_set.html">Problem Set 5</a></li>
-<li><a href="../assignments/06_problem_set.html">Problem Set 6</a></li>
+<li><strong>Hint for coding</strong>:
+<ul>
+<li>Consider using the ggplot2 package (for example, would be helpful). There are various resources available on the web on how to use ggplot.</li>
+</ul></li>
 </ul>
+<ol start="2" type="a">
+<li>Now, create a loop to take 100 samples of size 8 from each dataset and record the sample mean for each sample. Plot the density of sample means for <code>X1</code> and <code>X2</code> separately and compare your these densities. Are they similar or different? Why?</li>
+</ol>
+<ul>
+<li><strong>Hint for coding:</strong>
+<ul>
+<li>One way to work on this problem is to use for loop. If you want to loop over 1, 2, …, n, then your for loop starts by .</li>
+<li>First create an empty matrix (or dataframe) to save results. Then save outputs from the for loop to that empty matrix.</li>
+</ul></li>
+</ul>
+<ol start="3" type="a">
+<li><p>Given your answer in part (a), what should be standard error of the sample mean of <code>X1</code> and the sample mean of <code>X2</code>? We know that if a random variable is normally distributed, 95% of its distribution will be within 1.96 standard deviations of the mean. What proportion of the sample means for <code>X1</code> and <code>X1</code> are within 2 standard errors of the population means?</p></li>
+<li><p>Repeat the simulation in parts (b) and (c) for samples of size 8, 20, 50, and 500, and increase your number of simulations to 1000. Report the probability of being within 1.96 standard errors of the popoulation mean for each of your eight simulations in a table (you do not need to create additional plots). How do your results change? What differences do you see between <code>X1</code> and <code>X2</code>?</p></li>
+</ol>
+<ul>
+<li><strong>Hint for coding</strong>:
+<ul>
+<li>One way to work on this problem is to loop over different sample sizes. Of course, you are free to use other functionalities if you wish.</li>
+</ul></li>
+</ul>
+<ol start="5" type="a">
+<li>Interpret your findings in parts (b)-(d). How does the central limit theorem explain what you see in the simulations?</li>
+</ol>
+</section>
+<section id="question-3-20pt" class="level2">
+<h2 class="anchored" data-anchor-id="question-3-20pt">Question 3 (20pt)</h2>
+<p>All probability distributions have <em>moments</em>, which are standard expressions that define its shape in ways you’ve already heard of and other more nuanced ways (the variance, the skew, kurtosis, etc.). Describing a population distribution (or empirical sample distribution) in terms of its moments is really useful in social science (e.g.&nbsp;the skew of income in the U.S. population is positive) Specifically, the <span class="math inline">\(n\)</span>th central moment of a random variable <span class="math inline">\(X\)</span> is defined as <span class="math inline">\(E[(X-E[X])^n]\)</span>, but it is more common to work with the <span class="math inline">\(n\)</span>th moment defined as as <span class="math inline">\(E[X^n]\)</span> (getting rid of the <span class="math inline">\(E[X]^n\)</span> part).</p>
+<p>Suppose the random variable <span class="math inline">\(X\)</span> for your population has the the following first four moments: <span class="math inline">\(E[X]=1/2\)</span>, <span class="math inline">\(E[X^2]=1/2\)</span>, <span class="math inline">\(E[X^3]=3/4\)</span>, <span class="math inline">\(E[X^4]=3/2\)</span>. Suppose you took an i.i.d. sample <span class="math inline">\(\{X_1,\ldots,X_{20}\}\)</span> of size 20 from this distribution. Let <span class="math inline">\(T=(X^2_1 +...+ X^2_{20})/20 = \overline{X^2}\)</span>, an estimator of the second moment.</p>
+<ol type="a">
+<li><p>What are <span class="math inline">\(E[T]\)</span> and <span class="math inline">\(V(T)\)</span>? Be sure to explain why.</p></li>
+<li><p>Use the central limit theorem to approximate the probability (in <code>R</code>) that <span class="math inline">\(T\)</span> is less than or equal to 1. Consider using .</p></li>
+</ol>
+</section>
+<section id="question-4-20pt" class="level2">
+<h2 class="anchored" data-anchor-id="question-4-20pt">Question 4 (20pt)</h2>
+<p>In class we learned that if a the variance of a sequence of random variables with finite mean goes to zero as <span class="math inline">\(n\to\infty\)</span>, then the sequence will converge in probability to some value. But this is a sufficient condition, not a necessary one. To see this, consider the sequence of random variables <span class="math inline">\(X_n\)</span> be with probability distribution:</p>
+<p><span class="math display">\[
+X_n =
+\begin{cases}
+0 &amp; \text{with probability    }  1 - 1/n \\
+n &amp; \text{with probability    } 1/n \\
+\end{cases}
+\]</span></p>
+<ol type="a">
+<li><p>Find <span class="math inline">\(\mathbb{E}[X_n]\)</span>.</p></li>
+<li><p>Use the definition of convergence in probability to show that <span class="math inline">\(X_n \xrightarrow{p} 0\)</span>.</p></li>
+</ol>
 
 
 </section>
