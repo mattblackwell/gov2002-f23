@@ -28,7 +28,7 @@ The readings refer to following texts:
 - UG: Blackwell, [*A User's Guide to Statistical Inference and Regression*](https://mattblackwell.github.io/gov2002-book/)
 - HE: Hansen, [*Econometrics*](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf).
 
-The BH and UG readings are the ones that we will focus on, but I have also included references for Hansen in case you have that book and want to see a different or more technical discussion of the material.      
+The BH and UG readings are the ones that we will focus on, but I have also included references for Hansen in case you have that book and want to see a different or more technical discussion of the material.       
  
      
 ```{r build-table, echo=FALSE, results="asis"}
