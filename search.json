@@ -207,7 +207,7 @@
     "href": "materials/week_09.html#assignments",
     "title": "Week 9: Hypothesis testing",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem set 7 will go out on Thursday, 3/30 and be due on Wednesday, 4/5."
+    "text": "Assignments\n\nProblem set 7 will go out on Thursday, 11/2 and be due on Wednesday, 11/8."
   },
   {
     "objectID": "materials/week_09.html#slides",
@@ -676,7 +676,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests"
   },
   {
     "objectID": "materials/week_02.html",
