@@ -17,7 +17,7 @@ library(glue)
 schedule <- read_csv("data/schedule.csv", show_col_types = FALSE) 
 ```
    
-Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally complete the reading before attending lecture. Here's a guide to the schedule:   
+Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally complete the reading before attending lecture. Here's a guide to the schedule:    
 
 - [**Materials**](/materials/) ({{< fa book-open-reader >}}): This page contains the readings, slides, and recorded lectures (if any) for the topic. Read/watch these first.
 - **Assignment** ({{< fa pen-ruler >}}): This page contains the instructions for each assignment. **Assignments are due by 11:59 PM on the day they're listed.**

@@ -1,18 +1,37 @@
 ---
-title: "Week 10: Linear Regressoipmn"
-date: 2023-04-03
+title: "Week 10: Hypothesis testing"
+date: 2023-11-06
 ---
 
 
 ## Readings 
 
-- [UG Ch 5](https://mattblackwell.github.io/gov2002-book/06_linear_model.html)
+- [UG Ch 4](https://mattblackwell.github.io/gov2002-book/04_hypothesis_tests.html)
 
 ## Assignments
 
-- Problem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12. 
+- Problem set 8 will go out on Thursday, 11/9 and be due on Wednesday, 11/15. 
 
 
 ## Slides
 
-- Linear regression: [Slides](/files/slides/11_linear_model.pdf) | [Handout](/files/slides/11_linear_model_handout.pdf)
+- Hypothesis testing: [Slides](/files/slides/10_hypothesis_tests.pdf) | [Handout](/files/slides/10_hypothesis_tests_handout.pdf)
+
+<!-- --- -->
+<!-- title: "Week 10: Linear Regressoipmn" -->
+<!-- date: 2023-04-03 -->
+<!-- --- -->
+
+
+<!-- ## Readings  -->
+
+<!-- - [UG Ch 5](https://mattblackwell.github.io/gov2002-book/06_linear_model.html) -->
+
+<!-- ## Assignments -->
+
+<!-- - Problem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12.  -->
+
+
+<!-- ## Slides -->
+
+<!-- - Linear regression: [Slides](/files/slides/11_linear_model.pdf) | [Handout](/files/slides/11_linear_model_handout.pdf) -->

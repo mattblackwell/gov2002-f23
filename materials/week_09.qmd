@@ -1,12 +1,13 @@
 ---
-title: "Week 9: Hypothesis testing"
+title: "Week 9: More Asymptotics"
 date: 2023-10-30
 ---
 
 
 ## Readings 
 
-- [UG Ch 4](https://mattblackwell.github.io/gov2002-book/04_hypothesis_tests.html)
+- [UG Ch 3](https://mattblackwell.github.io/gov2002-book/03_asymptotics.html)
+
 
 ## Assignments
 
@@ -14,5 +15,7 @@ date: 2023-10-30
 
 
 ## Slides
+
+- Asymptotics: [Slides](/files/slides/09_asymptotics.pdf) | [Handout](/files/slides/09_asymptotics_handout.pdf)
 
 - Hypothesis testing: [Slides](/files/slides/10_hypothesis_tests.pdf) | [Handout](/files/slides/10_hypothesis_tests_handout.pdf)
