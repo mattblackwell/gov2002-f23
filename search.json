@@ -191,30 +191,30 @@
   {
     "objectID": "materials/week_09.html",
     "href": "materials/week_09.html",
-    "title": "Week 9: Hypothesis testing",
+    "title": "Week 9: More Asymptotics",
     "section": "",
-    "text": "UG Ch 4"
+    "text": "UG Ch 3"
   },
   {
     "objectID": "materials/week_09.html#readings",
     "href": "materials/week_09.html#readings",
-    "title": "Week 9: Hypothesis testing",
+    "title": "Week 9: More Asymptotics",
     "section": "",
-    "text": "UG Ch 4"
+    "text": "UG Ch 3"
   },
   {
     "objectID": "materials/week_09.html#assignments",
     "href": "materials/week_09.html#assignments",
-    "title": "Week 9: Hypothesis testing",
+    "title": "Week 9: More Asymptotics",
     "section": "Assignments",
     "text": "Assignments\n\nProblem set 7 will go out on Thursday, 11/2 and be due on Wednesday, 11/8."
   },
   {
     "objectID": "materials/week_09.html#slides",
     "href": "materials/week_09.html#slides",
-    "title": "Week 9: Hypothesis testing",
+    "title": "Week 9: More Asymptotics",
     "section": "Slides",
-    "text": "Slides\n\nHypothesis testing: Slides | Handout"
+    "text": "Slides\n\nAsymptotics: Slides | Handout\nHypothesis testing: Slides | Handout"
   },
   {
     "objectID": "materials/week_07.html",
@@ -835,30 +835,30 @@
   {
     "objectID": "materials/week_10.html",
     "href": "materials/week_10.html",
-    "title": "Week 10: Linear Regressoipmn",
+    "title": "Week 10: Hypothesis testing",
     "section": "",
-    "text": "UG Ch 5"
+    "text": "UG Ch 4"
   },
   {
     "objectID": "materials/week_10.html#readings",
     "href": "materials/week_10.html#readings",
-    "title": "Week 10: Linear Regressoipmn",
+    "title": "Week 10: Hypothesis testing",
     "section": "",
-    "text": "UG Ch 5"
+    "text": "UG Ch 4"
   },
   {
     "objectID": "materials/week_10.html#assignments",
     "href": "materials/week_10.html#assignments",
-    "title": "Week 10: Linear Regressoipmn",
+    "title": "Week 10: Hypothesis testing",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem set 8 will go out on Thursday, 4/6 and be due on Wednesday, 4/12."
+    "text": "Assignments\n\nProblem set 8 will go out on Thursday, 11/9 and be due on Wednesday, 11/15."
   },
   {
     "objectID": "materials/week_10.html#slides",
     "href": "materials/week_10.html#slides",
-    "title": "Week 10: Linear Regressoipmn",
+    "title": "Week 10: Hypothesis testing",
     "section": "Slides",
-    "text": "Slides\n\nLinear regression: Slides | Handout"
+    "text": "Slides\n\nHypothesis testing: Slides | Handout"
   },
   {
     "objectID": "materials/week_12.html",
@@ -893,6 +893,6 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally complete the reading before attending lecture. Here’s a guide to the schedule:\n\nMaterials (): This page contains the readings, slides, and recorded lectures (if any) for the topic. Read/watch these first.\nAssignment (): This page contains the instructions for each assignment. Assignments are due by 11:59 PM on the day they’re listed.\n\nThe readings refer to following texts:\n\nBH: Blitzstein and Hwang, Introduction to Probability, Second Edition.\nUG: Blackwell, A User’s Guide to Statistical Inference and Regression\nHE: Hansen, Econometrics.\n\nThe BH and UG readings are the ones that we will focus on, but I have also included references for Hansen in case you have that book and want to see a different or more technical discussion of the material.\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nSeptember 5\n\n\nIntroduction to the course/probability\n\n\nBH Ch 1\n\n\n\n\n\n\n\n\n\n\nSeptember 7\n\n\nProbability/conditional probability\n\n\nBH Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nSeptember 12\n\n\nConditional probability and random variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nSeptember 13\n\n\nProblem Set 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 14\n\n\nRandom variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nSeptember 19\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nSeptember 20\n\n\nProblem Set 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 21\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nSeptember 26\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nSeptember 27\n\n\nProblem Set 3  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 28\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nOctober 3\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nOctober 4\n\n\nProblem Set 4  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 5\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nOctober 10\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12–October 13\n\n\nMidterm Exam  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nOctober 17\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nOctober 19\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nOctober 24\n\n\nAsymptotics\n\n\nBH Ch 10.1-10.2, UG Ch 3.1-3.6\n\n\n\n\n\n\n\n\n\n\nOctober 25\n\n\nProblem Set 5  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 26\n\n\nAsymptotics\n\n\nBH Ch 10.3, UG Ch 3.7-3.8\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nOctober 31\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nNovember 1\n\n\nProblem Set 6  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 2\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nNovember 7\n\n\nRegression\n\n\nUG Ch 5, HE Ch 2.14-2.30\n\n\n\n\n\n\n\n\n\n\nNovember 8\n\n\nProblem Set 7  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 9\n\n\nRegression\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nNovember 14\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nNovember 15\n\n\nProblem Set 8  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 16\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nNovember 21\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 4.1-4.20\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nNovember 28\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 7\n\n\n\n\n\n\n\n\n\n\nNovember 29\n\n\nProblem Set 9  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 30\n\n\nPanel and clustered data\n\n\nHE 4.21-4.22, 17.1-17.26\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nDecember 5\n\n\nResampling methods\n\n\nHE Ch 10\n\n\n\n\n\n\n\n\n\n\nDecember 6\n\n\nProblem Set 10  (submit by 23:59:00)"
+    "text": "Below is the schedule for the semester. You can find the materials for each course meeting under the “Content” links for that week. You should generally complete the reading before attending lecture. Here’s a guide to the schedule:\n\nMaterials (): This page contains the readings, slides, and recorded lectures (if any) for the topic. Read/watch these first.\nAssignment (): This page contains the instructions for each assignment. Assignments are due by 11:59 PM on the day they’re listed.\n\nThe readings refer to following texts:\n\nBH: Blitzstein and Hwang, Introduction to Probability, Second Edition.\nUG: Blackwell, A User’s Guide to Statistical Inference and Regression\nHE: Hansen, Econometrics.\n\nThe BH and UG readings are the ones that we will focus on, but I have also included references for Hansen in case you have that book and want to see a different or more technical discussion of the material.\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading\n\n\nMaterials\n\n\nAssignment\n\n\n\n\n\n\nWeek 1\n\n\n\n\nSeptember 5\n\n\nIntroduction to the course/probability\n\n\nBH Ch 1\n\n\n\n\n\n\n\n\n\n\nSeptember 7\n\n\nProbability/conditional probability\n\n\nBH Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 2\n\n\n\n\nSeptember 12\n\n\nConditional probability and random variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nSeptember 13\n\n\nProblem Set 1  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 14\n\n\nRandom variables\n\n\nBH Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 3\n\n\n\n\nSeptember 19\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nSeptember 20\n\n\nProblem Set 2  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 21\n\n\nExpectation\n\n\nBH Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 4\n\n\n\n\nSeptember 26\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nSeptember 27\n\n\nProblem Set 3  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nSeptember 28\n\n\nContinuous random variables\n\n\nBH Ch 5.1-5.4\n\n\n\n\n\n\n\n\n\n\nWeek 5\n\n\n\n\nOctober 3\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nOctober 4\n\n\nProblem Set 4  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 5\n\n\nMultivariate distributions\n\n\nBH 7.1-7.3, 7.5\n\n\n\n\n\n\n\n\n\n\nWeek 6\n\n\n\n\nOctober 10\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12\n\n\nConditional expectation\n\n\nBH Ch 9\n\n\n\n\n\n\n\n\n\n\nOctober 12–October 13\n\n\nMidterm Exam  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 7\n\n\n\n\nOctober 17\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nOctober 19\n\n\nEstimation\n\n\nUG Ch 2\n\n\n\n\n\n\n\n\n\n\nWeek 8\n\n\n\n\nOctober 24\n\n\nAsymptotics\n\n\nBH Ch 10.1-10.2, UG Ch 3.1-3.6\n\n\n\n\n\n\n\n\n\n\nOctober 25\n\n\nProblem Set 5  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nOctober 26\n\n\nAsymptotics\n\n\nBH Ch 10.3, UG Ch 3.7\n\n\n\n\n\n\n\n\n\n\nWeek 9\n\n\n\n\nOctober 31\n\n\nAsymptotics\n\n\nBH Ch 10.3, UG Ch 3.8\n\n\n\n\n\n\n\n\n\n\nNovember 1\n\n\nProblem Set 6  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 2\n\n\nAsymptotics\n\n\nBH Ch 10.3, UG Ch 3.9\n\n\n\n\n\n\n\n\n\n\nWeek 10\n\n\n\n\nNovember 7\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nNovember 8\n\n\nProblem Set 7  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 9\n\n\nHypothesis testing\n\n\nUG Ch 4\n\n\n\n\n\n\n\n\n\n\nWeek 11\n\n\n\n\nNovember 14\n\n\nRegression\n\n\nUG Ch 5, HE Ch 2.14-2.30\n\n\n\n\n\n\n\n\n\n\nNovember 15\n\n\nProblem Set 8  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 16\n\n\nRegression\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 12\n\n\n\n\nNovember 21\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nWeek 13\n\n\n\n\nNovember 28\n\n\nLeast squares\n\n\nUG Ch 6, H2 Ch 3\n\n\n\n\n\n\n\n\n\n\nNovember 29\n\n\nProblem Set 9  (submit by 23:59:00)\n\n\n\n\n\n\n\n\n\n\n\n\nNovember 30\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 4.1-4.20\n\n\n\n\n\n\n\n\n\n\nWeek 14\n\n\n\n\nDecember 5\n\n\nProperties of least squares\n\n\nUG Ch 7, HE Ch 7\n\n\n\n\n\n\n\n\n\n\nDecember 6\n\n\nProblem Set 10  (submit by 23:59:00)"
   }
 ]
