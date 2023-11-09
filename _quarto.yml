@@ -87,6 +87,8 @@ website:
               file: assignments/06_problem_set.qmd
             - text: "Problem Set 7"
               file: assignments/07_problem_set.qmd
+            - text: "Problem Set 8"
+              file: assignments/08_problem_set.qmd
 
 format:
   html:
