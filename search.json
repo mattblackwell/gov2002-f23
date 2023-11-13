@@ -163,30 +163,30 @@
   {
     "objectID": "materials/week_11.html",
     "href": "materials/week_11.html",
-    "title": "Week 11: Least Squares",
+    "title": "Week 12: Linear Regression",
     "section": "",
-    "text": "UG Ch 6"
+    "text": "UG Ch 5"
   },
   {
     "objectID": "materials/week_11.html#readings",
     "href": "materials/week_11.html#readings",
-    "title": "Week 11: Least Squares",
+    "title": "Week 12: Linear Regression",
     "section": "",
-    "text": "UG Ch 6"
+    "text": "UG Ch 5"
   },
   {
     "objectID": "materials/week_11.html#assignments",
     "href": "materials/week_11.html#assignments",
-    "title": "Week 11: Least Squares",
+    "title": "Week 12: Linear Regression",
     "section": "Assignments",
-    "text": "Assignments\n\nProblem set 9 will go out on Thursday, 4/13 and be due on Wednesday, 4/19."
+    "text": "Assignments\n\nProblem set 9 will go out on Thursday 11/16, and be due on Wednesday, 11/29."
   },
   {
     "objectID": "materials/week_11.html#slides",
     "href": "materials/week_11.html#slides",
-    "title": "Week 11: Least Squares",
+    "title": "Week 12: Linear Regression",
     "section": "Slides",
-    "text": "Slides\n\nLinear regression: Slides | Handout\nThe algebra of least squares: Slides | Handout"
+    "text": "Slides\n\nLinear regression: Slides | Handout"
   },
   {
     "objectID": "materials/week_09.html",
@@ -760,7 +760,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression"
   },
   {
     "objectID": "materials/week_02.html",
