@@ -55,8 +55,10 @@ website:
               file: materials/week_09.qmd
             - text: "Week 10: Hypothesis Tests"
               file: materials/week_10.qmd
-            # - text: "Week 11: Algebra of Least Squares"
-            #   file: materials/week_11.qmd
+            - text: "Week 11: Linear Regression"
+              file: materials/week_11.qmd
+            # - text: "Week 12: Algebra of Least Squares"
+            #   file: materials/week_12.qmd
             # - text: "Week 12: Statistics of Least Squares"
             #   file: materials/week_12.qmd
             # - text: "Week 13: Panel and Clustered Data"

@@ -1,19 +1,18 @@
 ---
-title: "Week 11: Least Squares"
-date: 2023-04-10
+title: "Week 12: Linear Regression"
+date: 2023-11-13
 ---
 
 
 ## Readings 
 
-- [UG Ch 6](https://mattblackwell.github.io/gov2002-book/07_least_squares.html)
+- [UG Ch 5](https://mattblackwell.github.io/gov2002-book/06_linear_model.html)
 
 ## Assignments
 
-- Problem set 9 will go out on Thursday, 4/13 and be due on Wednesday, 4/19. 
+- Problem set 9 will go out on Thursday 11/16,  and be due on Wednesday, 11/29. 
 
 
 ## Slides
 
 - Linear regression: [Slides](/files/slides/11_linear_model.pdf) | [Handout](/files/slides/11_linear_model_handout.pdf)
-- The algebra of least squares: [Slides](/files/slides/12_least_squares.pdf) | [Handout](/files/slides/12_least_squares_handout.pdf)
