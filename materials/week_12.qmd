@@ -1,18 +1,15 @@
 ---
-title: "Week 12: Statistics of Least Squares"
-date: 2023-04-17
+title: "Week 12: Algebra of Least Squares"
+date: 2023-11-20
 ---
 
 
 ## Readings 
 
-- [UG Ch 7](https://mattblackwell.github.io/gov2002-book/08_ols_properties.html)
+- [UG Ch 6](https://mattblackwell.github.io/gov2002-book/07_least_squares.html)
 
-## Assignments
-
-- Problem set 10 will go out on Thursday, 4/20 and be due on Wednesday, 4/26. 
 
 
 ## Slides
 
-- The statistics of least squares: [Slides](/files/slides/13_ols_properties.pdf) | [Handout](/files/slides/13_ols_properties_handout.pdf)
+- The algebra of least squares: [Slides](/files/slides/12_least_squares.pdf) | [Handout](/files/slides/12_least_squares_handout.pdf)
