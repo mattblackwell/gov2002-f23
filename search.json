@@ -802,7 +802,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression\nAlgebra of Least Squares"
   },
   {
     "objectID": "materials/week_02.html",
@@ -947,30 +947,23 @@
   {
     "objectID": "materials/week_12.html",
     "href": "materials/week_12.html",
-    "title": "Week 12: Statistics of Least Squares",
+    "title": "Week 12: Algebra of Least Squares",
     "section": "",
-    "text": "UG Ch 7"
+    "text": "UG Ch 6"
   },
   {
     "objectID": "materials/week_12.html#readings",
     "href": "materials/week_12.html#readings",
-    "title": "Week 12: Statistics of Least Squares",
+    "title": "Week 12: Algebra of Least Squares",
     "section": "",
-    "text": "UG Ch 7"
-  },
-  {
-    "objectID": "materials/week_12.html#assignments",
-    "href": "materials/week_12.html#assignments",
-    "title": "Week 12: Statistics of Least Squares",
-    "section": "Assignments",
-    "text": "Assignments\n\nProblem set 10 will go out on Thursday, 4/20 and be due on Wednesday, 4/26."
+    "text": "UG Ch 6"
   },
   {
     "objectID": "materials/week_12.html#slides",
     "href": "materials/week_12.html#slides",
-    "title": "Week 12: Statistics of Least Squares",
+    "title": "Week 12: Algebra of Least Squares",
     "section": "Slides",
-    "text": "Slides\n\nThe statistics of least squares: Slides | Handout"
+    "text": "Slides\n\nThe algebra of least squares: Slides | Handout"
   },
   {
     "objectID": "schedule.html",
