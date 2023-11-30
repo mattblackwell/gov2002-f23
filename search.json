@@ -135,30 +135,30 @@
   {
     "objectID": "materials/week_13.html",
     "href": "materials/week_13.html",
-    "title": "Week 13: Panel and Clustered Data",
+    "title": "Week 13: The Statistics of Least Squares",
     "section": "",
-    "text": "None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference."
+    "text": "UG Ch 7"
   },
   {
     "objectID": "materials/week_13.html#readings",
     "href": "materials/week_13.html#readings",
-    "title": "Week 13: Panel and Clustered Data",
+    "title": "Week 13: The Statistics of Least Squares",
     "section": "",
-    "text": "None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference."
+    "text": "UG Ch 7"
   },
   {
     "objectID": "materials/week_13.html#assignments",
     "href": "materials/week_13.html#assignments",
-    "title": "Week 13: Panel and Clustered Data",
+    "title": "Week 13: The Statistics of Least Squares",
     "section": "Assignments",
-    "text": "Assignments\n\nNone"
+    "text": "Assignments\n\nProblem Set 10 will go out on 11/30 and be due on 12/6."
   },
   {
     "objectID": "materials/week_13.html#slides",
     "href": "materials/week_13.html#slides",
-    "title": "Week 13: Panel and Clustered Data",
+    "title": "Week 13: The Statistics of Least Squares",
     "section": "Slides",
-    "text": "Slides\n\nPanel and clustered data: Slides | Handout"
+    "text": "Slides\n\nStatistics of OLS: Slides | Handout"
   },
   {
     "objectID": "materials/week_11.html",
@@ -802,7 +802,7 @@
     "href": "materials/index.html",
     "title": "Readings, lectures, and videos",
     "section": "",
-    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression\nAlgebra of Least Squares"
+    "text": "Each class session has a set of required readings that you should complete before lecture.\nHere is a list of all the lecture slides the course:\n\nIntroduction\nProbability\nConditional Probability\nRandom Variables\nExpectation\nContinuous Random Variables\nMultivariate Distributions\nConditional Expectation\nSampling and Estimation\nAsymptotics\nHypothesis Tests\nLinear Regression\nAlgebra of Least Squares\nStatistics of Least Squares"
   },
   {
     "objectID": "materials/week_02.html",
