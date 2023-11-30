@@ -1,18 +1,18 @@
 ---
-title: "Week 13: Panel and Clustered Data"
-date: 2023-04-24
+title: "Week 13: The Statistics of Least Squares"
+date: 2023-11-28
 ---
 
 
 ## Readings 
 
-- None required, Hansen Econometrics 4.21-4.22, 17.1-17.26 for reference. 
+- [UG Ch 7](https://mattblackwell.github.io/gov2002-book/08_ols_properties.html) 
 
 ## Assignments
 
-- None 
+- Problem Set 10 will go out on 11/30 and be due on 12/6.  
 
 
 ## Slides
 
-- Panel and clustered data: [Slides](/files/slides/14_clustering_panel.pdf) | [Handout](/files/slides/14_clustering_panel_handout.pdf)
+- Statistics of OLS: [Slides](/files/slides/13_ols_properties.pdf) | [Handout](/files/slides/13_ols_properties_handout.pdf)

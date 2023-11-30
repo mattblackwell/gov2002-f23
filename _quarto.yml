@@ -59,8 +59,8 @@ website:
               file: materials/week_11.qmd
             - text: "Week 12: Algebra of Least Squares"
               file: materials/week_12.qmd
-            # - text: "Week 12: Statistics of Least Squares"
-            #   file: materials/week_12.qmd
+            - text: "Week 13: Statistics of Least Squares"
+              file: materials/week_13.qmd
             # - text: "Week 13: Panel and Clustered Data"
             #   file: materials/week_13.qmd
               

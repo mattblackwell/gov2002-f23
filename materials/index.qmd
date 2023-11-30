@@ -22,5 +22,5 @@ Here is a list of all the lecture slides the course:
 10. [Hypothesis Tests](/files/slides/10_hypothesis_tests_handout.pdf)
 11. [Linear Regression](/files/slides/11_linear_model_handout.pdf)
 12. [Algebra of Least Squares](/files/slides/12_least_squares_handout.pdf)
-<!-- 13. [Statistics of Least Squares](/files/slides/13_ols_properties_handout.pdf) -->
+13. [Statistics of Least Squares](/files/slides/13_ols_properties_handout.pdf)
 <!-- 14. [Panel and Clustered Data](/files/slides/14_clustering_panel_handout.pdf) -->
