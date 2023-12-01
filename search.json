@@ -354,196 +354,182 @@
     "href": "assignments/index.html#problem-sets",
     "title": "Assignments overview",
     "section": "Problem sets",
-    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2\nProblem Set 3\nProblem Set 4\nProblem Set 5\nProblem Set 6\nProblem Set 7\nProblem Set 8\nProblem Set 9"
+    "text": "Problem sets\n\nProblem Set 1\nProblem Set 2\nProblem Set 3\nProblem Set 4\nProblem Set 5\nProblem Set 6\nProblem Set 7\nProblem Set 8\nProblem Set 9\nProblem Set 10"
   },
   {
-    "objectID": "assignments/08_problem_set.html",
-    "href": "assignments/08_problem_set.html",
-    "title": "Gov 2002: Problem Set 8",
+    "objectID": "assignments/09_problem_set.html",
+    "href": "assignments/09_problem_set.html",
+    "title": "Gov 2002: Problem Set 9",
     "section": "",
     "text": "Submission instructions | PDF  | Rmd  |"
   },
   {
-    "objectID": "assignments/08_problem_set.html#problem-set-instructions",
-    "href": "assignments/08_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 8",
+    "objectID": "assignments/09_problem_set.html#problem-set-instructions",
+    "href": "assignments/09_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 9",
     "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on November 15, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+    "text": "Problem Set Instructions\nThis problem set is due on November 29, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
   },
   {
-    "objectID": "assignments/08_problem_set.html#question-1-25-points",
-    "href": "assignments/08_problem_set.html#question-1-25-points",
-    "title": "Gov 2002: Problem Set 8",
-    "section": "Question 1 (25 points)",
-    "text": "Question 1 (25 points)\nIn the last week’s problem set (Question 2), we derived the asymptotic distribution of the p-th sample quantile of a random variable \\(X\\): \\[\n\\sqrt{n}(Q_{X, p} - q_{X, p}) \\overset{d}\\to \\mathcal{N}\\Big(0, \\frac{p(1-p)}{\\{f_X(q_{X, p})\\}^2}\\Big)\n\\] Assume that \\(X \\sim \\mathcal{N}(0, 1)\\) and answer the following questions.\n\nYou want to perform a two-sided hypothesis test with the null of \\(H_0: Q_{X, p} = c\\). Propose a test statistic to perform this hypothesis test.\nRegarding your answer in (a), briefly explain why it is a good test statistic.\nSuppose that you are testing whether the median is 0.1, using a two-sided hypothesis test. You have \\(n = 1000\\) samples and you obtained the sample median of 0.1785. Would you reject or accept the null at \\(\\alpha = 0.05\\)? Explain."
+    "objectID": "assignments/09_problem_set.html#question-1-30-points",
+    "href": "assignments/09_problem_set.html#question-1-30-points",
+    "title": "Gov 2002: Problem Set 9",
+    "section": "Question 1 (30 points)",
+    "text": "Question 1 (30 points)\nOften our data is collected with error, which we refer to as measurement error. For instance, for a dependent variable \\(Y\\) you’re trying to measure in a survey, respondents may randomly mis-click, or they may systematically lie about having a socially undesirable trait. In this question, we will explore the impact of measurement error in regression analysis in the most favourable case where the measurement error is independent of the true values. Consider the linear projection:\n\\[\nL[Y \\mid 1, X] = \\beta_0 + \\beta_1X\n\\]\nwith the projection error denoted as \\(e = Y - L[Y \\mid 1, X]\\), and \\(\\mathbb{V}[X] = \\sigma_X^2\\). Unfortunately, we do not observe \\(Y\\) or \\(X\\) but instead noisy proxies for them \\(\\{\\tilde{Y}, \\tilde{X}\\}\\), where\n\\[\n\\tilde{Y} = Y + v, \\quad \\tilde{X} = X + w\n\\]\nWhere \\(v\\) is one realization from \\(V \\sim \\mathcal{N}\\left(0, \\sigma_{v}^{2}\\right)\\) and \\(w\\) is one realization from \\(W \\sim \\mathcal{N}\\left(0, \\sigma_{w}^{2}\\right)\\), where \\(W\\) and \\(V\\) are independent of \\(X\\) and \\(Y\\). This implies that \\(\\operatorname{Cov}(v,X)=\\operatorname{Cov}(v, e)=\\operatorname{Cov}(v, w)=\\operatorname{Cov}(w, X)=\\operatorname{Cov}(w, e)=\\operatorname{Cov}(w, v)=0\\). This is commonly referred to as classical measurement error.\n\nConsider the linear projection of these observable variables, \\(L[\\tilde{Y} \\mid 1, \\tilde{X}]=\\alpha_{0}+\\alpha_{1} \\tilde{X}\\). Find \\(\\alpha_{1}\\) in terms of \\(\\left\\{\\beta_{1}, \\sigma_{w}^{2}, \\sigma_{v}^{2}, \\sigma_{X}^{2}\\right\\}\\). Hint: first derive an expression of the coefficients in terms of the \\(\\tilde{X}\\) and \\(\\tilde{Y}\\).\nFrom your expression in part (a), briefly explain (1-2 sentences) the effect of this type of measurement error in \\(X\\) on the sign and magnitude of the coefficient \\(\\alpha_{1}\\) compared to \\(\\beta_{1}\\). Hint: what parameter controls the amount of measurement error in \\(X\\)?\nFrom your expression in part (a), briefly explain (1-2 sentences) the effect of this type of measurement error in \\(Y\\) on the sign and magnitude of the coefficient \\(\\alpha_1\\) compared to \\(\\beta_1\\). Hint: what parameter controls the amount of measurement error in \\(Y\\)?"
   },
   {
-    "objectID": "assignments/08_problem_set.html#question-2-power-analysis-25-points",
-    "href": "assignments/08_problem_set.html#question-2-power-analysis-25-points",
-    "title": "Gov 2002: Problem Set 8",
-    "section": "Question 2: Power Analysis (25 points)",
-    "text": "Question 2: Power Analysis (25 points)\nThis question will give you some realistic practice conducting power analysis, a very useful procedure when planning data collection for research.\nRecall the subprime data from previous problem sets. You have been given some money from IQSS to conduct a field experiment to replicate some of the findings in this observational dataset. Your field experiment will take the form of an audit study, where you test whether or not lenders are discriminating on the basis of gender. Such audit studies are a common way of studying discrimination in housing, wage, and many other markets. You will send out loan applications to a variety of lenders, and will randomly assign the gender of the applicant. This random assignment is important because it would allow you to make a causal claim about the relationship between gender and the amount of money applicants will be loaned.\nIQSS’s money pot is deep, but it has its limits, so you need to know what size experiment you can afford. You decide to conduct a power calculation, so that you can know the likelihood of “finding effects” (i.e. rejecting the null hypothesis) in your proposed study. For this problem, you will use the same subprime.csv dataset we have used in a previous problem set (uploaded on Ed).\n\nYou already know your estimator, \\(\\overline{X}_w - \\overline{X}_m\\), your outcome measure, loan.amount, and the fact that you want to conduct a two-sided test. What are the factors do we need to consider that will affect the power of your experiment? (Hint: There are four of them.) In what way does each of them affect power, that is, what happens to power as each of these factors increases or decreases in size?\nIQSS wants you to come up with an accurate estimate for the effect size you expect to see. Calculate a reasonable value for the effect size using difference in average loan amount between men and women in the population (i.e. the subprime data as a whole). In what ways might this value be an accurate estimate for the effect you expect to find in your experiment? In what ways might it be inaccurate? If this estimate shows a stronger effect than the real effect size, what will that imply about our power calculation?\nSuppose that you have received a grant of $3,000 for your experiment, and you estimate that your experiment will cost approximately $5 per participant. You plan on assigning half of your applicants to be male and the other half to be female. Assuming an effect size equal to what you calculated in (b), and using a standard \\(\\alpha = 0.05\\), does this budget allow you to run an experiment where your power will be greater than or equal to \\(0.8\\)? (Remember that you are conducting a two-sided test.)\n\nHint: For this part, assume that \\(\\sigma_w^2 = \\sigma_m^2\\), and assume that the variances in the experiment will be the same as the population variances in the subprime dataset."
-  },
-  {
-    "objectID": "assignments/08_problem_set.html#question-3-25-points",
-    "href": "assignments/08_problem_set.html#question-3-25-points",
-    "title": "Gov 2002: Problem Set 8",
-    "section": "Question 3 (25 points)",
-    "text": "Question 3 (25 points)\nA welfare policy is applied to a group of \\(n\\) people to counter job loss caused by trade shocks, resulting in \\(X_1, \\ldots, X_n\\) which are i.i.d. \\(\\mathcal{N}(\\theta, 1)\\), where \\(\\theta\\) is the theoretical mean effect of the remedy (e.g., the logged wage difference between new and old jobs), defined so that \\(\\theta&gt;0\\) if the remedy is helpful on average, \\(\\theta&lt;0\\) if it is harmful on average, and \\(\\theta=0\\) if it does nothing. Let our Type I error rate be \\(\\alpha=0.05\\). Consider testing \\(H_0: \\theta=0\\) versus \\(H_1: \\theta \\neq 0\\). Let the rejection region be \\[\n\\mathcal{R}=\\{\\mathrm{x}:|\\hat{\\theta}_{PI}|&gt;c\\},\n\\] where \\(\\hat{\\theta}\\) is the plug-in estimator of \\(\\theta\\).\n\nWhat is \\(\\hat{\\theta}\\), the plug-in estimator of \\(\\theta\\)? Your answer should be a function of \\(X_1, X_2, ..., X_n\\). Also, under the null, what is the distribution of the estimator? (Hint: Under the null means that we assume that \\(\\theta = 0\\).)\nFind \\(c\\) so that the test has Type I error rate (i.e., size) equal to \\(\\alpha\\). (Note that \\(c\\) will depend on the sample size, \\(n\\).) (Hint: Type I error rate \\(\\alpha\\) should be equal to \\(P(|\\hat\\theta| &gt; c)\\).)\nFind the power of the test, \\(\\beta(\\theta)\\), for \\(\\theta &gt; 0\\). (Hint: This question follows almost the same procedure as parts (a) and (b), except for (1) we don’t assume that the null is true and (2) the power function is defined as a conditional probability given \\(\\theta\\).)\nProve that the power \\(\\beta(\\theta) \\to 1\\) as \\(n \\to \\infty\\) (Hint: Use the result from part (c).)\nSuppose now that \\(n = 10^4\\) and we observe \\(\\bar x = 0.02\\). What is the p-value? Does the test say to reject or retain \\(H_0\\)? (Hint: The critical value is the one obtained in part (b), i.e., under the null.)"
-  },
-  {
-    "objectID": "assignments/08_problem_set.html#question-4-25-points",
-    "href": "assignments/08_problem_set.html#question-4-25-points",
-    "title": "Gov 2002: Problem Set 8",
-    "section": "Question 4 (25 points)",
-    "text": "Question 4 (25 points)\nIn recent years it has become common in statistics to want to perform many simultaneous hypothesis tests. Let \\(p_1 \\dots p_m\\) be indepedent p-values, corresponding to \\(m\\) hypothesis tests. Each of the \\(m\\) hypothesis tests has a simple null. Suppose that \\(m_0\\) of the \\(m\\) null hypotheses are true. We decide in advance to conduct these tests at level \\(\\alpha\\) (i.e., we reject the null for tests where the p-value is less than \\(\\alpha\\)). The is the probability of making at least one Type I error.\n\nFind the familywise error rate (FWER). What happens to the familywise error rate as \\(m_0\\) gets large? (Hint: Let \\(V\\) be the of Type I error rates. Then FWER is \\(P(V &gt; 0)\\). You can simplify it further by using \\(\\alpha\\) and \\(m_0\\).)\nOne of the common procedure to deal with multiple hypothesis testings is called the . Intuitively, this procedure allows us to deal with the increased likelihood of type I errors. This procedure is described as follows: instead of rejecting the null hypotheses with \\(p_i &lt; \\alpha\\), we reject the null hypotheses with \\(p_i &lt; \\frac{\\alpha}{m}\\) (i.e., correcting the cutoff by the number of hypotheses). Show that under this procedure, the familywise error rate is at most \\(\\alpha\\). (Hint: You might find Markov’s Inequality helpful: \\(\\mathrm{P}(X \\geq a) \\leq \\frac{\\mathbb{E}[X]}{a}\\). You want to bound the FWER using Markov’s Inequality by setting the value of \\(a\\) appropriately.)\nIn (b), why not instead reject the null hypotheses with \\(p_i&lt;\\frac{\\alpha}{m_0}\\), considering that \\(m_0 \\leq m\\) (and often in practice \\(m_0\\) is much smaller than \\(m\\)), which would seem to result in rejecting more false nulls while still keeping the familywise error rate at most \\(\\alpha\\)?\nAnother procedure is to reject all null hypotheses with \\(p_i&lt;1-(1-\\alpha)^{1 / m}\\) (This is known as the Sidak Procedure). Show that under this procedure, the familywise error rate is again at most \\(\\alpha\\)."
-  },
-  {
-    "objectID": "assignments/06_problem_set.html",
-    "href": "assignments/06_problem_set.html",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "",
-    "text": "Submission instructions | PDF  | Rmd  |"
-  },
-  {
-    "objectID": "assignments/06_problem_set.html#problem-set-instructions",
-    "href": "assignments/06_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on November 1, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
-  },
-  {
-    "objectID": "assignments/06_problem_set.html#question-1-30pt",
-    "href": "assignments/06_problem_set.html#question-1-30pt",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "Question 1 (30pt)",
-    "text": "Question 1 (30pt)\nThis problem will use the subprime data to walk you through a very common inference problem - testing whether the difference between two population values is non-zero. To begin this problem first download subprime.csv and load it into R.\n\nWe are going to be interested primarily in the loan.amount variable - the amount that each loan recipient received. Suppose a lawsuit has been filed in U.S. District Court by a group of Fort Myers women who claim that women in the area were loaned less money than men. The defendants – a group of local mortgage lenders – are vigorously denying these claims, and the case is now advancing to trial. Having heard about your expertise in this area, the federal judge hearing the case has brought you in to provide expert testimony. Your task in this problem is to assist the judge in her determination.\n\nSuppose you were only able to interview \\(100\\) male and \\(100\\) female loan recipients at random, making them iid. To simulate this in R, set the seed to 02138 and draw \\(100\\) observations randomly from the male subset of the subprime data and \\(100\\) observations randomly from the female subset of the data. These \\(200\\) observations constitute your sample. Calculate (1) the average loan amount (loan.amount) for women in your sample, (2) the average loan amount for men, and (3) and (4), the sample standard deviation for each.\n\n\n\nLet \\(\\mu_{m}\\) and \\(\\mu_{w}\\) be the population average loan amount for men and women respectively. Let \\(\\sigma^2_{m}\\) and \\(\\sigma^2_{w}\\) be the population variances in loan amount for men and women respectively. Denote the sample average loan amounts for men by \\(\\bar{X}_{m}\\) and for women by \\(\\bar{X}_{w}\\). What is the expected value of the sampling distribution of \\(\\bar{X}_{m} - \\bar{X}_{w}\\)? What is the variance of the sampling distribution of \\(\\bar{X}_{m} - \\bar{X}_{w}\\)?\nCompute and report your sample difference in average loan amount for men and women. Recall that for large samples, the sampling distribution of a mean or difference-in-means is approximately normal. Suppose that we know that the true population \\(\\sigma^2_{m} = 32381.57\\) and \\(\\sigma^2_{w} = 19097.95\\). Using the normal approximation, what is the probability that we would observe a difference-in-means at least as extreme as the one in our sample if the true population difference-in-means \\(\\mu_{m} - \\mu_{w}\\) equals 0? Note that by “at least as extreme,” we mean a value that is further away from \\(0\\) than the value we observe - that is, \\(P(|\\bar{X}_{m} - \\bar{X}_{w}| \\ge \\alpha)\\) where \\(\\alpha\\) is our observed value and \\(||\\) is the absolute value operator.\n\n\n\n\nComment on your result in (c). Given what we observe in our sample, is it likely that there is no difference in loan amounts for men and women? A common threshold for “rejecting” our assumed hypothesis that \\(\\mu_{m} - \\mu_{w} = 0\\) is observing a sample that would occur with probability \\(.05\\) or less if that hypothesis were true (that is, a very unlikely sample). Would we reject the hypothesis that there is no difference in average loan amounts between men and women?"
-  },
-  {
-    "objectID": "assignments/06_problem_set.html#question-2-30pt",
-    "href": "assignments/06_problem_set.html#question-2-30pt",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "Question 2 (30pt)",
-    "text": "Question 2 (30pt)\nIn this problem, we will explore the implications of the Central Limit Theorem for uncertainty estimation and hypothesis testing. Start by creating two variables, X1 and X2, using the following code:\n\nset.seed(02139)\nX1 &lt;- rnorm(100000, 5, 2)\nX2 &lt;- rexp(100000, 0.2)\n\nFor the purposes of this problem, we will treat these variables (each with 100,000 elements) as the full population. We will take samples from these two datasets to evaluate the coverage probability of 95% confidence intervals for the population mean using different types of data and different sample sizes.\n\nPlot and describe the full distributions of X1 and X2. What is the population mean and population standard deviation of each random variable (this is just the mean() and sd() of both of these variables)?\n\n\nHint for coding:\n\nConsider using the ggplot2 package (for example, would be helpful). There are various resources available on the web on how to use ggplot.\n\n\n\nNow, create a loop to take 100 samples of size 8 from each dataset and record the sample mean for each sample. Plot the density of sample means for X1 and X2 separately and compare your these densities. Are they similar or different? Why?\n\n\nHint for coding:\n\nOne way to work on this problem is to use for loop. If you want to loop over 1, 2, …, n, then your for loop starts by .\nFirst create an empty matrix (or dataframe) to save results. Then save outputs from the for loop to that empty matrix.\n\n\n\nGiven your answer in part (a), what should be standard error of the sample mean of X1 and the sample mean of X2? We know that if a random variable is normally distributed, 95% of its distribution will be within 1.96 standard deviations of the mean. What proportion of the sample means for X1 and X1 are within 2 standard errors of the population means?\nRepeat the simulation in parts (b) and (c) for samples of size 8, 20, 50, and 500, and increase your number of simulations to 1000. Report the probability of being within 1.96 standard errors of the popoulation mean for each of your eight simulations in a table (you do not need to create additional plots). How do your results change? What differences do you see between X1 and X2?\n\n\nHint for coding:\n\nOne way to work on this problem is to loop over different sample sizes. Of course, you are free to use other functionalities if you wish.\n\n\n\nInterpret your findings in parts (b)-(d). How does the central limit theorem explain what you see in the simulations?"
-  },
-  {
-    "objectID": "assignments/06_problem_set.html#question-3-20pt",
-    "href": "assignments/06_problem_set.html#question-3-20pt",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "Question 3 (20pt)",
-    "text": "Question 3 (20pt)\nAll probability distributions have moments, which are standard expressions that define its shape in ways you’ve already heard of and other more nuanced ways (the variance, the skew, kurtosis, etc.). Describing a population distribution (or empirical sample distribution) in terms of its moments is really useful in social science (e.g. the skew of income in the U.S. population is positive) Specifically, the \\(n\\)th central moment of a random variable \\(X\\) is defined as \\(E[(X-E[X])^n]\\), but it is more common to work with the \\(n\\)th moment defined as as \\(E[X^n]\\) (getting rid of the \\(E[X]^n\\) part).\nSuppose the random variable \\(X\\) for your population has the the following first four moments: \\(E[X]=1/2\\), \\(E[X^2]=1/2\\), \\(E[X^3]=3/4\\), \\(E[X^4]=3/2\\). Suppose you took an i.i.d. sample \\(\\{X_1,\\ldots,X_{20}\\}\\) of size 20 from this distribution. Let \\(T=(X^2_1 +...+ X^2_{20})/20 = \\overline{X^2}\\), an estimator of the second moment.\n\nWhat are \\(E[T]\\) and \\(V(T)\\)? Be sure to explain why.\nUse the central limit theorem to approximate the probability (in R) that \\(T\\) is less than or equal to 1. Consider using ."
-  },
-  {
-    "objectID": "assignments/06_problem_set.html#question-4-20pt",
-    "href": "assignments/06_problem_set.html#question-4-20pt",
-    "title": "Gov 2002: Problem Set 6",
-    "section": "Question 4 (20pt)",
-    "text": "Question 4 (20pt)\nIn class we learned that if a the variance of a sequence of random variables with finite mean goes to zero as \\(n\\to\\infty\\), then the sequence will converge in probability to some value. But this is a sufficient condition, not a necessary one. To see this, consider the sequence of random variables \\(X_n\\) be with probability distribution:\n\\[\nX_n =\n\\begin{cases}\n0 & \\text{with probability    }  1 - 1/n \\\\\nn & \\text{with probability    } 1/n \\\\\n\\end{cases}\n\\]\n\nFind \\(\\mathbb{E}[X_n]\\).\nUse the definition of convergence in probability to show that \\(X_n \\xrightarrow{p} 0\\)."
-  },
-  {
-    "objectID": "assignments/04_problem_set.html",
-    "href": "assignments/04_problem_set.html",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "",
-    "text": "Submission instructions | PDF  | Rmd  |"
-  },
-  {
-    "objectID": "assignments/04_problem_set.html#problem-set-instructions",
-    "href": "assignments/04_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on October 4, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
-  },
-  {
-    "objectID": "assignments/04_problem_set.html#question-1-20-points",
-    "href": "assignments/04_problem_set.html#question-1-20-points",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "Question 1 (20 points)",
-    "text": "Question 1 (20 points)\nSuppose you’re interested in studying the distribution of political ideology in the US, a random variable that we’ll call \\(X\\). Individuals are placed on a continuous one-dimensional ideology scale that varies from -1 to 1, where lower score are more liberal. Instead of having to do sampling to estimate the distribution, Keith Poole comes to you in a dream and tells you the unnormalized distribution of this random variable, which is as follows:\n\\[\n\\begin{aligned}\nf(x) = \\begin{cases}\nc(\\frac{1}{2}x + 1) & -1 \\le x \\le 1, \\\\\n0 & \\text{else}\n\\end{cases}\n\\end{aligned}\n\\]\nwhere \\(c\\) is a normalizing constant.\n\nFind the value of \\(c\\) that would make \\(f(x)\\) a valid probability distribution function, \\(f_X(x)\\).\nCalculate \\(E[X]\\)."
-  },
-  {
-    "objectID": "assignments/04_problem_set.html#question-2-20-points",
-    "href": "assignments/04_problem_set.html#question-2-20-points",
-    "title": "Gov 2002: Problem Set 4",
+    "objectID": "assignments/09_problem_set.html#question-2-20-points",
+    "href": "assignments/09_problem_set.html#question-2-20-points",
+    "title": "Gov 2002: Problem Set 9",
     "section": "Question 2 (20 points)",
-    "text": "Question 2 (20 points)\nA friend of yours, who is interested in applied statistics and medicine, approaches you to share her fascination with a class she is taking. She is particularly intrigued by the idea that survival analysis, one of the most widely-used analytic methods for testing the long-term efficacy of treatments, employs the Weibull distribution, a type of continuous distribution. The CDF of the Weibull distribution is given as follows: \\[\nF(y) = 1-\\frac{1}{\\exp\\Big\\{ (\\frac{y}{\\lambda})^k  \\Big\\}}\n\\] where \\(\\lambda \\in (0, \\infty)\\) and \\(k \\in (0, \\infty)\\). (They are called scale and shape parameters, respectively. Also, the aforementioned CDF is technically for \\(y \\geq 0\\) only, but you can ignore the case where \\(y &lt; 0\\).)\n\nYour friend is eager to use this distribution, but she doesn’t know how to do so. Specifically, she wants to generate several Weibull random variables. Another friend of yours, who is well-versed in statistics, tells you that you can generate these using uniform random variables. Using the universality of the uniform, explain to her how to generate Weibull random variables from uniform random variables. Give you answer as a mathematical function of a uniform random variable.\nNow, let’s practice some coding here. Assume \\(\\lambda = 1\\) and \\(k = 0.5\\) and generate 100 Weibull random variables using your derivation from part (a). Before coding, type to ensure reproducibility. After generating 100 Weibull r.v.s, draw a histogram of them.\n\nHint for (b): If you want to generate \\(n = 100\\) standard uniform random variables, type . To draw a histogram, use ."
+    "text": "Question 2 (20 points)\nDecide whether each of the following statements are true or false and explain your reasoning briefly.\n\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(E[e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(E[X^3 e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[Xe] = 0\\), then \\(E[X^2 e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(e\\) and \\(X\\) are independent."
   },
   {
-    "objectID": "assignments/04_problem_set.html#question-3-20-points",
-    "href": "assignments/04_problem_set.html#question-3-20-points",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "Question 3 (20 points)",
-    "text": "Question 3 (20 points)\nSuppose \\(X \\sim \\text{Pois}(\\lambda)\\), where \\(\\lambda\\) is fixed but unknown.\nAn estimator is a function of the data and the bias of an estimator, \\(f(X)\\), is defined as \\(E[f(X)] - \\theta\\), where \\(\\theta\\) is the estimand (an unknown quantity we would like to estimate from the observable data).\nFor instance our estimand could be \\(\\lambda\\), and we know by the properties of a Poisson random variable that the bias of the estimator, \\(f(X) = X\\), is \\(E[X] - \\lambda = \\lambda - \\lambda = 0\\). We call an estimator with \\(0\\) bias an unbiased estimator.\nFor this question, suppose that our estimand is \\(\\lambda^3\\) rather than \\(\\lambda\\).\n\nShow that \\(X^3\\) is not an unbiased estimator of \\(\\lambda^3\\) and specify the bias as a function of \\(\\lambda\\).\n\nHints:\n\nYou may use the following result: if \\(X \\sim \\text{Pois}(\\lambda)\\), then \\(E[X\\cdot g(X)] = \\lambda E[g(X + 1)]\\) for any function \\(g(\\cdot)\\).\nYou may use the result for \\(E[X^2]\\) derived in lecture and section, (i.e., no need to derive it again).\n\n\nSuppose \\(\\lambda = 5\\). Use \\(150,000\\) simulations to validate your result to part (a). That is, calculate the bias of you estimator from both the simulations and the analytical results. Print your results in the format below:\n\n\nset.seed(02138)\n\n# Simulation result \n\n# Analytical result"
+    "objectID": "assignments/09_problem_set.html#question-3-30-points",
+    "href": "assignments/09_problem_set.html#question-3-30-points",
+    "title": "Gov 2002: Problem Set 9",
+    "section": "Question 3 (30 points)",
+    "text": "Question 3 (30 points)\nIn most linear regression models, the dependent variable \\(Y\\) is expressed as a function of independent variables \\(X_1, X_2, ..., X_k\\) (or to use the vector notation, just \\(X\\) as a vector in \\(\\mathbb{R}^k\\)). That is, \\[\nY = X\\beta + e\n\\] where \\(\\beta\\) is a \\(k \\times 1\\) coefficient vector and \\(e\\) is the error.\n\nExplain briefly what it means for \\(g(X)\\), a function of \\(X\\), to be the best predictor of \\(Y\\).\nShow that for \\(g(X)\\) to be the best predictor, \\(g(X)\\) must be equal to the conditional expectation function \\(E[Y|X]\\). ( You can assume that, for the CEF error \\(e = Y - E[Y|X]\\), we have \\(E\\big|e\\{E[Y|X] - g(X)\\}\\big| &lt; \\infty\\)).\n\nNow, for unifying definition, we also need to consider an model, where there is no \\(X\\) and \\(\\alpha\\) is simply a constant: \\[\nY = \\alpha + e\n\\]\n\nFind \\(\\underset{\\alpha}{\\operatorname{argmin}} E[(Y - \\alpha)^2]\\)."
   },
   {
-    "objectID": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
-    "href": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "Question 4: Fisher’s method in forecasting (30 points)",
-    "text": "Question 4: Fisher’s method in forecasting (30 points)\nIn this problem, we’re going to explore a real-world example of Fisher’s “lady tasting tea” experiment from lecture: election forecasters – who have, for better or worse, become a big part of politics in the United States and elsewhere. Be sure to set your seed: set.seed(02138).\n\nSuppose that Bob has correctly predicted six of the last eight election outcomes. What is the probability that someone randomly flipping a coin each of the same elections would have experienced the same success as Bob? Use R to compute your answer analytically (i.e. not by simulation).\n\nForecasting has become so popular that riffraff are flooding the market. These “uniform amateurs” predict the vote share for each state in the U.S. presidential election by drawing a uniform random variable between 0 and 1, independently across states. You are deciding whether or not to hire a forecaster, Nate, to to forecast each of the 50 state election winners in the 2024 presidential general election based on the performance of his 2020 election forecast, but you are worried that Nate might be one of these amateurs. When you ask him to justify his 2020 forecasts, he says “my highest predicted [Democratic] vote share was 0.8 which is very unlikely if I were a uniform amateur.” Let’s evaluate his claim.\n\nSuppose Nate is a uniform amateur and let \\(X\\) be the maximum of the 51 uniform vote share draws (include D.C.). Derive the CDF and PDF of \\(X\\). Use these to calculate the probability of Nate’s highest Democratic vote share being 0.8 or less if he were a uniform amateur.\nTo be on the lookout for more uniform amateurs, it’s helpful to know what highest vote share we should expect. To that end, calculate \\(E[X]\\)."
+    "objectID": "assignments/09_problem_set.html#question-4-20-points",
+    "href": "assignments/09_problem_set.html#question-4-20-points",
+    "title": "Gov 2002: Problem Set 9",
+    "section": "Question 4 (20 points)",
+    "text": "Question 4 (20 points)\nSuppose you are interested in the association between income and race, gender, and education. The dependent variable \\(Y\\) is income in USD. The independent variables are age, gender, and education, where\nYou are especially interested in interactions among these variables, and run a linear regression model only with a three-way interaction term: \\[\nY = \\beta_0 + \\beta_1 X_aX_gX_e\n\\]\n\nDerive the marginal effects of \\(X_a, X_g\\), and \\(X_e\\).\n\nDetermine whether the following statements (b-d) are true or false and explain your reasoning briefly.\n\nComparing (i) men whose age is 30 years and (ii) men whose age is 50 years, we find that (ii) men whose age is 50 years earn \\(\\beta_1\\) dollars more than (i) men whose age is 30 years.\nComparing (i) women whose age is 30 years and who has no college degree and (ii) women whose age is 50 years and who has no college degree, we find that (ii) women whose age is 50 years and who has no college degree earn \\(\\beta_1\\) dollars more than (i) women whose age is 30 years and who has no college degree.\nComparing (i) women whose age is 30 years and who has a college degree and (ii) women whose age is 50 years and who has a college degree, we find that (ii) women whose age is 50 years and who has a college degree earn \\(20 \\times \\beta_1\\) dollars more than (i) women whose age is 30 years and who has a college degree."
   },
   {
-    "objectID": "assignments/04_problem_set.html#question-5-10-points",
-    "href": "assignments/04_problem_set.html#question-5-10-points",
-    "title": "Gov 2002: Problem Set 4",
-    "section": "Question 5 (10 points)",
-    "text": "Question 5 (10 points)\nLet \\(Z \\sim \\mathcal{N}(0, 1)\\).\n\nExpress the random variable \\(Y \\sim \\mathcal{N}(1, 9)\\) as a simple function in terms of \\(Z\\). Make sure to check that your \\(Y\\) has the correct mean and variance.\nExpress the probability of \\(|Y| \\leq 1\\) as a function of \\(\\Phi\\), the CDF of the standard Normal distribution."
-  },
-  {
-    "objectID": "assignments/02_problem_set.html",
-    "href": "assignments/02_problem_set.html",
-    "title": "Gov 2002: Problem Set 2",
+    "objectID": "assignments/07_problem_set.html",
+    "href": "assignments/07_problem_set.html",
+    "title": "Gov 2002: Problem Set 7",
     "section": "",
     "text": "Submission instructions | PDF  | Rmd  |"
   },
   {
-    "objectID": "assignments/02_problem_set.html#problem-set-instructions",
-    "href": "assignments/02_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 2",
+    "objectID": "assignments/07_problem_set.html#problem-set-instructions",
+    "href": "assignments/07_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 7",
     "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on September 20, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+    "text": "Problem Set Instructions\nThis problem set is due on November 8, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-1-12-points",
-    "href": "assignments/02_problem_set.html#question-1-12-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 1 (12 points)",
-    "text": "Question 1 (12 points)\n\nYou are trying to schedule qualitative interviews with government officials in some country. You don’t have a list with a fixed length of officials ahead of time (i.e. you’re just finding emails in real-time). The officials can take one of three actions: respond and agree to meet with you with probability 1/3, respond and reject your request with probability 1/3, or ignore your email with probability 1/3. The officials make their decisions independent of each other. Suppose you keep sending out emails until you get one official to agree to meet with you. Find the PMF of the number of emails you send out.\nNow suppose you care about whether an official has responded or not, regardless of the response. What is the PMF of the number of emails you have to send out until there’s at least one official who responds to you and one official who doesn’t? For example, the first five officials might accept, reject, reject, reject, and ghost you, after which you would stop since you have at least one response and non-response. You might also see the sequence ghost, ghost, ghost, ghost, then reject, after which you stop."
+    "objectID": "assignments/07_problem_set.html#question-1-25-points",
+    "href": "assignments/07_problem_set.html#question-1-25-points",
+    "title": "Gov 2002: Problem Set 7",
+    "section": "Question 1 (25 points)",
+    "text": "Question 1 (25 points)\nAssume \\(\\sqrt{n}(\\hat \\theta - \\theta) \\overset{d}\\to \\mathcal{N}(0, v^2)\\).\n\nUse the Delta method to find the asymptotic distribution of \\(\\hat \\theta^4\\).\nUse the Delta method to find the asymptotic distribution of \\(\\frac{1}{1+\\exp(-\\hat\\theta)}\\).\nWe learned in class a geometric interpretation of the Delta method. In fact, you can relate the Delta method to Taylor polynomials. Explain how you can (approximately) derive the Delta method using the Taylor polynomials. (Hint: The first-order Taylor approximation of a function \\(f(x)\\) at value \\(c\\) is \\(f(x) = f(c) + (x-c)f'(c)\\).)"
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-2-18-points",
-    "href": "assignments/02_problem_set.html#question-2-18-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 2 (18 points)",
-    "text": "Question 2 (18 points)\nSuppose you are a junior infectious disease physician working in a hospital. The annual flu season has started, and you know that approximately 40% of your patients have seasonal flu. You have a rapid diagnostic test kit with the following diagnostic properties:\n\nAmong patients with seasonal flu, 95% get tested positive with this test kit.\nAmong patients without seasonal flu, 45% get tested negative with this test kit.\n\nUsing these properties, answer the following questions.\n\nA patient of yours tested positive with this rapid test kit. What is the probability that the patient actually has the seasonal flu?\nAfter seeing several patients, you realize that you can do a better job roughly estimating the probability of your patient having seasonal flu before testing. Suppose that, after listening to a patient’s history, you find that one of your patients is extremely unlikely to have the flu: Your rough estimate (the “pre-test probability”) is that the probability of this patient having seasonal flu is 0.1. What is the probability of this patient having seasonal flu if they test positive (the “post-test probability”)?\nPlot the post-test probability as a function of the pre-test probability, assuming that all of your patients receive a positive test result.\nUpon seeing your plot from question (c), your attending physician told you that you don’t have to, and perhaps shouldn’t, perform rapid tests in some cases. Is this true? If so, when should you not perform rapid tests?"
+    "objectID": "assignments/07_problem_set.html#question-2-25-points",
+    "href": "assignments/07_problem_set.html#question-2-25-points",
+    "title": "Gov 2002: Problem Set 7",
+    "section": "Question 2 (25 points)",
+    "text": "Question 2 (25 points)\nDelta method is a very powerful tool for analyzing asymptotic properties of random variables. In this question, we will analyze what the distribution of quantiles would look like.\nLet \\(X_1, ..., X_n\\) be i.i.d. (continuous random variables). Let \\(F_X(x)\\) be the CDF of \\(X_i\\). Also consider a random variable \\(Y_n(x)\\), which is defined as \\[\nY_n(x) = \\frac{1}{n} \\sum_{i=1}^n Z_i\n\\] where \\(Z_i = I\\{X_i \\leq x\\}\\). Here, \\(I\\) is a usual indicator function, so \\(Z_i = 1\\) if \\(X_i \\leq x\\).\n\nWhat distribution does \\(Z_i\\) follow? Name the distribution. What is its mean and variance? Express the mean and variance as a function of \\(F_X(x)\\). (Hint: The fundamental bridge.)\nWhat is the asymptotic distribution of \\(Y_n(x)\\)?\nApply the Delta method and identify the asymptotic distribution of \\(F_X^{-1}(Y_n(x))\\). You may want to use the fact that \\(\\frac{d}{dx}F_X^{-1}(x) = \\frac{1}{f_X(F_X^{-1}(x))}\\), where \\(f_X(x)\\) is the PDF of \\(X_i\\).\nLet \\(F^{-1} (p) = q_{X,p}\\) be the p-th quantile of the distribution of \\(X\\). Given the results from (c), show that the asymptotic distribution of \\(p\\)-th sample quantile of \\(X_i\\), denoting it as \\(Q_{X, p}\\), can be expressed as \\[\n\\sqrt{n}(Q_{X, p} - q_{X,p}) \\overset{d}\\to \\mathcal{N}\\Big(0, \\frac{p(1-p)}{\\{f_X(q_{X,p})\\}^2}\\Big)\n\\] (Hint: You can assume the following fact: \\(F_X^{-1}(Y_n(x)) = Q_{X, p}\\).)"
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-3-20-points",
-    "href": "assignments/02_problem_set.html#question-3-20-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 3 (20 points)",
-    "text": "Question 3 (20 points)\nIn the United States, roughly \\(29\\%\\) of white drivers get stopped by police compared to roughly \\(42\\%\\) of non-white drivers. Of white drivers who are stopped by police, \\(25\\%\\) have illegal contraband, while \\(28\\%\\) of stopped non-white drivers have illegal contraband.\nLet \\(C\\) be the event of a driver possessing contraband, \\(W\\) be the event of the driver being white, and \\(S\\) being the event of the driver getting stopped by the police. Suppose that the probability of contraband found among non-stopped drivers is equal across both racial groups.\n\nWhat values of the probability of contraband among non-stopped drivers would imply the probability of contraband among whites is higher than contraband among non-whites in general?\nSuppose you are asked to find whether there is (and if there is, how much) racial bias in who is stopped by the police. You use the following measure to quantify racial discrimination: \\(P(S|C,W^c) - P(S|C,W)\\). The reasoning for this measure is as follows: if there is no racial bias in police stops, we might expect that \\(S \\perp W \\ | \\ C\\). This would mean given that if the driver is actually carrying contraband, their race should not update the probability of a police choosing to stop them. To show that this false – that race update the probability of a stop – we need to simply show that this measure is equal to zero. In English, it can be interpreted as, ``the increase in probability of getting stopped if a contraband carrier is not white’’.\n\nAssuming that the rates of contraband in the population are independent of race, plot and interpret possible bounds for this measure using the information provided in this problem. Hint: use Bayes’ Rule and compute the bounds using R. Hint part 2: let \\(x = P(C|W^c,S^c) = P(C|W, S^c)\\)."
+    "objectID": "assignments/07_problem_set.html#question-3-25-points",
+    "href": "assignments/07_problem_set.html#question-3-25-points",
+    "title": "Gov 2002: Problem Set 7",
+    "section": "Question 3 (25 points)",
+    "text": "Question 3 (25 points)\nWhereas we often work on the mean instead of the median, a practically useful quantity is often the median because it is not so much affected by the existence of outliers. Let’s investigate what the asymptotic distributions of the median look like and how we can work on the median instead of the mean.\n\nLet \\(X \\sim\\mathcal{N}(\\mu_1, \\sigma_1^2)\\) and \\(X_1, X_2, ..., X_n\\) be \\(n\\) i.i.d. observations each following the same distribution as \\(X\\). Let \\(\\delta_1\\) denote the (true) median of \\(X\\) and let \\(X_{med}\\) be the median of the \\(n\\) observations. What is the asymptotic distribution of the sample median \\(X_{med}\\)? You can use the result from Question 2. The obtained variance in your answer can be a function of \\(\\sigma_1\\) but should not include \\(f_X\\), \\(\\delta_1\\), or \\(\\mu_1\\).\nJust like comparing the mean, you come up with an idea to compare the median of two different distributions. Suppose that you have \\(n = N\\) samples of \\(X_1, ..., X_n\\), just like part (a). And then suppose that you have another set of samples \\(Y_1, ..., Y_m\\), where \\(m = M\\) observations are i.i.d. and follow \\(Y \\sim \\mathcal{N}(\\mu_2, \\sigma_2^2)\\). The true median of \\(Y\\) is \\(\\delta_2\\). Assume that \\(N\\) and \\(M\\) are sufficiently large (but still finite). Also assume that \\(X\\) and \\(Y\\) are independent. In approximation, what would the distribution of \\(X_{med} - Y_{med}\\) look like?\nHow do the results from part (b) differ from the approximated distribution of the difference in means (\\(\\overline{X} - \\overline{Y}\\), where \\(\\overline{X} = \\frac{\\sum_{i=1}^N X_i}{N}\\) and \\(\\overline{Y} = \\frac{\\sum_{i=1}^M Y_i}{M}\\))? (Hint: Use CLT.)"
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-4",
-    "href": "assignments/02_problem_set.html#question-4",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 4",
-    "text": "Question 4\n\nSuppose that, in advance of the 2024 presidential election, you know that Pennsylvania and Georgia are pure toss-ups between the Democratic and Republican candidates and are independent of each other. Let \\(X\\) be the number of states the Republican candidate wins of the two. What are the PMF anf CDF of \\(X\\)?\nNow suppose that you are interested in local elections. Two counties are looking to elect a sheriff, but these elections are not toss-ups - in one, the Republican candidate has a 65% chance of winning, while in the other, the Republican candidate has a 40% chance of winning. Again, the two sheriff’s races are independent from each other. Let \\(Y\\) by the number of elections the Republican candidate wins of the two. What are the PMF and CDF of \\(Y\\)?\nFinally suppose that you know the joint PMF of \\(X\\) and \\(Y\\), \\(P(X = x, Y = y)\\), to be as follows:\n\nAre \\(X\\) and \\(Y\\) independent?"
+    "objectID": "assignments/07_problem_set.html#question-4-25-points",
+    "href": "assignments/07_problem_set.html#question-4-25-points",
+    "title": "Gov 2002: Problem Set 7",
+    "section": "Question 4 (25 points)",
+    "text": "Question 4 (25 points)\nUsing the techniques we’ve learned in class, we can now work on a seemingly complex problem step by step.\nLet \\(Y_1, \\ldots, Y_n\\) be i.i.d. random variables such that \\(E\\left(Y_i\\right)=0, \\operatorname{Var}\\left(Y_i\\right)=1\\), and the fourth moment \\(E\\left(Y_i^4\\right)\\) exists. Also, define \\[\nS_n=\\frac{1}{n} \\sum_{i=1}^n Y_i^2, \\qquad\nV_n=\\frac{1}{n} \\sum_{i=1}^n\\left(Y_i^2-1\\right)^2 .\n\\]\nThe goal is to identify a constant \\(c\\) such that \\[\nc \\cdot \\frac{\\sqrt{n}\\left(\\exp \\left(S_n\\right)-e\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1)\n\\]\nLet’s see how CLT, LLN, CMT, Slutsky, and Delta method are used in practice.\n\nWhat is the approximated distribution of \\(S_n\\) as \\(n \\to \\infty\\)? Your answer can include \\(Var(Y_i^2)\\) but should not include \\(E[Y_i^2]\\). (Hint: Use CLT…)\nShow that \\(\\sqrt{V_n} \\overset{p}\\to \\sqrt{Var(Y_i^2)}\\). (Hint: LLN and CMT…)\nGiven parts (a) and (b), prove the following asymptotic result. (Hint: Slutsky…) \\[\n\\frac{\\sqrt{n} \\cdot\\left(S_n-1\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1) .\n\\]\nFind the constant \\(c\\) such that \\[\nc \\cdot \\frac{\\sqrt{n}\\left(\\exp \\left(S_n\\right)-e\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1)\n\\] (Hint: and Delta method!)"
   },
   {
-    "objectID": "assignments/02_problem_set.html#question-5-26-points",
-    "href": "assignments/02_problem_set.html#question-5-26-points",
-    "title": "Gov 2002: Problem Set 2",
-    "section": "Question 5 (26 points)",
-    "text": "Question 5 (26 points)\n\nYou are a player on a basketball team in your town. Your team has 10 players in total. In the coming season, there will be \\(n\\) games in total, and each game is considered as independent. The probability of winning one game is 0.6. If you win a game, your team gains 5,000 dollars as a team. The team distributes the money evenly among 10 players. What is the PMF of the amount of money each can gain in the coming season?\nWhereas the coming season has \\(n\\) games, the subsequent season will have \\(m\\) games. Again, each game is played independently, and the probability of winning one game is 0.6. What is the PMF of the number of games that the team wins in the coming two seasons combined?\nLet \\(W_1 \\sim Bin(n, 0.6)\\) and \\(W_2 \\sim Bin(m, 0.6)\\), where \\(W_1\\) is the number of games that your team wins in the first season, and \\(W_2\\) is the number of games that your team wins in the second season. You can think of \\(W_1\\) and \\(W_2\\) as independent of each other. You wonder if the numbers of games your team wins in the two seasons are different and take the difference between the two: \\(W_1 - W_2\\). A friend of yours who is interested in statistics tells you that \\(W_1 - W_2\\) is a Binomial random variable since it is the difference between two Binomial random variables. Is it true? Explain."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "assignments/05_problem_set.html",
+    "href": "assignments/05_problem_set.html",
+    "title": "Gov 2002: Problem Set 5",
     "section": "",
-    "text": "About this site"
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/05_problem_set.html#problem-set-instructions",
+    "href": "assignments/05_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 5",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on October 25, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/05_problem_set.html#question-1-25-points",
+    "href": "assignments/05_problem_set.html#question-1-25-points",
+    "title": "Gov 2002: Problem Set 5",
+    "section": "Question 1 (25 points)",
+    "text": "Question 1 (25 points)\nSuppose we want to model the relationship between legislation and politician quality. There are two types of politician quality: high and low. When a high quality politician propose a bill, it has a probability \\(p_1\\) to pass; conversely, when a low quality politician propose a bill, it has a probability \\(p_2\\) to pass, where \\(p_1 &gt; p_2\\). Unfortunately, we cannot directly observe politicians’ quality, but instead rely on our prior that a politician is a high type with probability \\(h\\) and low type with probability \\(1-h\\), where \\(h \\in (0,1)\\). Let \\(X\\) be the number of passed bills after a randomly picked politician has made \\(n\\) proposals.\n\nFind the marginal distribution of \\(X\\).\nFind the mean and variance of \\(X\\)."
+  },
+  {
+    "objectID": "assignments/05_problem_set.html#question-2-25-points",
+    "href": "assignments/05_problem_set.html#question-2-25-points",
+    "title": "Gov 2002: Problem Set 5",
+    "section": "Question 2 (25 points)",
+    "text": "Question 2 (25 points)\nWe know from the definition of the variance that \\(\\mathbb{E}\\left[ \\left(Y - \\mathbb{E}[Y]\\right)^2 \\right] = \\mathbb{E}[Y^2] - \\left(\\mathbb{E}[Y]\\right)^2\\). Prove that this equality still holds when we condition on \\(X\\), i.e., \\(\\mathbb{E}\\left[ \\left(Y - \\mathbb{E}[Y \\mid X]\\right)^2 \\mid X \\right] = \\mathbb{E}[Y^2 \\mid X] - \\left(\\mathbb{E}[Y \\mid X]\\right)^2\\)"
+  },
+  {
+    "objectID": "assignments/05_problem_set.html#question-3-30-points",
+    "href": "assignments/05_problem_set.html#question-3-30-points",
+    "title": "Gov 2002: Problem Set 5",
+    "section": "Question 3 (30 points)",
+    "text": "Question 3 (30 points)\nLet \\(X_1 \\dots X_n\\) be i.i.d. r.v.s with mean \\(\\mu\\) and variance \\(\\sigma^2\\), and \\(n \\geq 2\\). A bootstrap sample of \\(X_1 \\dots X_n\\) is a sample of \\(n\\) r.v.s \\(X_1^* \\dots X_n^*\\) formed from the \\(X_j\\) by sampling with replacement with equal probabilities. Let \\(\\bar X^*\\) denote the sample mean of the bootstrap sample:\n\\[\n\\bar X^* = \\frac{1}{n}(X_1^* + \\dots X_n^*)\n\\]\n\nFind \\(\\mathbb{E}[X_j^*]\\) and \\(\\mathbb{V}[X_j^*]\\) for each \\(j\\). (Hint: What is the distribution of \\(X_j^*\\)?)\nFind \\(\\mathbb{E}\\left[\\bar X^* \\mid X_1 , \\dots, X_n\\right]\\) and \\(\\mathbb{V}\\left[\\bar X^* \\mid X_1 , \\dots, X_n\\right]\\) (Hint: Conditional on \\(X_1 \\dots X_n\\), the \\(X_j^*\\) are independent, with a PMF that puts probability \\(1/n\\) at each of the points \\(X_1 \\dots X_n\\).)\nFind \\(\\mathbb{E}\\left[\\bar X^*\\right]\\) and \\(\\mathbb{V}\\left[\\bar X^*\\right]\\) (Hint: Recall that the sample variance \\(\\frac{1}{n-1}\\sum_{j=1}^n(X_j - \\bar X)^2\\) is an unbiased estimator of the population variance \\(\\sigma^2\\))"
+  },
+  {
+    "objectID": "assignments/05_problem_set.html#question-4-20-points",
+    "href": "assignments/05_problem_set.html#question-4-20-points",
+    "title": "Gov 2002: Problem Set 5",
+    "section": "Question 4 (20 points)",
+    "text": "Question 4 (20 points)\nJon commutes on the Boston subway from Park Street Station to Harvard Square. He records in minutes every day how long he waits for the train to arrive. He assumes a statistical model that says his waiting times \\(Y_1 \\dots Y_n\\) are i.i.d. from Unif(0, \\(\\theta\\)).\n\nFind an unbiased plug-in estimator \\(\\hat \\theta_{PI}\\)\nFind the variance and mean square error of \\(\\hat \\theta_{PI}\\)"
+  },
+  {
+    "objectID": "assignments/03_problem_set.html",
+    "href": "assignments/03_problem_set.html",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#problem-set-instructions",
+    "href": "assignments/03_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on September 27, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#question-1-15-points",
+    "href": "assignments/03_problem_set.html#question-1-15-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 1 (15 points)",
+    "text": "Question 1 (15 points)\nA common approximation for a Binomial random variable \\(X \\sim \\text{Bin}(n,p)\\) is a Poisson random variable \\(Y \\sim \\text{Pois}(\\lambda)\\) where \\(\\lambda = n \\cdot p\\). One of the reasons for this approximation is that the expectations of Binomial and Poisson random variables match (both \\(np\\), in our case). We will explore this a bit further.\n\nHolding \\(n\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(p=\\frac{1}{10}\\) or if \\(p = \\frac{1}{2}\\)? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances.\nHolding \\(p\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(n=\\) 1,000 or if \\(n=\\) 100,000? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances."
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#question-2-15-points",
+    "href": "assignments/03_problem_set.html#question-2-15-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 2 (15 points)",
+    "text": "Question 2 (15 points)\nLet \\(n\\) be the number of students in a certain graduate program, and c be the number of courses that the department will offer next semester. Suppose that each student chooses their course schedule by randomly choosing 4 courses to take in the department (with all sets of 4 courses equally likely), independent of other students’ choices.\n\nAssume for this part that simultaneous enrollment is allowed (i.e., a student can enroll in two or more courses that have overlapping meeting times) and there are no enrollment caps (so students can enroll in whatever courses they want). Find the expected number of pairs of students such that the two students in the pair will take exactly the same set of courses next semester. (HINT: use the fundamental bridge and consider one pair of students to start.)\nNow suppose instead that simultaneous enrollment is not allowed (which explains the low workshop enrollment in said graduate program). Fortunately, there are still no enrollment caps. There are 8 different time slots in which a course can be offered (the time slots are non-overlapping). Suppose that \\(c = 8k\\) for some positive integer \\(k\\), and that there are exactly k courses in each of the 8 time slots next semester. As before, each student chooses their courses randomly, but now their chosen schedule will not be allowed if there are time conflicts between the courses. Find the expected number of students who will be able to take their initially chosen set of courses next semester."
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#question-3-30-points",
+    "href": "assignments/03_problem_set.html#question-3-30-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 3 (30 points)",
+    "text": "Question 3 (30 points)\nLet \\(X\\) and \\(Y\\) be Pois(\\(\\lambda\\)) r.v.s, and \\(T = X + Y\\).\n\nUsing LOTUS, find \\(\\mathbb{E}[2^X]\\) and \\(\\mathbb{E}[e^Y]\\) (Hint: Recall that the Taylor series for \\(e^x\\) is \\(e^{x}= \\sum_{k=0}^{\\infty} x^k/k!=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+\\frac{x^{4}}{4 !}+\\frac{x^{5}}{5 !}+\\ldots\\))\nProve that if \\(X\\) and \\(Y\\) are independent, then \\(T \\sim \\text{Pois}(2\\lambda)\\) (Hint: derive the PMF of \\(T\\) from the PMFs of \\(X\\) and \\(Y\\) and compare this to the PMF of \\(\\text{Pois}(2\\lambda)\\).)\nFormally or informally, show that if \\(X\\) = \\(Y\\), then \\(T\\) cannot follow a \\(\\text{Pois}(2\\lambda)\\) distribution."
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#question-4-20-points",
+    "href": "assignments/03_problem_set.html#question-4-20-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 4 (20 points)",
+    "text": "Question 4 (20 points)\nIn many problems about modeling count data, it is found that values of zero in the data are far more common than can be explained well using a Poisson model (e.g., the onset of major conflicts between great powers). The Zero-Inflated Poisson distribution is a modification of the Poisson to address this issue, making it easier to handle frequent zero values gracefully. A Zero-Inflated Poisson r.v. \\(X\\) with parameters \\(p\\) and \\(\\lambda\\) can be generated as follows:\n\nFirst, flip a coin with probability of \\(p\\) of Heads. Given that the coin lands Heads, \\(X\\) = 0. Given that the coin lands Tails, \\(X\\) is distributed Pois(\\(\\lambda\\)). Note that if \\(X\\) = 0 occurs, there are two possible explanations: the coin could have landed Heads (in which case the zero is called a structural zero), or the coin could have landed Tails but the Poisson r.v. turned out to be zero anyway. For example, if \\(X\\) is the number of atom bomb a random country detonated in another country within a year, then \\(X\\) = 0 for all non-nuclear powers (this is a structural zero), but a nuclear power could still have \\(X\\) = 0 occur.\n\n\nFind the PMF of a Zero-Inflated Poisson r.v. \\(X\\).\nExplain why \\(X\\) has the same distribution as \\((1-I)Y\\) , where \\(I \\sim \\text{Bern}(p)\\), \\(Y \\sim Pois(\\lambda)\\), and \\(I \\perp \\!\\!\\! \\perp Y\\).\nFind \\(\\mathbb{E}[X]\\) (Hint: You can either derive this using the definition of expectation, or the result from part (b))\nFind \\(\\mathbb{V}[X]\\) (Hint: You can either derive this using the definition of variation, or the result from part (b). Also, you can assume that if random variables \\(A\\) and \\(B\\) are independent, then \\(A^2\\) and \\(B^2\\) are also independent.)"
+  },
+  {
+    "objectID": "assignments/03_problem_set.html#question-5-20-points",
+    "href": "assignments/03_problem_set.html#question-5-20-points",
+    "title": "Gov 2002: Problem Set 3",
+    "section": "Question 5 (20 points)",
+    "text": "Question 5 (20 points)\nYou are a manager of a football team in your town. Each season has 10 games, and assume that each season and each game is played independently. The probability of winning one game is \\(p \\in (0, 1)\\).\n\nWhat is the probability that your team wins 8 out of 10 games in one season?\nWhat is the probability that your team wins at least 8 out of 10 games in one season?\nThere are \\(n = 20\\) upcoming seasons. What is the expected number of of your team winning at least 8 games?\nFinally, let’s practice coding given the result in (c). Assume that \\(p = 0.8\\) and calculate the expectation in (c) numerically, using the function.\n\nHint for (d): The function gives you the PMF of Binomial. For example, if you want to calculate \\(P(X = 30)\\), where \\(X \\sim Bin(n = 100, p = 0.3)\\), then you can code it by typing: ."
   },
   {
     "objectID": "assignments/01_problem_set.html",
@@ -602,179 +588,228 @@
     "text": "Question 6 (30 points)\nWe’ll now continue with the panel survey example, but now suppose that respondents do not always respond when selected for the sample. If selected in the first wave, panelists will respond 75% of the time. If a panelist is selected and does respond in the first wave, it sours their experience and they only respond with probability 0.25 if they are selected in the second wave. If they didn’t respond in the first wave (either because they weren’t selected or because they were selected and didn’t respond), their probability of responding in the second wave if selected remains at 0.75.\n\nWhat’s the probability that a single potential panelist is randomly selected in the first wave and actually responds? Remember that in the first wave we are selecting \\(n\\) panelists from the pool of \\(N\\) with equal probability.\nWhat is the probability of panelist responding if they are selected in the second wave? Remember that in the second wave we are selecting \\(m\\) panelists from the pool of \\(N\\) with equal probability and this is unaffected by the sampling or (non)responses in the first wave. (HINT: use the law of total probability and look for useful partitions!)"
   },
   {
-    "objectID": "assignments/03_problem_set.html",
-    "href": "assignments/03_problem_set.html",
-    "title": "Gov 2002: Problem Set 3",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "assignments/02_problem_set.html",
+    "href": "assignments/02_problem_set.html",
+    "title": "Gov 2002: Problem Set 2",
     "section": "",
     "text": "Submission instructions | PDF  | Rmd  |"
   },
   {
-    "objectID": "assignments/03_problem_set.html#problem-set-instructions",
-    "href": "assignments/03_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 3",
+    "objectID": "assignments/02_problem_set.html#problem-set-instructions",
+    "href": "assignments/02_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 2",
     "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on September 27, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+    "text": "Problem Set Instructions\nThis problem set is due on September 20, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
   },
   {
-    "objectID": "assignments/03_problem_set.html#question-1-15-points",
-    "href": "assignments/03_problem_set.html#question-1-15-points",
-    "title": "Gov 2002: Problem Set 3",
-    "section": "Question 1 (15 points)",
-    "text": "Question 1 (15 points)\nA common approximation for a Binomial random variable \\(X \\sim \\text{Bin}(n,p)\\) is a Poisson random variable \\(Y \\sim \\text{Pois}(\\lambda)\\) where \\(\\lambda = n \\cdot p\\). One of the reasons for this approximation is that the expectations of Binomial and Poisson random variables match (both \\(np\\), in our case). We will explore this a bit further.\n\nHolding \\(n\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(p=\\frac{1}{10}\\) or if \\(p = \\frac{1}{2}\\)? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances.\nHolding \\(p\\) fixed, would \\(Y\\) better approximate \\(X\\) if \\(n=\\) 1,000 or if \\(n=\\) 100,000? Compare the variances of \\(X\\) and \\(Y\\) by checking the difference and ratio of the two variances."
+    "objectID": "assignments/02_problem_set.html#question-1-12-points",
+    "href": "assignments/02_problem_set.html#question-1-12-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 1 (12 points)",
+    "text": "Question 1 (12 points)\n\nYou are trying to schedule qualitative interviews with government officials in some country. You don’t have a list with a fixed length of officials ahead of time (i.e. you’re just finding emails in real-time). The officials can take one of three actions: respond and agree to meet with you with probability 1/3, respond and reject your request with probability 1/3, or ignore your email with probability 1/3. The officials make their decisions independent of each other. Suppose you keep sending out emails until you get one official to agree to meet with you. Find the PMF of the number of emails you send out.\nNow suppose you care about whether an official has responded or not, regardless of the response. What is the PMF of the number of emails you have to send out until there’s at least one official who responds to you and one official who doesn’t? For example, the first five officials might accept, reject, reject, reject, and ghost you, after which you would stop since you have at least one response and non-response. You might also see the sequence ghost, ghost, ghost, ghost, then reject, after which you stop."
   },
   {
-    "objectID": "assignments/03_problem_set.html#question-2-15-points",
-    "href": "assignments/03_problem_set.html#question-2-15-points",
-    "title": "Gov 2002: Problem Set 3",
-    "section": "Question 2 (15 points)",
-    "text": "Question 2 (15 points)\nLet \\(n\\) be the number of students in a certain graduate program, and c be the number of courses that the department will offer next semester. Suppose that each student chooses their course schedule by randomly choosing 4 courses to take in the department (with all sets of 4 courses equally likely), independent of other students’ choices.\n\nAssume for this part that simultaneous enrollment is allowed (i.e., a student can enroll in two or more courses that have overlapping meeting times) and there are no enrollment caps (so students can enroll in whatever courses they want). Find the expected number of pairs of students such that the two students in the pair will take exactly the same set of courses next semester. (HINT: use the fundamental bridge and consider one pair of students to start.)\nNow suppose instead that simultaneous enrollment is not allowed (which explains the low workshop enrollment in said graduate program). Fortunately, there are still no enrollment caps. There are 8 different time slots in which a course can be offered (the time slots are non-overlapping). Suppose that \\(c = 8k\\) for some positive integer \\(k\\), and that there are exactly k courses in each of the 8 time slots next semester. As before, each student chooses their courses randomly, but now their chosen schedule will not be allowed if there are time conflicts between the courses. Find the expected number of students who will be able to take their initially chosen set of courses next semester."
+    "objectID": "assignments/02_problem_set.html#question-2-18-points",
+    "href": "assignments/02_problem_set.html#question-2-18-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 2 (18 points)",
+    "text": "Question 2 (18 points)\nSuppose you are a junior infectious disease physician working in a hospital. The annual flu season has started, and you know that approximately 40% of your patients have seasonal flu. You have a rapid diagnostic test kit with the following diagnostic properties:\n\nAmong patients with seasonal flu, 95% get tested positive with this test kit.\nAmong patients without seasonal flu, 45% get tested negative with this test kit.\n\nUsing these properties, answer the following questions.\n\nA patient of yours tested positive with this rapid test kit. What is the probability that the patient actually has the seasonal flu?\nAfter seeing several patients, you realize that you can do a better job roughly estimating the probability of your patient having seasonal flu before testing. Suppose that, after listening to a patient’s history, you find that one of your patients is extremely unlikely to have the flu: Your rough estimate (the “pre-test probability”) is that the probability of this patient having seasonal flu is 0.1. What is the probability of this patient having seasonal flu if they test positive (the “post-test probability”)?\nPlot the post-test probability as a function of the pre-test probability, assuming that all of your patients receive a positive test result.\nUpon seeing your plot from question (c), your attending physician told you that you don’t have to, and perhaps shouldn’t, perform rapid tests in some cases. Is this true? If so, when should you not perform rapid tests?"
   },
   {
-    "objectID": "assignments/03_problem_set.html#question-3-30-points",
-    "href": "assignments/03_problem_set.html#question-3-30-points",
-    "title": "Gov 2002: Problem Set 3",
-    "section": "Question 3 (30 points)",
-    "text": "Question 3 (30 points)\nLet \\(X\\) and \\(Y\\) be Pois(\\(\\lambda\\)) r.v.s, and \\(T = X + Y\\).\n\nUsing LOTUS, find \\(\\mathbb{E}[2^X]\\) and \\(\\mathbb{E}[e^Y]\\) (Hint: Recall that the Taylor series for \\(e^x\\) is \\(e^{x}= \\sum_{k=0}^{\\infty} x^k/k!=1+x+\\frac{x^{2}}{2 !}+\\frac{x^{3}}{3 !}+\\frac{x^{4}}{4 !}+\\frac{x^{5}}{5 !}+\\ldots\\))\nProve that if \\(X\\) and \\(Y\\) are independent, then \\(T \\sim \\text{Pois}(2\\lambda)\\) (Hint: derive the PMF of \\(T\\) from the PMFs of \\(X\\) and \\(Y\\) and compare this to the PMF of \\(\\text{Pois}(2\\lambda)\\).)\nFormally or informally, show that if \\(X\\) = \\(Y\\), then \\(T\\) cannot follow a \\(\\text{Pois}(2\\lambda)\\) distribution."
+    "objectID": "assignments/02_problem_set.html#question-3-20-points",
+    "href": "assignments/02_problem_set.html#question-3-20-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 3 (20 points)",
+    "text": "Question 3 (20 points)\nIn the United States, roughly \\(29\\%\\) of white drivers get stopped by police compared to roughly \\(42\\%\\) of non-white drivers. Of white drivers who are stopped by police, \\(25\\%\\) have illegal contraband, while \\(28\\%\\) of stopped non-white drivers have illegal contraband.\nLet \\(C\\) be the event of a driver possessing contraband, \\(W\\) be the event of the driver being white, and \\(S\\) being the event of the driver getting stopped by the police. Suppose that the probability of contraband found among non-stopped drivers is equal across both racial groups.\n\nWhat values of the probability of contraband among non-stopped drivers would imply the probability of contraband among whites is higher than contraband among non-whites in general?\nSuppose you are asked to find whether there is (and if there is, how much) racial bias in who is stopped by the police. You use the following measure to quantify racial discrimination: \\(P(S|C,W^c) - P(S|C,W)\\). The reasoning for this measure is as follows: if there is no racial bias in police stops, we might expect that \\(S \\perp W \\ | \\ C\\). This would mean given that if the driver is actually carrying contraband, their race should not update the probability of a police choosing to stop them. To show that this false – that race update the probability of a stop – we need to simply show that this measure is equal to zero. In English, it can be interpreted as, ``the increase in probability of getting stopped if a contraband carrier is not white’’.\n\nAssuming that the rates of contraband in the population are independent of race, plot and interpret possible bounds for this measure using the information provided in this problem. Hint: use Bayes’ Rule and compute the bounds using R. Hint part 2: let \\(x = P(C|W^c,S^c) = P(C|W, S^c)\\)."
   },
   {
-    "objectID": "assignments/03_problem_set.html#question-4-20-points",
-    "href": "assignments/03_problem_set.html#question-4-20-points",
-    "title": "Gov 2002: Problem Set 3",
-    "section": "Question 4 (20 points)",
-    "text": "Question 4 (20 points)\nIn many problems about modeling count data, it is found that values of zero in the data are far more common than can be explained well using a Poisson model (e.g., the onset of major conflicts between great powers). The Zero-Inflated Poisson distribution is a modification of the Poisson to address this issue, making it easier to handle frequent zero values gracefully. A Zero-Inflated Poisson r.v. \\(X\\) with parameters \\(p\\) and \\(\\lambda\\) can be generated as follows:\n\nFirst, flip a coin with probability of \\(p\\) of Heads. Given that the coin lands Heads, \\(X\\) = 0. Given that the coin lands Tails, \\(X\\) is distributed Pois(\\(\\lambda\\)). Note that if \\(X\\) = 0 occurs, there are two possible explanations: the coin could have landed Heads (in which case the zero is called a structural zero), or the coin could have landed Tails but the Poisson r.v. turned out to be zero anyway. For example, if \\(X\\) is the number of atom bomb a random country detonated in another country within a year, then \\(X\\) = 0 for all non-nuclear powers (this is a structural zero), but a nuclear power could still have \\(X\\) = 0 occur.\n\n\nFind the PMF of a Zero-Inflated Poisson r.v. \\(X\\).\nExplain why \\(X\\) has the same distribution as \\((1-I)Y\\) , where \\(I \\sim \\text{Bern}(p)\\), \\(Y \\sim Pois(\\lambda)\\), and \\(I \\perp \\!\\!\\! \\perp Y\\).\nFind \\(\\mathbb{E}[X]\\) (Hint: You can either derive this using the definition of expectation, or the result from part (b))\nFind \\(\\mathbb{V}[X]\\) (Hint: You can either derive this using the definition of variation, or the result from part (b). Also, you can assume that if random variables \\(A\\) and \\(B\\) are independent, then \\(A^2\\) and \\(B^2\\) are also independent.)"
+    "objectID": "assignments/02_problem_set.html#question-4",
+    "href": "assignments/02_problem_set.html#question-4",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 4",
+    "text": "Question 4\n\nSuppose that, in advance of the 2024 presidential election, you know that Pennsylvania and Georgia are pure toss-ups between the Democratic and Republican candidates and are independent of each other. Let \\(X\\) be the number of states the Republican candidate wins of the two. What are the PMF anf CDF of \\(X\\)?\nNow suppose that you are interested in local elections. Two counties are looking to elect a sheriff, but these elections are not toss-ups - in one, the Republican candidate has a 65% chance of winning, while in the other, the Republican candidate has a 40% chance of winning. Again, the two sheriff’s races are independent from each other. Let \\(Y\\) by the number of elections the Republican candidate wins of the two. What are the PMF and CDF of \\(Y\\)?\nFinally suppose that you know the joint PMF of \\(X\\) and \\(Y\\), \\(P(X = x, Y = y)\\), to be as follows:\n\nAre \\(X\\) and \\(Y\\) independent?"
   },
   {
-    "objectID": "assignments/03_problem_set.html#question-5-20-points",
-    "href": "assignments/03_problem_set.html#question-5-20-points",
-    "title": "Gov 2002: Problem Set 3",
-    "section": "Question 5 (20 points)",
-    "text": "Question 5 (20 points)\nYou are a manager of a football team in your town. Each season has 10 games, and assume that each season and each game is played independently. The probability of winning one game is \\(p \\in (0, 1)\\).\n\nWhat is the probability that your team wins 8 out of 10 games in one season?\nWhat is the probability that your team wins at least 8 out of 10 games in one season?\nThere are \\(n = 20\\) upcoming seasons. What is the expected number of of your team winning at least 8 games?\nFinally, let’s practice coding given the result in (c). Assume that \\(p = 0.8\\) and calculate the expectation in (c) numerically, using the function.\n\nHint for (d): The function gives you the PMF of Binomial. For example, if you want to calculate \\(P(X = 30)\\), where \\(X \\sim Bin(n = 100, p = 0.3)\\), then you can code it by typing: ."
+    "objectID": "assignments/02_problem_set.html#question-5-26-points",
+    "href": "assignments/02_problem_set.html#question-5-26-points",
+    "title": "Gov 2002: Problem Set 2",
+    "section": "Question 5 (26 points)",
+    "text": "Question 5 (26 points)\n\nYou are a player on a basketball team in your town. Your team has 10 players in total. In the coming season, there will be \\(n\\) games in total, and each game is considered as independent. The probability of winning one game is 0.6. If you win a game, your team gains 5,000 dollars as a team. The team distributes the money evenly among 10 players. What is the PMF of the amount of money each can gain in the coming season?\nWhereas the coming season has \\(n\\) games, the subsequent season will have \\(m\\) games. Again, each game is played independently, and the probability of winning one game is 0.6. What is the PMF of the number of games that the team wins in the coming two seasons combined?\nLet \\(W_1 \\sim Bin(n, 0.6)\\) and \\(W_2 \\sim Bin(m, 0.6)\\), where \\(W_1\\) is the number of games that your team wins in the first season, and \\(W_2\\) is the number of games that your team wins in the second season. You can think of \\(W_1\\) and \\(W_2\\) as independent of each other. You wonder if the numbers of games your team wins in the two seasons are different and take the difference between the two: \\(W_1 - W_2\\). A friend of yours who is interested in statistics tells you that \\(W_1 - W_2\\) is a Binomial random variable since it is the difference between two Binomial random variables. Is it true? Explain."
   },
   {
-    "objectID": "assignments/05_problem_set.html",
-    "href": "assignments/05_problem_set.html",
-    "title": "Gov 2002: Problem Set 5",
+    "objectID": "assignments/04_problem_set.html",
+    "href": "assignments/04_problem_set.html",
+    "title": "Gov 2002: Problem Set 4",
     "section": "",
     "text": "Submission instructions | PDF  | Rmd  |"
   },
   {
-    "objectID": "assignments/05_problem_set.html#problem-set-instructions",
-    "href": "assignments/05_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 5",
+    "objectID": "assignments/04_problem_set.html#problem-set-instructions",
+    "href": "assignments/04_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 4",
     "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on October 25, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+    "text": "Problem Set Instructions\nThis problem set is due on October 4, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
   },
   {
-    "objectID": "assignments/05_problem_set.html#question-1-25-points",
-    "href": "assignments/05_problem_set.html#question-1-25-points",
-    "title": "Gov 2002: Problem Set 5",
-    "section": "Question 1 (25 points)",
-    "text": "Question 1 (25 points)\nSuppose we want to model the relationship between legislation and politician quality. There are two types of politician quality: high and low. When a high quality politician propose a bill, it has a probability \\(p_1\\) to pass; conversely, when a low quality politician propose a bill, it has a probability \\(p_2\\) to pass, where \\(p_1 &gt; p_2\\). Unfortunately, we cannot directly observe politicians’ quality, but instead rely on our prior that a politician is a high type with probability \\(h\\) and low type with probability \\(1-h\\), where \\(h \\in (0,1)\\). Let \\(X\\) be the number of passed bills after a randomly picked politician has made \\(n\\) proposals.\n\nFind the marginal distribution of \\(X\\).\nFind the mean and variance of \\(X\\)."
+    "objectID": "assignments/04_problem_set.html#question-1-20-points",
+    "href": "assignments/04_problem_set.html#question-1-20-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 1 (20 points)",
+    "text": "Question 1 (20 points)\nSuppose you’re interested in studying the distribution of political ideology in the US, a random variable that we’ll call \\(X\\). Individuals are placed on a continuous one-dimensional ideology scale that varies from -1 to 1, where lower score are more liberal. Instead of having to do sampling to estimate the distribution, Keith Poole comes to you in a dream and tells you the unnormalized distribution of this random variable, which is as follows:\n\\[\n\\begin{aligned}\nf(x) = \\begin{cases}\nc(\\frac{1}{2}x + 1) & -1 \\le x \\le 1, \\\\\n0 & \\text{else}\n\\end{cases}\n\\end{aligned}\n\\]\nwhere \\(c\\) is a normalizing constant.\n\nFind the value of \\(c\\) that would make \\(f(x)\\) a valid probability distribution function, \\(f_X(x)\\).\nCalculate \\(E[X]\\)."
   },
   {
-    "objectID": "assignments/05_problem_set.html#question-2-25-points",
-    "href": "assignments/05_problem_set.html#question-2-25-points",
-    "title": "Gov 2002: Problem Set 5",
-    "section": "Question 2 (25 points)",
-    "text": "Question 2 (25 points)\nWe know from the definition of the variance that \\(\\mathbb{E}\\left[ \\left(Y - \\mathbb{E}[Y]\\right)^2 \\right] = \\mathbb{E}[Y^2] - \\left(\\mathbb{E}[Y]\\right)^2\\). Prove that this equality still holds when we condition on \\(X\\), i.e., \\(\\mathbb{E}\\left[ \\left(Y - \\mathbb{E}[Y \\mid X]\\right)^2 \\mid X \\right] = \\mathbb{E}[Y^2 \\mid X] - \\left(\\mathbb{E}[Y \\mid X]\\right)^2\\)"
-  },
-  {
-    "objectID": "assignments/05_problem_set.html#question-3-30-points",
-    "href": "assignments/05_problem_set.html#question-3-30-points",
-    "title": "Gov 2002: Problem Set 5",
-    "section": "Question 3 (30 points)",
-    "text": "Question 3 (30 points)\nLet \\(X_1 \\dots X_n\\) be i.i.d. r.v.s with mean \\(\\mu\\) and variance \\(\\sigma^2\\), and \\(n \\geq 2\\). A bootstrap sample of \\(X_1 \\dots X_n\\) is a sample of \\(n\\) r.v.s \\(X_1^* \\dots X_n^*\\) formed from the \\(X_j\\) by sampling with replacement with equal probabilities. Let \\(\\bar X^*\\) denote the sample mean of the bootstrap sample:\n\\[\n\\bar X^* = \\frac{1}{n}(X_1^* + \\dots X_n^*)\n\\]\n\nFind \\(\\mathbb{E}[X_j^*]\\) and \\(\\mathbb{V}[X_j^*]\\) for each \\(j\\). (Hint: What is the distribution of \\(X_j^*\\)?)\nFind \\(\\mathbb{E}\\left[\\bar X^* \\mid X_1 , \\dots, X_n\\right]\\) and \\(\\mathbb{V}\\left[\\bar X^* \\mid X_1 , \\dots, X_n\\right]\\) (Hint: Conditional on \\(X_1 \\dots X_n\\), the \\(X_j^*\\) are independent, with a PMF that puts probability \\(1/n\\) at each of the points \\(X_1 \\dots X_n\\).)\nFind \\(\\mathbb{E}\\left[\\bar X^*\\right]\\) and \\(\\mathbb{V}\\left[\\bar X^*\\right]\\) (Hint: Recall that the sample variance \\(\\frac{1}{n-1}\\sum_{j=1}^n(X_j - \\bar X)^2\\) is an unbiased estimator of the population variance \\(\\sigma^2\\))"
-  },
-  {
-    "objectID": "assignments/05_problem_set.html#question-4-20-points",
-    "href": "assignments/05_problem_set.html#question-4-20-points",
-    "title": "Gov 2002: Problem Set 5",
-    "section": "Question 4 (20 points)",
-    "text": "Question 4 (20 points)\nJon commutes on the Boston subway from Park Street Station to Harvard Square. He records in minutes every day how long he waits for the train to arrive. He assumes a statistical model that says his waiting times \\(Y_1 \\dots Y_n\\) are i.i.d. from Unif(0, \\(\\theta\\)).\n\nFind an unbiased plug-in estimator \\(\\hat \\theta_{PI}\\)\nFind the variance and mean square error of \\(\\hat \\theta_{PI}\\)"
-  },
-  {
-    "objectID": "assignments/07_problem_set.html",
-    "href": "assignments/07_problem_set.html",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "",
-    "text": "Submission instructions | PDF  | Rmd  |"
-  },
-  {
-    "objectID": "assignments/07_problem_set.html#problem-set-instructions",
-    "href": "assignments/07_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on November 8, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
-  },
-  {
-    "objectID": "assignments/07_problem_set.html#question-1-25-points",
-    "href": "assignments/07_problem_set.html#question-1-25-points",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "Question 1 (25 points)",
-    "text": "Question 1 (25 points)\nAssume \\(\\sqrt{n}(\\hat \\theta - \\theta) \\overset{d}\\to \\mathcal{N}(0, v^2)\\).\n\nUse the Delta method to find the asymptotic distribution of \\(\\hat \\theta^4\\).\nUse the Delta method to find the asymptotic distribution of \\(\\frac{1}{1+\\exp(-\\hat\\theta)}\\).\nWe learned in class a geometric interpretation of the Delta method. In fact, you can relate the Delta method to Taylor polynomials. Explain how you can (approximately) derive the Delta method using the Taylor polynomials. (Hint: The first-order Taylor approximation of a function \\(f(x)\\) at value \\(c\\) is \\(f(x) = f(c) + (x-c)f'(c)\\).)"
-  },
-  {
-    "objectID": "assignments/07_problem_set.html#question-2-25-points",
-    "href": "assignments/07_problem_set.html#question-2-25-points",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "Question 2 (25 points)",
-    "text": "Question 2 (25 points)\nDelta method is a very powerful tool for analyzing asymptotic properties of random variables. In this question, we will analyze what the distribution of quantiles would look like.\nLet \\(X_1, ..., X_n\\) be i.i.d. (continuous random variables). Let \\(F_X(x)\\) be the CDF of \\(X_i\\). Also consider a random variable \\(Y_n(x)\\), which is defined as \\[\nY_n(x) = \\frac{1}{n} \\sum_{i=1}^n Z_i\n\\] where \\(Z_i = I\\{X_i \\leq x\\}\\). Here, \\(I\\) is a usual indicator function, so \\(Z_i = 1\\) if \\(X_i \\leq x\\).\n\nWhat distribution does \\(Z_i\\) follow? Name the distribution. What is its mean and variance? Express the mean and variance as a function of \\(F_X(x)\\). (Hint: The fundamental bridge.)\nWhat is the asymptotic distribution of \\(Y_n(x)\\)?\nApply the Delta method and identify the asymptotic distribution of \\(F_X^{-1}(Y_n(x))\\). You may want to use the fact that \\(\\frac{d}{dx}F_X^{-1}(x) = \\frac{1}{f_X(F_X^{-1}(x))}\\), where \\(f_X(x)\\) is the PDF of \\(X_i\\).\nLet \\(F^{-1} (p) = q_{X,p}\\) be the p-th quantile of the distribution of \\(X\\). Given the results from (c), show that the asymptotic distribution of \\(p\\)-th sample quantile of \\(X_i\\), denoting it as \\(Q_{X, p}\\), can be expressed as \\[\n\\sqrt{n}(Q_{X, p} - q_{X,p}) \\overset{d}\\to \\mathcal{N}\\Big(0, \\frac{p(1-p)}{\\{f_X(q_{X,p})\\}^2}\\Big)\n\\] (Hint: You can assume the following fact: \\(F_X^{-1}(Y_n(x)) = Q_{X, p}\\).)"
-  },
-  {
-    "objectID": "assignments/07_problem_set.html#question-3-25-points",
-    "href": "assignments/07_problem_set.html#question-3-25-points",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "Question 3 (25 points)",
-    "text": "Question 3 (25 points)\nWhereas we often work on the mean instead of the median, a practically useful quantity is often the median because it is not so much affected by the existence of outliers. Let’s investigate what the asymptotic distributions of the median look like and how we can work on the median instead of the mean.\n\nLet \\(X \\sim\\mathcal{N}(\\mu_1, \\sigma_1^2)\\) and \\(X_1, X_2, ..., X_n\\) be \\(n\\) i.i.d. observations each following the same distribution as \\(X\\). Let \\(\\delta_1\\) denote the (true) median of \\(X\\) and let \\(X_{med}\\) be the median of the \\(n\\) observations. What is the asymptotic distribution of the sample median \\(X_{med}\\)? You can use the result from Question 2. The obtained variance in your answer can be a function of \\(\\sigma_1\\) but should not include \\(f_X\\), \\(\\delta_1\\), or \\(\\mu_1\\).\nJust like comparing the mean, you come up with an idea to compare the median of two different distributions. Suppose that you have \\(n = N\\) samples of \\(X_1, ..., X_n\\), just like part (a). And then suppose that you have another set of samples \\(Y_1, ..., Y_m\\), where \\(m = M\\) observations are i.i.d. and follow \\(Y \\sim \\mathcal{N}(\\mu_2, \\sigma_2^2)\\). The true median of \\(Y\\) is \\(\\delta_2\\). Assume that \\(N\\) and \\(M\\) are sufficiently large (but still finite). Also assume that \\(X\\) and \\(Y\\) are independent. In approximation, what would the distribution of \\(X_{med} - Y_{med}\\) look like?\nHow do the results from part (b) differ from the approximated distribution of the difference in means (\\(\\overline{X} - \\overline{Y}\\), where \\(\\overline{X} = \\frac{\\sum_{i=1}^N X_i}{N}\\) and \\(\\overline{Y} = \\frac{\\sum_{i=1}^M Y_i}{M}\\))? (Hint: Use CLT.)"
-  },
-  {
-    "objectID": "assignments/07_problem_set.html#question-4-25-points",
-    "href": "assignments/07_problem_set.html#question-4-25-points",
-    "title": "Gov 2002: Problem Set 7",
-    "section": "Question 4 (25 points)",
-    "text": "Question 4 (25 points)\nUsing the techniques we’ve learned in class, we can now work on a seemingly complex problem step by step.\nLet \\(Y_1, \\ldots, Y_n\\) be i.i.d. random variables such that \\(E\\left(Y_i\\right)=0, \\operatorname{Var}\\left(Y_i\\right)=1\\), and the fourth moment \\(E\\left(Y_i^4\\right)\\) exists. Also, define \\[\nS_n=\\frac{1}{n} \\sum_{i=1}^n Y_i^2, \\qquad\nV_n=\\frac{1}{n} \\sum_{i=1}^n\\left(Y_i^2-1\\right)^2 .\n\\]\nThe goal is to identify a constant \\(c\\) such that \\[\nc \\cdot \\frac{\\sqrt{n}\\left(\\exp \\left(S_n\\right)-e\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1)\n\\]\nLet’s see how CLT, LLN, CMT, Slutsky, and Delta method are used in practice.\n\nWhat is the approximated distribution of \\(S_n\\) as \\(n \\to \\infty\\)? Your answer can include \\(Var(Y_i^2)\\) but should not include \\(E[Y_i^2]\\). (Hint: Use CLT…)\nShow that \\(\\sqrt{V_n} \\overset{p}\\to \\sqrt{Var(Y_i^2)}\\). (Hint: LLN and CMT…)\nGiven parts (a) and (b), prove the following asymptotic result. (Hint: Slutsky…) \\[\n\\frac{\\sqrt{n} \\cdot\\left(S_n-1\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1) .\n\\]\nFind the constant \\(c\\) such that \\[\nc \\cdot \\frac{\\sqrt{n}\\left(\\exp \\left(S_n\\right)-e\\right)}{\\sqrt{V_n}} \\stackrel{d}{\\rightarrow} \\mathcal{N}(0,1)\n\\] (Hint: and Delta method!)"
-  },
-  {
-    "objectID": "assignments/09_problem_set.html",
-    "href": "assignments/09_problem_set.html",
-    "title": "Gov 2002: Problem Set 9",
-    "section": "",
-    "text": "Submission instructions | PDF  | Rmd  |"
-  },
-  {
-    "objectID": "assignments/09_problem_set.html#problem-set-instructions",
-    "href": "assignments/09_problem_set.html#problem-set-instructions",
-    "title": "Gov 2002: Problem Set 9",
-    "section": "Problem Set Instructions",
-    "text": "Problem Set Instructions\nThis problem set is due on November 29, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
-  },
-  {
-    "objectID": "assignments/09_problem_set.html#question-1-30-points",
-    "href": "assignments/09_problem_set.html#question-1-30-points",
-    "title": "Gov 2002: Problem Set 9",
-    "section": "Question 1 (30 points)",
-    "text": "Question 1 (30 points)\nOften our data is collected with error, which we refer to as measurement error. For instance, for a dependent variable \\(Y\\) you’re trying to measure in a survey, respondents may randomly mis-click, or they may systematically lie about having a socially undesirable trait. In this question, we will explore the impact of measurement error in regression analysis in the most favourable case where the measurement error is independent of the true values. Consider the linear projection:\n\\[\nL[Y \\mid 1, X] = \\beta_0 + \\beta_1X\n\\]\nwith the projection error denoted as \\(e = Y - L[Y \\mid 1, X]\\), and \\(\\mathbb{V}[X] = \\sigma_X^2\\). Unfortunately, we do not observe \\(Y\\) or \\(X\\) but instead noisy proxies for them \\(\\{\\tilde{Y}, \\tilde{X}\\}\\), where\n\\[\n\\tilde{Y} = Y + v, \\quad \\tilde{X} = X + w\n\\]\nWhere \\(v\\) is one realization from \\(V \\sim \\mathcal{N}\\left(0, \\sigma_{v}^{2}\\right)\\) and \\(w\\) is one realization from \\(W \\sim \\mathcal{N}\\left(0, \\sigma_{w}^{2}\\right)\\), where \\(W\\) and \\(V\\) are independent of \\(X\\) and \\(Y\\). This implies that \\(\\operatorname{Cov}(v,X)=\\operatorname{Cov}(v, e)=\\operatorname{Cov}(v, w)=\\operatorname{Cov}(w, X)=\\operatorname{Cov}(w, e)=\\operatorname{Cov}(w, v)=0\\). This is commonly referred to as classical measurement error.\n\nConsider the linear projection of these observable variables, \\(L[\\tilde{Y} \\mid 1, \\tilde{X}]=\\alpha_{0}+\\alpha_{1} \\tilde{X}\\). Find \\(\\alpha_{1}\\) in terms of \\(\\left\\{\\beta_{1}, \\sigma_{w}^{2}, \\sigma_{v}^{2}, \\sigma_{X}^{2}\\right\\}\\). Hint: first derive an expression of the coefficients in terms of the \\(\\tilde{X}\\) and \\(\\tilde{Y}\\).\nFrom your expression in part (a), briefly explain (1-2 sentences) the effect of this type of measurement error in \\(X\\) on the sign and magnitude of the coefficient \\(\\alpha_{1}\\) compared to \\(\\beta_{1}\\). Hint: what parameter controls the amount of measurement error in \\(X\\)?\nFrom your expression in part (a), briefly explain (1-2 sentences) the effect of this type of measurement error in \\(Y\\) on the sign and magnitude of the coefficient \\(\\alpha_1\\) compared to \\(\\beta_1\\). Hint: what parameter controls the amount of measurement error in \\(Y\\)?"
-  },
-  {
-    "objectID": "assignments/09_problem_set.html#question-2-20-points",
-    "href": "assignments/09_problem_set.html#question-2-20-points",
-    "title": "Gov 2002: Problem Set 9",
+    "objectID": "assignments/04_problem_set.html#question-2-20-points",
+    "href": "assignments/04_problem_set.html#question-2-20-points",
+    "title": "Gov 2002: Problem Set 4",
     "section": "Question 2 (20 points)",
-    "text": "Question 2 (20 points)\nDecide whether each of the following statements are true or false and explain your reasoning briefly.\n\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(E[e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(E[X^3 e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[Xe] = 0\\), then \\(E[X^2 e] = 0\\).\nIf \\(Y = X\\beta + e\\), \\(X \\in \\mathbb{R}\\), and \\(E[e|X] = 0\\), then \\(e\\) and \\(X\\) are independent."
+    "text": "Question 2 (20 points)\nA friend of yours, who is interested in applied statistics and medicine, approaches you to share her fascination with a class she is taking. She is particularly intrigued by the idea that survival analysis, one of the most widely-used analytic methods for testing the long-term efficacy of treatments, employs the Weibull distribution, a type of continuous distribution. The CDF of the Weibull distribution is given as follows: \\[\nF(y) = 1-\\frac{1}{\\exp\\Big\\{ (\\frac{y}{\\lambda})^k  \\Big\\}}\n\\] where \\(\\lambda \\in (0, \\infty)\\) and \\(k \\in (0, \\infty)\\). (They are called scale and shape parameters, respectively. Also, the aforementioned CDF is technically for \\(y \\geq 0\\) only, but you can ignore the case where \\(y &lt; 0\\).)\n\nYour friend is eager to use this distribution, but she doesn’t know how to do so. Specifically, she wants to generate several Weibull random variables. Another friend of yours, who is well-versed in statistics, tells you that you can generate these using uniform random variables. Using the universality of the uniform, explain to her how to generate Weibull random variables from uniform random variables. Give you answer as a mathematical function of a uniform random variable.\nNow, let’s practice some coding here. Assume \\(\\lambda = 1\\) and \\(k = 0.5\\) and generate 100 Weibull random variables using your derivation from part (a). Before coding, type to ensure reproducibility. After generating 100 Weibull r.v.s, draw a histogram of them.\n\nHint for (b): If you want to generate \\(n = 100\\) standard uniform random variables, type . To draw a histogram, use ."
   },
   {
-    "objectID": "assignments/09_problem_set.html#question-3-30-points",
-    "href": "assignments/09_problem_set.html#question-3-30-points",
-    "title": "Gov 2002: Problem Set 9",
-    "section": "Question 3 (30 points)",
-    "text": "Question 3 (30 points)\nIn most linear regression models, the dependent variable \\(Y\\) is expressed as a function of independent variables \\(X_1, X_2, ..., X_k\\) (or to use the vector notation, just \\(X\\) as a vector in \\(\\mathbb{R}^k\\)). That is, \\[\nY = X\\beta + e\n\\] where \\(\\beta\\) is a \\(k \\times 1\\) coefficient vector and \\(e\\) is the error.\n\nExplain briefly what it means for \\(g(X)\\), a function of \\(X\\), to be the best predictor of \\(Y\\).\nShow that for \\(g(X)\\) to be the best predictor, \\(g(X)\\) must be equal to the conditional expectation function \\(E[Y|X]\\). ( You can assume that, for the CEF error \\(e = Y - E[Y|X]\\), we have \\(E\\big|e\\{E[Y|X] - g(X)\\}\\big| &lt; \\infty\\)).\n\nNow, for unifying definition, we also need to consider an model, where there is no \\(X\\) and \\(\\alpha\\) is simply a constant: \\[\nY = \\alpha + e\n\\]\n\nFind \\(\\underset{\\alpha}{\\operatorname{argmin}} E[(Y - \\alpha)^2]\\)."
+    "objectID": "assignments/04_problem_set.html#question-3-20-points",
+    "href": "assignments/04_problem_set.html#question-3-20-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 3 (20 points)",
+    "text": "Question 3 (20 points)\nSuppose \\(X \\sim \\text{Pois}(\\lambda)\\), where \\(\\lambda\\) is fixed but unknown.\nAn estimator is a function of the data and the bias of an estimator, \\(f(X)\\), is defined as \\(E[f(X)] - \\theta\\), where \\(\\theta\\) is the estimand (an unknown quantity we would like to estimate from the observable data).\nFor instance our estimand could be \\(\\lambda\\), and we know by the properties of a Poisson random variable that the bias of the estimator, \\(f(X) = X\\), is \\(E[X] - \\lambda = \\lambda - \\lambda = 0\\). We call an estimator with \\(0\\) bias an unbiased estimator.\nFor this question, suppose that our estimand is \\(\\lambda^3\\) rather than \\(\\lambda\\).\n\nShow that \\(X^3\\) is not an unbiased estimator of \\(\\lambda^3\\) and specify the bias as a function of \\(\\lambda\\).\n\nHints:\n\nYou may use the following result: if \\(X \\sim \\text{Pois}(\\lambda)\\), then \\(E[X\\cdot g(X)] = \\lambda E[g(X + 1)]\\) for any function \\(g(\\cdot)\\).\nYou may use the result for \\(E[X^2]\\) derived in lecture and section, (i.e., no need to derive it again).\n\n\nSuppose \\(\\lambda = 5\\). Use \\(150,000\\) simulations to validate your result to part (a). That is, calculate the bias of you estimator from both the simulations and the analytical results. Print your results in the format below:\n\n\nset.seed(02138)\n\n# Simulation result \n\n# Analytical result"
   },
   {
-    "objectID": "assignments/09_problem_set.html#question-4-20-points",
-    "href": "assignments/09_problem_set.html#question-4-20-points",
-    "title": "Gov 2002: Problem Set 9",
-    "section": "Question 4 (20 points)",
-    "text": "Question 4 (20 points)\nSuppose you are interested in the association between income and race, gender, and education. The dependent variable \\(Y\\) is income in USD. The independent variables are age, gender, and education, where\nYou are especially interested in interactions among these variables, and run a linear regression model only with a three-way interaction term: \\[\nY = \\beta_0 + \\beta_1 X_aX_gX_e\n\\]\n\nDerive the marginal effects of \\(X_a, X_g\\), and \\(X_e\\).\n\nDetermine whether the following statements (b-d) are true or false and explain your reasoning briefly.\n\nComparing (i) men whose age is 30 years and (ii) men whose age is 50 years, we find that (ii) men whose age is 50 years earn \\(\\beta_1\\) dollars more than (i) men whose age is 30 years.\nComparing (i) women whose age is 30 years and who has no college degree and (ii) women whose age is 50 years and who has no college degree, we find that (ii) women whose age is 50 years and who has no college degree earn \\(\\beta_1\\) dollars more than (i) women whose age is 30 years and who has no college degree.\nComparing (i) women whose age is 30 years and who has a college degree and (ii) women whose age is 50 years and who has a college degree, we find that (ii) women whose age is 50 years and who has a college degree earn \\(20 \\times \\beta_1\\) dollars more than (i) women whose age is 30 years and who has a college degree."
+    "objectID": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
+    "href": "assignments/04_problem_set.html#question-4-fishers-method-in-forecasting-30-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 4: Fisher’s method in forecasting (30 points)",
+    "text": "Question 4: Fisher’s method in forecasting (30 points)\nIn this problem, we’re going to explore a real-world example of Fisher’s “lady tasting tea” experiment from lecture: election forecasters – who have, for better or worse, become a big part of politics in the United States and elsewhere. Be sure to set your seed: set.seed(02138).\n\nSuppose that Bob has correctly predicted six of the last eight election outcomes. What is the probability that someone randomly flipping a coin each of the same elections would have experienced the same success as Bob? Use R to compute your answer analytically (i.e. not by simulation).\n\nForecasting has become so popular that riffraff are flooding the market. These “uniform amateurs” predict the vote share for each state in the U.S. presidential election by drawing a uniform random variable between 0 and 1, independently across states. You are deciding whether or not to hire a forecaster, Nate, to to forecast each of the 50 state election winners in the 2024 presidential general election based on the performance of his 2020 election forecast, but you are worried that Nate might be one of these amateurs. When you ask him to justify his 2020 forecasts, he says “my highest predicted [Democratic] vote share was 0.8 which is very unlikely if I were a uniform amateur.” Let’s evaluate his claim.\n\nSuppose Nate is a uniform amateur and let \\(X\\) be the maximum of the 51 uniform vote share draws (include D.C.). Derive the CDF and PDF of \\(X\\). Use these to calculate the probability of Nate’s highest Democratic vote share being 0.8 or less if he were a uniform amateur.\nTo be on the lookout for more uniform amateurs, it’s helpful to know what highest vote share we should expect. To that end, calculate \\(E[X]\\)."
+  },
+  {
+    "objectID": "assignments/04_problem_set.html#question-5-10-points",
+    "href": "assignments/04_problem_set.html#question-5-10-points",
+    "title": "Gov 2002: Problem Set 4",
+    "section": "Question 5 (10 points)",
+    "text": "Question 5 (10 points)\nLet \\(Z \\sim \\mathcal{N}(0, 1)\\).\n\nExpress the random variable \\(Y \\sim \\mathcal{N}(1, 9)\\) as a simple function in terms of \\(Z\\). Make sure to check that your \\(Y\\) has the correct mean and variance.\nExpress the probability of \\(|Y| \\leq 1\\) as a function of \\(\\Phi\\), the CDF of the standard Normal distribution."
+  },
+  {
+    "objectID": "assignments/06_problem_set.html",
+    "href": "assignments/06_problem_set.html",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/06_problem_set.html#problem-set-instructions",
+    "href": "assignments/06_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on November 1, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/06_problem_set.html#question-1-30pt",
+    "href": "assignments/06_problem_set.html#question-1-30pt",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "Question 1 (30pt)",
+    "text": "Question 1 (30pt)\nThis problem will use the subprime data to walk you through a very common inference problem - testing whether the difference between two population values is non-zero. To begin this problem first download subprime.csv and load it into R.\n\nWe are going to be interested primarily in the loan.amount variable - the amount that each loan recipient received. Suppose a lawsuit has been filed in U.S. District Court by a group of Fort Myers women who claim that women in the area were loaned less money than men. The defendants – a group of local mortgage lenders – are vigorously denying these claims, and the case is now advancing to trial. Having heard about your expertise in this area, the federal judge hearing the case has brought you in to provide expert testimony. Your task in this problem is to assist the judge in her determination.\n\nSuppose you were only able to interview \\(100\\) male and \\(100\\) female loan recipients at random, making them iid. To simulate this in R, set the seed to 02138 and draw \\(100\\) observations randomly from the male subset of the subprime data and \\(100\\) observations randomly from the female subset of the data. These \\(200\\) observations constitute your sample. Calculate (1) the average loan amount (loan.amount) for women in your sample, (2) the average loan amount for men, and (3) and (4), the sample standard deviation for each.\n\n\n\nLet \\(\\mu_{m}\\) and \\(\\mu_{w}\\) be the population average loan amount for men and women respectively. Let \\(\\sigma^2_{m}\\) and \\(\\sigma^2_{w}\\) be the population variances in loan amount for men and women respectively. Denote the sample average loan amounts for men by \\(\\bar{X}_{m}\\) and for women by \\(\\bar{X}_{w}\\). What is the expected value of the sampling distribution of \\(\\bar{X}_{m} - \\bar{X}_{w}\\)? What is the variance of the sampling distribution of \\(\\bar{X}_{m} - \\bar{X}_{w}\\)?\nCompute and report your sample difference in average loan amount for men and women. Recall that for large samples, the sampling distribution of a mean or difference-in-means is approximately normal. Suppose that we know that the true population \\(\\sigma^2_{m} = 32381.57\\) and \\(\\sigma^2_{w} = 19097.95\\). Using the normal approximation, what is the probability that we would observe a difference-in-means at least as extreme as the one in our sample if the true population difference-in-means \\(\\mu_{m} - \\mu_{w}\\) equals 0? Note that by “at least as extreme,” we mean a value that is further away from \\(0\\) than the value we observe - that is, \\(P(|\\bar{X}_{m} - \\bar{X}_{w}| \\ge \\alpha)\\) where \\(\\alpha\\) is our observed value and \\(||\\) is the absolute value operator.\n\n\n\n\nComment on your result in (c). Given what we observe in our sample, is it likely that there is no difference in loan amounts for men and women? A common threshold for “rejecting” our assumed hypothesis that \\(\\mu_{m} - \\mu_{w} = 0\\) is observing a sample that would occur with probability \\(.05\\) or less if that hypothesis were true (that is, a very unlikely sample). Would we reject the hypothesis that there is no difference in average loan amounts between men and women?"
+  },
+  {
+    "objectID": "assignments/06_problem_set.html#question-2-30pt",
+    "href": "assignments/06_problem_set.html#question-2-30pt",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "Question 2 (30pt)",
+    "text": "Question 2 (30pt)\nIn this problem, we will explore the implications of the Central Limit Theorem for uncertainty estimation and hypothesis testing. Start by creating two variables, X1 and X2, using the following code:\n\nset.seed(02139)\nX1 &lt;- rnorm(100000, 5, 2)\nX2 &lt;- rexp(100000, 0.2)\n\nFor the purposes of this problem, we will treat these variables (each with 100,000 elements) as the full population. We will take samples from these two datasets to evaluate the coverage probability of 95% confidence intervals for the population mean using different types of data and different sample sizes.\n\nPlot and describe the full distributions of X1 and X2. What is the population mean and population standard deviation of each random variable (this is just the mean() and sd() of both of these variables)?\n\n\nHint for coding:\n\nConsider using the ggplot2 package (for example, would be helpful). There are various resources available on the web on how to use ggplot.\n\n\n\nNow, create a loop to take 100 samples of size 8 from each dataset and record the sample mean for each sample. Plot the density of sample means for X1 and X2 separately and compare your these densities. Are they similar or different? Why?\n\n\nHint for coding:\n\nOne way to work on this problem is to use for loop. If you want to loop over 1, 2, …, n, then your for loop starts by .\nFirst create an empty matrix (or dataframe) to save results. Then save outputs from the for loop to that empty matrix.\n\n\n\nGiven your answer in part (a), what should be standard error of the sample mean of X1 and the sample mean of X2? We know that if a random variable is normally distributed, 95% of its distribution will be within 1.96 standard deviations of the mean. What proportion of the sample means for X1 and X1 are within 2 standard errors of the population means?\nRepeat the simulation in parts (b) and (c) for samples of size 8, 20, 50, and 500, and increase your number of simulations to 1000. Report the probability of being within 1.96 standard errors of the popoulation mean for each of your eight simulations in a table (you do not need to create additional plots). How do your results change? What differences do you see between X1 and X2?\n\n\nHint for coding:\n\nOne way to work on this problem is to loop over different sample sizes. Of course, you are free to use other functionalities if you wish.\n\n\n\nInterpret your findings in parts (b)-(d). How does the central limit theorem explain what you see in the simulations?"
+  },
+  {
+    "objectID": "assignments/06_problem_set.html#question-3-20pt",
+    "href": "assignments/06_problem_set.html#question-3-20pt",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "Question 3 (20pt)",
+    "text": "Question 3 (20pt)\nAll probability distributions have moments, which are standard expressions that define its shape in ways you’ve already heard of and other more nuanced ways (the variance, the skew, kurtosis, etc.). Describing a population distribution (or empirical sample distribution) in terms of its moments is really useful in social science (e.g. the skew of income in the U.S. population is positive) Specifically, the \\(n\\)th central moment of a random variable \\(X\\) is defined as \\(E[(X-E[X])^n]\\), but it is more common to work with the \\(n\\)th moment defined as as \\(E[X^n]\\) (getting rid of the \\(E[X]^n\\) part).\nSuppose the random variable \\(X\\) for your population has the the following first four moments: \\(E[X]=1/2\\), \\(E[X^2]=1/2\\), \\(E[X^3]=3/4\\), \\(E[X^4]=3/2\\). Suppose you took an i.i.d. sample \\(\\{X_1,\\ldots,X_{20}\\}\\) of size 20 from this distribution. Let \\(T=(X^2_1 +...+ X^2_{20})/20 = \\overline{X^2}\\), an estimator of the second moment.\n\nWhat are \\(E[T]\\) and \\(V(T)\\)? Be sure to explain why.\nUse the central limit theorem to approximate the probability (in R) that \\(T\\) is less than or equal to 1. Consider using ."
+  },
+  {
+    "objectID": "assignments/06_problem_set.html#question-4-20pt",
+    "href": "assignments/06_problem_set.html#question-4-20pt",
+    "title": "Gov 2002: Problem Set 6",
+    "section": "Question 4 (20pt)",
+    "text": "Question 4 (20pt)\nIn class we learned that if a the variance of a sequence of random variables with finite mean goes to zero as \\(n\\to\\infty\\), then the sequence will converge in probability to some value. But this is a sufficient condition, not a necessary one. To see this, consider the sequence of random variables \\(X_n\\) be with probability distribution:\n\\[\nX_n =\n\\begin{cases}\n0 & \\text{with probability    }  1 - 1/n \\\\\nn & \\text{with probability    } 1/n \\\\\n\\end{cases}\n\\]\n\nFind \\(\\mathbb{E}[X_n]\\).\nUse the definition of convergence in probability to show that \\(X_n \\xrightarrow{p} 0\\)."
+  },
+  {
+    "objectID": "assignments/08_problem_set.html",
+    "href": "assignments/08_problem_set.html",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/08_problem_set.html#problem-set-instructions",
+    "href": "assignments/08_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on November 15, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/08_problem_set.html#question-1-25-points",
+    "href": "assignments/08_problem_set.html#question-1-25-points",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "Question 1 (25 points)",
+    "text": "Question 1 (25 points)\nIn the last week’s problem set (Question 2), we derived the asymptotic distribution of the p-th sample quantile of a random variable \\(X\\): \\[\n\\sqrt{n}(Q_{X, p} - q_{X, p}) \\overset{d}\\to \\mathcal{N}\\Big(0, \\frac{p(1-p)}{\\{f_X(q_{X, p})\\}^2}\\Big)\n\\] Assume that \\(X \\sim \\mathcal{N}(0, 1)\\) and answer the following questions.\n\nYou want to perform a two-sided hypothesis test with the null of \\(H_0: Q_{X, p} = c\\). Propose a test statistic to perform this hypothesis test.\nRegarding your answer in (a), briefly explain why it is a good test statistic.\nSuppose that you are testing whether the median is 0.1, using a two-sided hypothesis test. You have \\(n = 1000\\) samples and you obtained the sample median of 0.1785. Would you reject or accept the null at \\(\\alpha = 0.05\\)? Explain."
+  },
+  {
+    "objectID": "assignments/08_problem_set.html#question-2-power-analysis-25-points",
+    "href": "assignments/08_problem_set.html#question-2-power-analysis-25-points",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "Question 2: Power Analysis (25 points)",
+    "text": "Question 2: Power Analysis (25 points)\nThis question will give you some realistic practice conducting power analysis, a very useful procedure when planning data collection for research.\nRecall the subprime data from previous problem sets. You have been given some money from IQSS to conduct a field experiment to replicate some of the findings in this observational dataset. Your field experiment will take the form of an audit study, where you test whether or not lenders are discriminating on the basis of gender. Such audit studies are a common way of studying discrimination in housing, wage, and many other markets. You will send out loan applications to a variety of lenders, and will randomly assign the gender of the applicant. This random assignment is important because it would allow you to make a causal claim about the relationship between gender and the amount of money applicants will be loaned.\nIQSS’s money pot is deep, but it has its limits, so you need to know what size experiment you can afford. You decide to conduct a power calculation, so that you can know the likelihood of “finding effects” (i.e. rejecting the null hypothesis) in your proposed study. For this problem, you will use the same subprime.csv dataset we have used in a previous problem set (uploaded on Ed).\n\nYou already know your estimator, \\(\\overline{X}_w - \\overline{X}_m\\), your outcome measure, loan.amount, and the fact that you want to conduct a two-sided test. What are the factors do we need to consider that will affect the power of your experiment? (Hint: There are four of them.) In what way does each of them affect power, that is, what happens to power as each of these factors increases or decreases in size?\nIQSS wants you to come up with an accurate estimate for the effect size you expect to see. Calculate a reasonable value for the effect size using difference in average loan amount between men and women in the population (i.e. the subprime data as a whole). In what ways might this value be an accurate estimate for the effect you expect to find in your experiment? In what ways might it be inaccurate? If this estimate shows a stronger effect than the real effect size, what will that imply about our power calculation?\nSuppose that you have received a grant of $3,000 for your experiment, and you estimate that your experiment will cost approximately $5 per participant. You plan on assigning half of your applicants to be male and the other half to be female. Assuming an effect size equal to what you calculated in (b), and using a standard \\(\\alpha = 0.05\\), does this budget allow you to run an experiment where your power will be greater than or equal to \\(0.8\\)? (Remember that you are conducting a two-sided test.)\n\nHint: For this part, assume that \\(\\sigma_w^2 = \\sigma_m^2\\), and assume that the variances in the experiment will be the same as the population variances in the subprime dataset."
+  },
+  {
+    "objectID": "assignments/08_problem_set.html#question-3-25-points",
+    "href": "assignments/08_problem_set.html#question-3-25-points",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "Question 3 (25 points)",
+    "text": "Question 3 (25 points)\nA welfare policy is applied to a group of \\(n\\) people to counter job loss caused by trade shocks, resulting in \\(X_1, \\ldots, X_n\\) which are i.i.d. \\(\\mathcal{N}(\\theta, 1)\\), where \\(\\theta\\) is the theoretical mean effect of the remedy (e.g., the logged wage difference between new and old jobs), defined so that \\(\\theta&gt;0\\) if the remedy is helpful on average, \\(\\theta&lt;0\\) if it is harmful on average, and \\(\\theta=0\\) if it does nothing. Let our Type I error rate be \\(\\alpha=0.05\\). Consider testing \\(H_0: \\theta=0\\) versus \\(H_1: \\theta \\neq 0\\). Let the rejection region be \\[\n\\mathcal{R}=\\{\\mathrm{x}:|\\hat{\\theta}_{PI}|&gt;c\\},\n\\] where \\(\\hat{\\theta}\\) is the plug-in estimator of \\(\\theta\\).\n\nWhat is \\(\\hat{\\theta}\\), the plug-in estimator of \\(\\theta\\)? Your answer should be a function of \\(X_1, X_2, ..., X_n\\). Also, under the null, what is the distribution of the estimator? (Hint: Under the null means that we assume that \\(\\theta = 0\\).)\nFind \\(c\\) so that the test has Type I error rate (i.e., size) equal to \\(\\alpha\\). (Note that \\(c\\) will depend on the sample size, \\(n\\).) (Hint: Type I error rate \\(\\alpha\\) should be equal to \\(P(|\\hat\\theta| &gt; c)\\).)\nFind the power of the test, \\(\\beta(\\theta)\\), for \\(\\theta &gt; 0\\). (Hint: This question follows almost the same procedure as parts (a) and (b), except for (1) we don’t assume that the null is true and (2) the power function is defined as a conditional probability given \\(\\theta\\).)\nProve that the power \\(\\beta(\\theta) \\to 1\\) as \\(n \\to \\infty\\) (Hint: Use the result from part (c).)\nSuppose now that \\(n = 10^4\\) and we observe \\(\\bar x = 0.02\\). What is the p-value? Does the test say to reject or retain \\(H_0\\)? (Hint: The critical value is the one obtained in part (b), i.e., under the null.)"
+  },
+  {
+    "objectID": "assignments/08_problem_set.html#question-4-25-points",
+    "href": "assignments/08_problem_set.html#question-4-25-points",
+    "title": "Gov 2002: Problem Set 8",
+    "section": "Question 4 (25 points)",
+    "text": "Question 4 (25 points)\nIn recent years it has become common in statistics to want to perform many simultaneous hypothesis tests. Let \\(p_1 \\dots p_m\\) be indepedent p-values, corresponding to \\(m\\) hypothesis tests. Each of the \\(m\\) hypothesis tests has a simple null. Suppose that \\(m_0\\) of the \\(m\\) null hypotheses are true. We decide in advance to conduct these tests at level \\(\\alpha\\) (i.e., we reject the null for tests where the p-value is less than \\(\\alpha\\)). The is the probability of making at least one Type I error.\n\nFind the familywise error rate (FWER). What happens to the familywise error rate as \\(m_0\\) gets large? (Hint: Let \\(V\\) be the of Type I error rates. Then FWER is \\(P(V &gt; 0)\\). You can simplify it further by using \\(\\alpha\\) and \\(m_0\\).)\nOne of the common procedure to deal with multiple hypothesis testings is called the . Intuitively, this procedure allows us to deal with the increased likelihood of type I errors. This procedure is described as follows: instead of rejecting the null hypotheses with \\(p_i &lt; \\alpha\\), we reject the null hypotheses with \\(p_i &lt; \\frac{\\alpha}{m}\\) (i.e., correcting the cutoff by the number of hypotheses). Show that under this procedure, the familywise error rate is at most \\(\\alpha\\). (Hint: You might find Markov’s Inequality helpful: \\(\\mathrm{P}(X \\geq a) \\leq \\frac{\\mathbb{E}[X]}{a}\\). You want to bound the FWER using Markov’s Inequality by setting the value of \\(a\\) appropriately.)\nIn (b), why not instead reject the null hypotheses with \\(p_i&lt;\\frac{\\alpha}{m_0}\\), considering that \\(m_0 \\leq m\\) (and often in practice \\(m_0\\) is much smaller than \\(m\\)), which would seem to result in rejecting more false nulls while still keeping the familywise error rate at most \\(\\alpha\\)?\nAnother procedure is to reject all null hypotheses with \\(p_i&lt;1-(1-\\alpha)^{1 / m}\\) (This is known as the Sidak Procedure). Show that under this procedure, the familywise error rate is again at most \\(\\alpha\\)."
+  },
+  {
+    "objectID": "assignments/10_problem_set.html",
+    "href": "assignments/10_problem_set.html",
+    "title": "Gov 2002: Problem Set 10",
+    "section": "",
+    "text": "Submission instructions | PDF  | Rmd  |"
+  },
+  {
+    "objectID": "assignments/10_problem_set.html#problem-set-instructions",
+    "href": "assignments/10_problem_set.html#problem-set-instructions",
+    "title": "Gov 2002: Problem Set 10",
+    "section": "Problem Set Instructions",
+    "text": "Problem Set Instructions\nThis problem set is due on December 6, 11:59 pm Eastern time. Please upload a PDF of your solutions to Gradescope. We will accept hand-written solutions but we strongly advise you to typeset your answers in Rmarkdown. Please list the names of other students you worked with on this problem set."
+  },
+  {
+    "objectID": "assignments/10_problem_set.html#question-1-30-points",
+    "href": "assignments/10_problem_set.html#question-1-30-points",
+    "title": "Gov 2002: Problem Set 10",
+    "section": "Question 1 (30 points)",
+    "text": "Question 1 (30 points)\nPublic outrage about CEO pay finds its roots during the onset of the Great Recession. In this problem, we examine beliefs about CEO compensation. To begin, download CEO.csv from Ed and load it. The data came from a survey of 632 Americans. They were asked questions on how much they thought CEOs do and should earn. (The variables are called perceived and ideal, respectively).\n\nTo begin, produce a scatterplot with perceived CEO earnings among Americans on the x-axis and their ideal earnings on the y-axis. Estimate a least squares regression of ideal earnings on perceived earnings and report your results (coefficients and standard errors) in a neatly formatted table. ( Consider using lm and stargazer. The latter requires the stargazer package and you can install it by typing install.packages(\"stargazer\"). (Of course, you are free to use other packages.) For running regression models and generating scatterplots, you may find the following slides helpful as well: 1. Regression; 2. Scatterplot.)\nA common way of checking for non-linearity is to examine a plot in which the fitted values from a regression are plotted on the x-axis and the residuals from the regression are plotted on the y-axis (often called a residuals versus fitted-values plot). We can get the fitted values from a regression using the fitted() function and the residuals using the residuals() function. Intuitively, if linearity holds we would expect the residuals to be positive and negative in equal proportions at all points along the regression line. By plotting the residuals against the fitted values, we can see whether there are regions of the regression line where the residuals tend to be systematically positive or negative. Create a plot like this and interpret it. Based on this method, does there seem to be substantial non-linearity? If so, how would you correct it?\nNow we are going to introduce a second regressor. Estimate a linear model predicting ideal CEO salary using both perceived CEO salary and age. Report the coefficients and standard errors in a neatly formatted table. Explain how the coefficients on perceived CEO salary changed after including the age variable."
+  },
+  {
+    "objectID": "assignments/10_problem_set.html#question-2-30-points",
+    "href": "assignments/10_problem_set.html#question-2-30-points",
+    "title": "Gov 2002: Problem Set 10",
+    "section": "Question 2 (30 points)",
+    "text": "Question 2 (30 points)\nConsider the following multivariate regression:\n\\[\nY = X\\beta + Z\\gamma + \\epsilon\n\\]\n\nShow that for any \\(\\{X, Z\\}\\), we can decompose \\(Z\\) into \\(P_X Z + M_X Z\\), where \\(P_X\\) and \\(M_X\\) are the projection matrix and annihilator matrix of \\(X\\) respectively. (Hint: Apply the definitions of the projection and annihilator matrices.) Also show that \\(P_X\\) and \\(M_X\\) are orthogonal. (Hint: Show that \\(P_X^T M_X = 0\\).)\nShow that if \\(X \\perp Z\\), then the coefficients we get from regressing \\(Y\\) on \\(X\\) and \\(Y\\) on \\(Z\\) will be the same coefficients from the joint regression above. (Hint: One way to work on this problem is to notice that \\(Y = X\\beta + Z\\gamma + \\epsilon\\), and thus \\(Cov(Y, X) = Cov(X\\beta + Z\\gamma + \\epsilon, X)\\).)\nSuppose \\(\\hat \\beta\\) and \\(\\hat \\gamma\\) are the OLS estimators for \\(\\beta\\) and \\(\\gamma\\) for the regression above. Find a \\(\\hat \\beta'\\) such that: \\[\n\\hat Y = X\\hat \\beta' + (M_X Z)\\hat\\gamma\n\\] Write \\(\\hat \\beta'\\) in terms of \\(\\hat \\beta\\) and \\(\\hat \\gamma\\), and provide a substantive interpretation of \\(\\hat \\beta'\\) in plain English (Hint: \\(X\\) and \\(Z\\) are not necessarily orthogonal anymore. Use results from part (a). ).\nLastly, show that the following regression \\[\nM_X \\hat Y = (M_X Z)  \\hat \\gamma\n\\] will return the same OLS estimator \\(\\hat \\gamma\\) as in the multivariate regression \\(Y = X\\beta + Z\\gamma + \\epsilon\\), explain this result in plain English."
+  },
+  {
+    "objectID": "assignments/10_problem_set.html#question-3-40-points",
+    "href": "assignments/10_problem_set.html#question-3-40-points",
+    "title": "Gov 2002: Problem Set 10",
+    "section": "Question 3 (40 points)",
+    "text": "Question 3 (40 points)\nThe standard output from OLS will give the standard errors for the estimated coefficients, but often we want to obtain measures of uncertainty for the predicted value of \\(Y_i\\) given some value of \\(X_i\\) (that is, the conditional expectation function). Using the example from lecture, we might be interested in the average wait times to vote for individuals making $25,000, $50,000, or $100,000 in annual income, along with measures of uncertainty around those estimates. In this problem we will look at how to calculate interval estimates for these predicted values. Assume the following true population model for \\(Y_i|X_i\\):\n\\[\nY_i = \\beta_0 + \\beta_1 X_i + u_i,\n\\]\nwhere the \\(X_i\\) are random variables and \\(u_i\\) are i.i.d. random variables with \\(E[u_i\\mid X_i] = 0\\) and \\(Var(u_i\\mid X_i) = \\sigma^2\\). Suppose we observe a random sample of \\(n\\) paired observations \\(\\{Y_i, X_i\\}\\). Assume the Gauss-Markov assumptions hold and that we have a large sample. Our goal is to estimate the predicted value at some value \\(X_i = x\\):\n\\[\\mu(x) = E[Y_i \\mid X_i = x] = \\beta_0 + \\beta_1 x.\\]\n\nLet \\(\\hat{\\beta_0}\\) and \\(\\hat{\\beta_1}\\) be OLS estimators of the regression of \\(Y\\) on \\(X\\). Use what you know about the unbiasedness of OLS estimates to show that \\(\\widehat{\\mu}(x) = \\hat{\\beta_0} + \\hat{\\beta_1}x\\) is an unbiased estimator of the population quantity \\(\\mu(x) = E[Y_i\\mid X_i = x]\\).\nFind the conditional variance of \\(\\hat{\\beta_0}\\), \\(Var(\\hat{\\beta_0} \\mid X_1, \\ldots, X_n)\\), using the following two facts. You answer should be in terms of \\(\\sigma^2\\) and functions of \\(X_i\\).\n\n\\[\nCov(\\overline{Y}, \\hat{\\beta}_1 \\mid X_1, \\ldots, X_n) = 0 \\quad \\text{and} \\quad Var(\\hat{\\beta}_1 \\mid X_1, \\ldots, X_n) = \\frac{\\sigma^2}{\\sum_{i=1}^n (X_i - \\overline{X})^2}.\n\\]\n\nFind the covariance of the OLS estimates given our \\(X\\) values, \\(Cov(\\hat{\\beta_0}, \\hat{\\beta_1}|X_1, \\dotsc, X_n)\\), again in terms of \\(\\sigma^2\\) and functions of the \\(X_i\\). (Hint: It’s not zero.)\nUsing what you found in (b) and (c), find the standard error of \\(\\widehat{\\mu}(x) = \\widehat{\\beta}_0 + \\widehat{\\beta}_1x\\).\nAssume that we don’t know \\(\\sigma^2\\) and instead construct our estimate of the standard error by plugging in for \\(\\sigma^2\\) our unbiased estimate \\(s^2\\) using the residuals.\n\nGive the formula for a large-sample \\(95\\%\\) confidence interval estimator for \\(\\mu(x) = E[Y \\mid X = x]\\) using what you found above and substituting \\(s^2\\) for \\(\\sigma^2\\). How do we interpret this confidence interval?"
   },
   {
     "objectID": "assignments/problem-sets.html",
